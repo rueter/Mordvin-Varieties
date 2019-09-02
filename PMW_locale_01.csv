@@ -3,7 +3,7 @@ id,name_myv,name_mdf,name_deu,name_rus,dialect,district_deu,district_rus,region_
 Mdf:Aleks,x,aĺaks,Aljoksowo,Нагорное Алёксово,mdf:SE,Insar,Ковылкинский район,Pensa,Мордовская АССР,п.,?
 Myv:Alešk,aĺakśej-veĺe,x,Aljoschkino,Алёшкино,myv:Mixed,Buguruslan,Похвистневский район,Samara,Куйбышевский область,с.,"53.867527, 52.184752
 "
-Mdf:Alk,x,aĺt́e-v́iĺe,Alkino,Алькино,mdf:Transitional,Narowtschat,Ковылкинский район,Pensa,Мордовская АССР,с.,?
+Mdf:Alk,x,aĺt́e-v́iĺe,Alkino,Алькино,mdf:Trans,Narowtschat,Ковылкинский район,Pensa,Мордовская АССР,с.,?
 Myv:Alt,Коряйкужо,x,Altyschewo,Алтышево,myv:NW,Alatyr,Алатырский район,Simbirsk,Чувашская АССР,с.,"54.912547, 46.695677
 "
 Mdf:An,x,ana·ju,Anajewo,Анаево,mdf:W,Spassk,Зубово-Полянский район,Tambow,Мордовская АССР,с.,"54.236895, 42.564523
@@ -69,7 +69,7 @@ Myv:Mar,Вишка веле,x,Maressewo,Малое Маресево,myv:C,Ardato
 Mdf:MdJurtk,x,x,Mordowskije Jurtkuli,Подлесно-Мордовский Юрткуль,mdf:Mixed,x,x,x,x,с.,"54.748421, 49.475487"
 Myv:Mečk,mačka·s,x,Matschkassy,Мачкасы,myv:Mixed,x,x,x,x,с.,"52.769067, 45.575864"
 Myv:Myv,nuval,x,Mywal,Нижний Мывал,myv:Mixed,x,x,x,x,с.,"53.419379, 46.167998"
-Myv:Melc,ḿeĺćid-v́eĺe,x,Melsetjewo,Мельсетьево,myv:M,x,x,x,x,с.,"54.754932, 42.427790"
+Myv:Melc,ḿeĺćid-v́eĺe,x,Melsetjewo,Мельсетьево,myv:Mixed,x,x,x,x,с.,"54.754932, 42.427790"
 Myv:NIvanc,Од веле,x,Nowoje Iwanzewo,Новое Иванцево,myv:SW,x,x,x,x,с.,"55.203493, 44.572383"
 Myv:NPyrma,Од Пурня,x,Nowoja Pyrma,Новая Пырма,myv:W,Saransk,x,Pensa,x,с.,"54.012665, 45.455580"
 Myv:NŠant,Од Шантала,x,Nowaja Schantala,Новая Шентала,myv:Mixed,Bugulma,x,Bugulma|Buguruslan,x,с.,"54.338298, 51.521211"
@@ -156,7 +156,7 @@ Mdf:Adaš,x,Адажвеле,Adaschewo,Адашево,mdf:SE,Insar,Инсарс�
 Myv:Af,Охонькино,x,Afonkino,Мордовское Афонькино,myv:X,Bugulma,Черемшанский район,Samara,Татарская АССР,с.,"54.691027, 51.704656
 "
 Myv:Aks,x,x,Aksjonowo,Аксёнкино,myv:X,Buguruslan,Северный район,Samara,Оренбургский область,?с.,"53.992015, 53.102156"
-Myv:Al,Алова,x,Alowo,Алово,myv:M,Gorodischtsche,x,Pensa,x,с.,"53.560706, 46.148307"
+Myv:Al,Алова,x,Alowo,Алово,myv:Mixed,Gorodischtsche,x,Pensa,x,с.,"53.560706, 46.148307"
 Myv:Andr,x,x,Andrjowka,Андреевка,myv:X,Chwalynsk,x,x,x,?с.,"52.965495, 47.077829"
 Myv:Ba,x,x,Bajewka,Баевка,myv:X,Chwalynsk,x,x,x,с.,"53.091310, 47.255660"
 Myv:Bag,x,x,Bagana,Багана,,Bugulma,Шенталинский район,Samara,Куйбышевский область,с.,"54.355511, 51.405616
