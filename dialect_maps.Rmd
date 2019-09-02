@@ -62,7 +62,7 @@ make_mordva_map <- function(mordva_dataframe){
     addTiles() %>%
     addCircleMarkers(popup = ~id,
                      color = ~pal(dialect),
-                     radius = 10,
+                     radius = 5,
                      stroke = FALSE, 
                      fillOpacity = 1,
                      lat = ~latitude,
