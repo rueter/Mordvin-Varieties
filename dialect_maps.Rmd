@@ -54,7 +54,7 @@ make_mordva_map <- function(mordva_dataframe){
   pal <- colorFactor({my_colors[1:length(unique(mordva_dataframe$dialect))]},
                    domain = mordva_dataframe$dialect)
   
-  leaflet(data = mordva_dataframe) %>%
+  leaflet(data = mordva_dataframe, width = "100%") %>%
     addTiles() %>%
     addCircleMarkers(popup = ~id,
                      color = ~pal(dialect),
