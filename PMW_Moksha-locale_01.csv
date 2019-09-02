@@ -1,0 +1,74 @@
+id,name_myv,name_mdf,name_deu,name_rus,dialect,district_deu,district_rus,region_deu,region_rus,entity,coordinate
+Mdf:Aleks,x,aĺaks,Aljoksowo,Нагорное Алёксово,mdf:SE,Insar,Ковылкинский район,Pensa,Мордовская АССР,п.,?
+Mdf:Alk,x,aĺt́e-v́iĺe,Alkino,Алькино,mdf:Transitional,Narowtschat,Ковылкинский район,Pensa,Мордовская АССР,с.,?
+Mdf:An,x,ana·ju,Anajewo,Анаево,mdf:W,Spassk,Зубово-Полянский район,Tambow,Мордовская АССР,с.,"54.236895, 42.564523
+Mdf:Atjur,x,at́əŕś,Atjurjewo,Атюрево,mdf:C,Krasnoslobodsk,x,Pensa,x,с.,"54.320567, 43.341170
+Mdf:Avg,x,mokšəń aagaər,Awgur,Мордовская Авгура,mdf:SE,Insar,x,Pensa,x,д.,"54.162363, 44.213443
+Mdf:Bajm,x,Мокшень Баймак,Baimak,Мордовское Баймаково,mdf:SE,Insar,x,Pensa,x,д.,"54.031560, 44.734349
+Mdf:Bar,x,Бораж веле,Baraschewo,Барашево,mdf:C,Temnikow,x,Tambow,x,д.,"54.484571, 43.268443
+Mdf:Bold,x,Болду,Boldowo,Болдово,mdf:SE,Insar,x,Pensa,x,с.,"53.986663, 44.640673
+Mdf:Cjatn,x,Цятна веле,Zjatnowka,Сейтяновка,mdf:C,Krasnoslobodsk,x,Pensa,x,д.,"54.192443, 43.683276
+Mdf:Gumny,x,šongarńä,Gumny,Гумны,mdf:C,Narowtschat,x,Pensa,x,с.,"54.021061, 43.734623"
+Mdf:Jožka,x,jožka,Joshka (Jeshowka),Ежовка,mdf:C,Krasnoslobodsk,x,Pensa,x,с.,"54.084907, 43.712426"
+Mdf:Jurtk,x,x,Mordowskije Jurtkuli,Базарно-Мордовксий Юрткуль,mdf:Mixed,Spassk,x,Kasan,x,с.,"54.779546, 49.442626"
+Mdf:Kanguž,x,kańf-ḱužə,Kangush,Каньгуши,mdf:C,Krasnoslobodsk,x,Pensa,x,с.,"54.533728, 43.792825"
+Mdf:Kard,x,Кардаф ляй,Kardaflej,Кардафлей,mdf:Mixed,Gorodischtsche,x,Pensa,x,с.,"53.331139, 46.021087"
+Mdf:Kars,x,kaʀca·jka,Karsajewka,Корсаевка,mdf:Trans,Tschembar,x,Pensa,x,с.,"52.990231, 43.220338"
+Mdf:Kašt,x,śiŕə kašta·ŋka,Kaschtanowka,Старая Каштановка,mdf:Trans,Tschembar,x,Pensa,x,с.,"52.994719, 43.267679"
+Mdf:Katm,x,kat́ḿi·s,Katmis,Нижний Катмис,mdf:Mixed,Gorodischtsche,x,Pensa,x,с.,"53.251493, 46.007568"
+Mdf:Ker,x,ḱerata,Kerata,Керетино,mdf:C,Krasnoslobodsk,x,Pensa,x,д.,"54.179856, 43.748996"
+Mdf:Kiš,x,x,Kischaly,Кишалы,mdf:C,Temnikow,x,Tambow,x,?с.,"54.375135, 43.200782"
+Mdf:Korino,x,Мокшень Кара веле,Korino,Мордовское Корино,mdf:C,Krasnoslobodsk,x,Pensa,x,с.,"54.682414, 43.649894"
+Mdf:Kul,x,od v́eĺə,Kulikowka,Куликовка,mdf:SE,Insar,x,Pensa,x,с.,"54.064763, 44.552953"
+Mdf:Kuld,x,kuldi͔·m,Kuldym,Кулдым,mdf:C,Insar,x,Pensa,x,с.,"54.418217, 44.601920"
+Mdf:Leb,x,x,Lebeshaika,Нижняя Лебежайка,mdf:Mixed,x,Хвалынский район,x,Саратовский обл.,с.,"52.708115, 48.092315"
+Mdf:Lemd,x,ĺəmd́e·j,Lemdjai,Лемдяй,mdf:C,Insar,x,Pensa,x,с.,"54.342623, 44.713544"
+Mdf:Levši,x,ĺevža,Lewsha,Левжа,mdf:C,Saransk,x,Pensa,x,с.,"54.084532, 45.009530"
+Mdf:Mam,x,malav,Mamalajewo,Мамолаево,mdf:C,Krasnoslobodsk,Ковылкинский район,Pensa,x,с.,"54.297639, 43.962688"
+Mdf:Mann,x,x,Mannila,x,mdf:Trans,Tschembar,Белинский район,x,x,?,?
+Mdf:MdJurtk,x,x,Mordowskije Jurtkuli,Подлесно-Мордовский Юрткуль,mdf:Mixed,x,x,x,x,с.,"54.748421, 49.475487"
+Mdf:Nar,x,x,Narowtschat,Наровчат,mdf:SE|Trans,x,x,x,x,г.,"53.883431, 43.695771"
+Mdf:Pa,x,Пой веле,Pajowa,Паёва,mdf:SE,Insar,x,Pensa,x,с.,"54.016667, 44.216667"
+Mdf:Pal,x,Цифтамаз:Полай веле,Palajewka,Палаевка,mdf:SE,Insar,x,Pensa,x,с.,"53.937043, 44.738464
+Mdf:Patra,x,Патра веле,Patra,Патра,mdf:SE,Krasnoslobodsk,x,Pensa,x,д.,"54.292132, 44.257802
+Mdf:Perchl,x,piŕʿt́ĺäj,Perchljai,Перхляй,mdf:C,Insar,x,Pensa,x,с.,"54.186221, 44.909683"
+Mdf:Pičep,x,pič-pulńä·,Pitschepolonka,Пичеполонга,mdf:C,x,x,x,x,д.,"54.411704, 43.222503
+Mdf:Pimb,x,mokšəń ṕimbur,Mordowskij Pimbur,Мордовский Пимбур,mdf:W,x,x,x,x,с.,"53.855622, 43.144089
+Mdf:Pš,x,śiŕə pšeń,Staroje Pschenewo,Старое Пшенёво,mdf:SE,x,x,x,x,с.,"54.105637, 44.216561
+Mdf:Sal,x,salazǵäŕǵä,Salasgor,Салазгорь,mdf:Trans,x,x,x,x,с.,"54.121872, 43.154446
+Mdf:Sam,x,v́iŕ somaj,Samawka,Старая Самаевка,mdf:C,x,x,x,x,с.,"54.220121, 43.679045
+Mdf:Sandr,x,śiŕə v́eĺä,Staroje Sindrowo,Старое Синдрово,mdf:C,x,x,x,x,с.,"54.417420, 44.113200"
+Mdf:Saz,x,od sazan-v́eĺä,Sasonowka,Старая Сазоновка,mdf:C,x,x,x,x,с.,"54.127154, 43.722766"
+Mdf:Sel,x,v́iĺ-eźəm,Selischtsche,Покровские Селищи,mdf:W,Spassk,Зубово-Полянский район,Tambow,Мордовия,с.,"53.999822, 43.000987"
+Mdf:Seliksa,x,x,Seliksa,Кижеватово,mdf:SE,x,Пензенскогог района,x,Пензенский Облость,с.,"53.214221, 45.294422"
+Mdf:Sind,x,od v́eĺä,Sindrowo,Новое Синдрово,mdf:C,x,x,x,x,с.,"54.343153, 44.087455"
+Mdf:Sjarda,x,śarda,Sjarda,Сярда,mdf:Trans,x,x,x,x,д.,"53.029697, 43.329303"
+Mdf:Skolp,x,kolapa,Skolpino,Колопино,mdf:C,x,x,x,x,?с.,"54.358749, 44.151289
+Mdf:Som,x,somazĺäj,Somasljai,Самозлейка,mdf:C,x,x,x,x,с.,"54.310946, 43.893131
+Mdf:Sučk,x,koldajə̑s,Sutschkino,Колдаис,mdf:Mixed,x,x,x,x,?с.,"53.076500, 45.546157"
+Mdf:Šad,x,x,Schadym,Шадым,mdf:SE,x,x,x,x,с.,"53.900719, 44.044398
+Mdf:Šajg,x,śiŕə šäjgav,Schaigowo,Старое Шайгово,mdf:C,x,x,x,x,с.,"54.304085, 44.468358"
+Mdf:Temn,x,x,x,x,mdf:C,x,x,x,x,р.,
+Mdf:Ter,x,Сире Терезморга,x,Старая Теризморга,mdf:C,x,x,x,x,с.,"54.258617, 44.534025"
+Mdf:Ur,x,x,Urjum,Урюм,mdf:Mixed,Tetjuschi,Тетюшский район,Kasan,Татарская АССР,с.,"54.772593, 48.758191
+Mdf:Vel,x,Вада велезем веле,x,Вадовские Селищи,mdf:W,x,x,x,x,с.,"54.276889, 42.640017
+Mdf:Vert,x,x,x,Вертелим,mdf:C,x,x,x,x,с.,"54.476615, 44.524683"
+Mdf:Vod,x,x,x,Водолей,mdf:Mixed,x,x,x,x,с.,"53.278939, 45.997740"
+Mdf:Adaš,x,Адажвеле,Adaschewo,Адашево,mdf:SE,Insar,Инсарский район,Pensa,Мордовская АССР,с.,"53.946710, 44.319669"
+Mdf:Čer,x,x,Festung Tscheremschan,x,,Tscheremschan,x,x,x,с.,"54.654699, 51.505616
+Mdf:Gor,x,x,x,x,,Gorodischtsche,Городищенский и Сосновоборский р-ны,x,x,р.,E
+Mdf:Ins,x,x,x,x,,Insar,x,x,x,р.,E
+Mdf:Kr,x,x,x,x,,Krasnoslobodsk,x,x,x,р.,
+Mdf:Nal,x,x,Naletkino,Налеткино,,Spassk,x,x,x,с.,?
+Mdf:P,x,x,x,Пенза,,x,x,Pensa,x,Губер.,E
+Mdf:Patroka,x,x,Patroka,x,,Gorodischtsche,x,x,x,д.,E
+Mdf:Pläj,x,x,Perchljaj,x,,Insar,x,x,x,с.,E
+Mdf:Prol,x,x,Prolejka,x,,Samara,x,x,x,нп.,E
+Mdf:Pronk,x,x,Pronkino,x,,Buguruslan,x,Samara,x,с.,E
+Mdf:Sar,x,x,x,x,,Saransk,x,x,x,р.,E
+Mdf:Sarat,x,x,x,x,,x,x,Saratow,x,Губер.,E
+Mdf:Senk,x,x,Senkino,x,,Bugulma,Шенталинский район,Samara,Куйбышевский область,с.,E
+Mdf:Simb,x,x,x,x,,Simbirsk,x,x,x,р.:Губер.,E
+Mdf:Sp,x,x,x,x,,Spassk,x,x,x,р.,E
+Mdf:Tamb,x,x,x,x,,x,x,x,x,Губер.,E
+Mdf:Tet,x,x,x,x,,x,Тетюшский район,x,Татарская АССР,р.,E
