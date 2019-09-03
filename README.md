@@ -1,5 +1,5 @@
 # Mordvin-Varieties
-Working database for Mordvin language and dialect classification
+Working database for Mordvin language and dialect classification. Maps can be viewed [here](https://rueter.github.io/Mordvin-Varieties).
 
 # PMW_locale_01.csv
 In the Mordwinisches Wörterbuch `Dictionary of Mordvin Dialects', there are 269 locales where language materials were collected by and for Heikki Paasonen. This file provides placename, coordinates and dialect identification according to the classification in the 4-volumes (2703 pages) of the dictionary (1990, 1992, 1994, 1996).
