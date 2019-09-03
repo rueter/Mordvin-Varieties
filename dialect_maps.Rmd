@@ -1,0 +1,55 @@
+---
+title: "Mordvin Varieties"
+date: "9/2/2019"
+author: "Jack Rueter"
+output: 
+  html_document:
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r packages, echo=FALSE, warning=FALSE, message=FALSE}
+source("R/functions.R")
+```
+
+## Paasonen's Mordvin materials
+
+### Map of Paasonen's fieldwork (1891–1912) of the Erzya and Moksha
+These are all locales, Erzya and Moksha, where fieldwork materials
+were collected for and Heikki Paasonen 1891–1912. 
+The dialects of each language within the Republic of Mordovia 
+have been classified as five groups by Aleksandr Pavlovich Feoktistov. 
+The some locales have not been classified, especially outside of the 
+Republic, and other locales have more than one classification.
+By clicking the dot, you will reveal the location.
+
+
+```{r,echo=FALSE, warning=FALSE, message=FALSE}
+make_mordva_map("PMW_locale_01.csv")
+```
+
+### Map of Paasonen's Erzya fieldwork (1891–1912)
+These are Erzya locales where fieldwork materials
+were collected for and by Heikki Paasonen 1891–1912.
+
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+make_mordva_map("PMW_Erzya-locale_01.csv")
+```
+
+
+### Map of Paasonen's Moksha fieldwork (1891–1912)
+These are Moksha locales where fieldwork materials
+were collected for and by Heikki Paasonen 1891–1912.
+
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+make_mordva_map("PMW_Moksha-locale_01.csv")
+```
+
