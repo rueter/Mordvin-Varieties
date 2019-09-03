@@ -1,7 +1,13 @@
 ---
 title: "Mordvin Varieties"
 date: "9/2/2019"
-output: html_document
+author: "Jack Rueter"
+output: 
+  html_document:
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    toc_depth: 3
 ---
 
 ```{r setup, include=FALSE}
@@ -80,19 +86,19 @@ PMW_Erzya_locale_01 <- read_mordva_file("PMW_Erzya-locale_01.csv")
 PMW_Moksha_locale_01 <- read_mordva_file("PMW_Moksha-locale_01.csv")
 ```
 
-Map of all localities:
+## Map of all localities
 
 ```{r,echo=FALSE}
 make_mordva_map(PMW_locale_01)
 ```
 
-Map of Erzya localities:
+## Map of Erzya localities
 
 ```{r,echo=FALSE}
 make_mordva_map(PMW_Erzya_locale_01)
 ```
 
-Map of Moksha localities:
+## Map of Moksha localities
 
 ```{r,echo=FALSE}
 make_mordva_map(PMW_Moksha_locale_01)
