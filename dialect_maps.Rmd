@@ -86,19 +86,30 @@ PMW_Erzya_locale_01 <- read_mordva_file("PMW_Erzya-locale_01.csv")
 PMW_Moksha_locale_01 <- read_mordva_file("PMW_Moksha-locale_01.csv")
 ```
 
-## Map of all localities
+## Map of Paasonen's fieldwork (1891–1912) of the Erzya and Moksha
+These are all locales, Erzya and Moksha, where fieldwork materials
+were collected for and Heikki Paasonen 1891–1912. 
+The dialects of each language within the Republic of Mordovia 
+have been classified as five groups by Aleksandr Pavlovich Feoktistov. 
+The some locales have not been classified, especially outside of the 
+Republic, and other locales have more than one classification.
+By clicking the dot, you will reveal the location.
 
 ```{r,echo=FALSE}
 make_mordva_map(PMW_locale_01)
 ```
 
-## Map of Erzya localities
+## Map of Paasonen's fieldwork (1891–1912) among the Erzya
+These are Erzya locales where fieldwork materials
+were collected for and by Heikki Paasonen 1891–1912.
 
 ```{r,echo=FALSE}
 make_mordva_map(PMW_Erzya_locale_01)
 ```
 
-## Map of Moksha localities
+## Map of Paasonen's fieldwork (1891–1912) among the Moksha
+These are Moksha locales where fieldwork materials
+were collected for and by Heikki Paasonen 1891–1912.
 
 ```{r,echo=FALSE}
 make_mordva_map(PMW_Moksha_locale_01)
