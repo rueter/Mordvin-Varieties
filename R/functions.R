@@ -36,6 +36,20 @@ read_mordva_file <- function(filename){
   
 }
 
+read_Feok2005_file <- function(filename){
+   read_tsv(filename) %>%
+#   slice(10:20) %>%
+   mutate(language = "Mordva") %>%
+   mutate(coordinate = str_trim(coordinate)) %>%
+   mutate(coordinate = str_remove_all(coordinate, "″")) %>%
+   mutate(coordinate = str_replace_all(coordinate, "[°′]", ":")) %>%
+   separate(coordinate, into = c("latitude", "longitude"), sep = ", ") %>%
+   mutate(latitude = celestial::dms2deg(latitude)) %>%
+   mutate(longitude = celestial::dms2deg(longitude))
+
+}
+
+
 make_mordva_map <- function(csv_file){
   
   mordva_dataframe <- read_mordva_file(csv_file)
@@ -46,6 +60,30 @@ make_mordva_map <- function(csv_file){
   leaflet(data = mordva_dataframe, width = "100%") %>%
     addTiles() %>%
     addCircleMarkers(popup = ~id,
+                     color = ~pal(dialect),
+                     radius = 5,
+                     stroke = FALSE, 
+                     fillOpacity = 1,
+                     lat = ~latitude,
+                     lng = ~longitude) %>%
+    addLegend("bottomright", pal = pal, values = ~dialect,
+              title = "Dialect codes",
+              #                     labFormat = labelFormat(prefix = "$"),
+              opacity = 1
+    )
+  
+}
+
+make_Feok2005_map <- function(tsv_file){
+  
+  mordva_dataframe <- read_Feok2005_file(tsv_file)
+  
+  pal <- colorFactor({my_colors[1:length(unique(mordva_dataframe$dialect))]},
+                     domain = mordva_dataframe$dialect)
+  
+  leaflet(data = mordva_dataframe, width = "100%") %>%
+    addTiles() %>%
+    addCircleMarkers(popup = ~Russian_name,
                      color = ~pal(dialect),
                      radius = 5,
                      stroke = FALSE, 

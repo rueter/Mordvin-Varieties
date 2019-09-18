@@ -21,6 +21,7 @@ source("R/functions.R")
 ## Paasonen's Mordvin materials
 
 ### Map of Paasonen's fieldwork (1891–1912) of the Erzya and Moksha
+
 These are all locales, Erzya and Moksha, where fieldwork materials
 were collected for and Heikki Paasonen 1891–1912. 
 The dialects of each language within the Republic of Mordovia 
@@ -35,6 +36,7 @@ make_mordva_map("PMW_locale_01.csv")
 ```
 
 ### Map of Paasonen's Erzya fieldwork (1891–1912)
+
 These are Erzya locales where fieldwork materials
 were collected for and by Heikki Paasonen 1891–1912.
 
@@ -45,6 +47,7 @@ make_mordva_map("PMW_Erzya-locale_01.csv")
 
 
 ### Map of Paasonen's Moksha fieldwork (1891–1912)
+
 These are Moksha locales where fieldwork materials
 were collected for and by Heikki Paasonen 1891–1912.
 
@@ -53,3 +56,8 @@ were collected for and by Heikki Paasonen 1891–1912.
 make_mordva_map("PMW_Moksha-locale_01.csv")
 ```
 
+### Feoktistov & Saarinen, 2005 Moksha Dialects
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+make_Feok2005_map("Feoktistov-Saarinen_2005-Moksha-sources_collection-locales.tsv")
+```
