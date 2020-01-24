@@ -44,6 +44,13 @@ read_Feok2005_file <- function(filename){
    mutate(coordinate = str_remove_all(coordinate, "″")) %>%
    mutate(coordinate = str_replace_all(coordinate, "[°′]", ":")) %>%
    separate(coordinate, into = c("latitude", "longitude"), sep = ", ") %>%
+   mutate(latitude = str_squish(latitude)) %>%
+   mutate(longitude = str_squish(longitude)) %>%
+   mutate(latitude = case_when(str_detect(latitude, ":$") ~ str_glue("{latitude}00"),
+                               TRUE ~ latitude)) %>%
+   mutate(longitude = case_when(str_detect(longitude, ":$") ~ str_glue("{longitude}00"),
+                                TRUE ~ longitude)) %>%
+   mutate(longitude = str_remove(longitude, "и ")) %>%
    mutate(latitude = celestial::dms2deg(latitude)) %>%
    mutate(longitude = celestial::dms2deg(longitude))
 
