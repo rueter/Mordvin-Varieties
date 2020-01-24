@@ -19,7 +19,6 @@ library(tidyverse)
 library(DT)
 library(leaflet)
 library(htmltools)
-library(sf)
 
 comparison <- read_csv("database.csv") %>%
   mutate(comment = case_when(is.na(comment) ~ "",
@@ -29,9 +28,6 @@ comparison <- read_csv("database.csv") %>%
 # some other day a bit longer
 coordinates <- read_csv("coordinates.csv") %>%
   filter(language %in% comparison$language)
-
-comparison <- comparison %>%
-  filter(language %in% coordinates$language)
 
 create_map <- function(data, feature_name){
 
@@ -94,6 +90,9 @@ datatable(comparison, filter = 'top', rownames = FALSE, options = list(dom = 'ti
 This section contains automatically generated maps of all presented features.
 
 ```{r}
+
+comparison <- comparison %>%
+  filter(language %in% coordinates$language)
 
 map_chunks <- comparison %>%
   distinct(feature) %>%
