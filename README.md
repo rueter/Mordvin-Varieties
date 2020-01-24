@@ -25,4 +25,18 @@ In the Mordwinisches Wörterbuch `Dictionary of Mordvin Dialects', there are 136
 In the Mordwinisches Wörterbuch `Dictionary of Mordvin Dialects', there are 73 Moksha locales where language materials were collected by and for Heikki Paasonen.
  The locales are divided into 6 groups, 5 with dialect indication and a sixth without.
 
+# Feoktistov-Saarinen_2005-Moksha-sources_collection-locales.tsv
+In the list of Moksha locales of dialect collection from 2005 all locales are Moksha.
 
+# Narody-Bashkortostana-enciklopedia-2014_Mordva-locales.tsv
+In the Encyclopedia Peoples of Bashkortostan of 2014 [Народы Башкортостана, Энциклопедия], there is no distinctions made for Erzya or Moksha. Therefore this information can only be used to indicate the presence of Mordvin stock. Designations are only given at the raion level.
+@INCOLLECTION {,
+    author    = "А. С. Щербаков",
+    title     = "Мордва",
+    booktitle = "Народы Башкортостана, Энциклопедия",
+    publisher = "Научно-издательский комплекс \"Башкирская энциклопедия\"",
+    year      = "2014",
+    editor    = "Ф. Г. Хисамитдинова",
+    type      = "Энциклопедия",
+    pages     = "186-208"
+}
