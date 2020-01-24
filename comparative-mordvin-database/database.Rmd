@@ -5,10 +5,10 @@ output:
     include:
       after_body: footer.html
 knit: (function(inputFile, encoding) { 
-      out_dir <- 'docs';
+      out_dir <- '..';
       rmarkdown::render(inputFile,
                         encoding=encoding, 
-                        output_file=file.path(dirname(inputFile), out_dir, 'index.html')) })
+                        output_file=file.path(dirname(inputFile), out_dir, 'database.html')) })
 editor_options: 
   chunk_output_type: console
 ---
@@ -21,27 +21,17 @@ library(leaflet)
 library(htmltools)
 library(sf)
 
-# coordinates <- tribble(~language, ~latitude, ~longitude,
-#                       "Permyak", 59.01, 54.65,
-#                       "Zyrian", 61.66, 50.81)
-# 
-# write_csv(coordinates, "coordinates.csv")
-
 comparison <- read_csv("database.csv") %>%
   mutate(comment = case_when(is.na(comment) ~ "",
                              TRUE ~ as.character(comment)))
-## In principle we could transform languages into columns too 
-#  pivot_wider(names_from = language) %>%
-#  select(Permyak, Zyrian, everything())
-  
 
-coordinates <- read_csv("coordinates.csv")
+# This is not an elegant way to do this, but I have to think it
+# some other day a bit longer
+coordinates <- read_csv("coordinates.csv") %>%
+  filter(language %in% comparison$language)
 
-komi_polygon <- st_read("https://raw.githubusercontent.com/nikopartanen/language_maps/master/geojson/kom.geojson")
-
-komi_polygon <- left_join(komi_polygon %>% rename(polygon_id = dial), coordinates)
-
-comparison <- comparison %>% left_join(coordinates %>% select(polygon_id, language))
+comparison <- comparison %>%
+  filter(language %in% coordinates$language)
 
 create_map <- function(data, feature_name){
 
@@ -76,30 +66,27 @@ create_map <- function(data, feature_name){
                              radius = 8,
                              stroke = FALSE, fillOpacity = 0.8,
                              popup = ~language) %>%
-            # addPolygons(fillColor = ~pal(value))
             addLegend("bottomleft", pal = pal, values = ~value,
                       title = title_text,
                       opacity = 1
-            )# %>%
-            #addControl(title, position = "topleft", className="map-title")
+            )
 
 }
 
 ```
 
-###  Comparative database of Permic varieties {.tabset .tabset-fade .tabset-pills}
+###  Comparative database of Mordvin varieties {.tabset .tabset-fade .tabset-pills}
 
 #### About
 
-This database accompanies the chapter *Mordvin*  by Rueter in *The Uralic Languages* Abondolo, Valijärvi (eds.). The goal of that study was to investigate the Moksha language with comparative reference to Erzya. Work on these materials are attributed to Rueter, Partanen, Hämäläinen & Erina, Riabov, Klement'eva, Kabaeva, Levina and others
-
-The data is shared under CC-0, in order to allow as unproblematic reuse as possible.
+The data is shared under CC-0.
 
 #### Search {.tabset .tabset-fade .tabset-pills}
 
 ```{r}
 
-datatable(comparison %>% select(-polygon_id), filter = 'top', rownames = FALSE, options = list(dom = 'tip'), escape = FALSE)
+datatable(comparison, filter = 'top', rownames = FALSE, options = list(dom = 'tip'), escape = FALSE)
+
 ```
 
 #### Maps {.tabset .tabset-fade .tabset-pills}
@@ -113,12 +100,6 @@ map_chunks <- comparison %>%
   pull(feature) %>%
   map(~ {create_map(comparison %>% left_join(coordinates, by = "language"), .x)})
 
-
-# THIS IS VERY UNFINISHED
-# map_chunks <- comparison %>%
-#   distinct(feature) %>%
-#   pull(feature) %>%
-#   map(~ {create_map(comparison %>% left_join(komi_polygon %>% select(-language, -comment)), .x)})
 
 tagList(map_chunks)
 
