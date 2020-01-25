@@ -28,7 +28,7 @@ The dialects of each language within the Republic of Mordovia
 have been classified as five groups by Aleksandr Pavlovich Feoktistov. 
 The some locales have not been classified, especially outside of the
 Republic, and other locales have more than one classification.
-By clicking the dot, you will reveal the location.
+By clicking the dot, you will reveal the location. (https://www.sgr.fi/fi/items/show/413)
 
 
 ```{r,echo=FALSE, warning=FALSE, message=FALSE}
@@ -57,6 +57,10 @@ make_mordva_map("PMW_Moksha-locale_01.csv")
 ```
 
 ### Feoktistov & Saarinen, 2005 Moksha Dialects
+
+These are Moksha locales identified as dialect collection points in:
+
+* Feoktistov, Aleksandr & Saarinen, Sirkka. 2005. _Mokšamordvan murteet_. Suomalais-Ugrilaisen Seuran Toimituksia 249.  – Helsinki: Suomalais-Ugrilainen Seura. (https://www.sgr.fi/fi/items/show/111)
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 make_Feok2005_map("Feoktistov-Saarinen_2005-Moksha-sources_collection-locales.tsv")
