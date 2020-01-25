@@ -15,6 +15,7 @@ This file provides placename, coordinates and dialect identification according t
 
 # PMW_locale_01.csv
 In the Mordwinisches Wörterbuch `Dictionary of Mordvin Dialects', there are 269 locales where language materials were collected by and for Heikki Paasonen. 
+[Settlements](https://rueter.github.io/Mordvin-Varieties/)
 
 # PMW_Erzya-locale_01.csv
 In the Mordwinisches Wörterbuch `Dictionary of Mordvin Dialects', there are 136 Erzya locales where language materials were collected by and for Heikki Paasonen. 
@@ -40,3 +41,7 @@ In the Encyclopedia Peoples of Bashkortostan of 2014 [Народы Башкор�
     type      = "Энциклопедия",
     pages     = "186-208"
 }
+
+# Comparative database of Mordvin varieties
+[database](https://rueter.github.io/Mordvin-Varieties/database.html)
+This database accompanies the chapter *Mordvin* in Uralic languages by Rueter. The goal of that study was to investigate the Moksha language with comparative reference to Erzya. Work on these materials are attributed to Rueter, Partanen, Hämäläinen & Erina, Riabov, Klement'eva, Kabaeva, Levina and others
