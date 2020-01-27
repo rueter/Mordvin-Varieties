@@ -1,13 +1,15 @@
 # Comparative Mordvin database
 
 
-Please see the [website](https://langdoc.github.io/comparative-mordvin-database) for more information.
+Please see the [website with database and maps](https://rueter.github.io/Mordvin-Varieties/database.html) for more information.
 
 #### About
 
 This database accompanies the chapter *Mordvin* in Uralic languages by Rueter. The goal of that study was to investigate the Moksha language with comparative reference to Erzya. Work on these materials are attributed to Rueter, Partanen, Hämäläinen & Erina, Riabov, Klement'eva, Kabaeva, Levina and others. More specifics in Rueter (2016).
 
 # Cite
+
+
 
 If you use this data set in an academic publication, we would be ever so grateful if you cited it as follows:
 
