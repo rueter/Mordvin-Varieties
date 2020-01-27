@@ -65,3 +65,21 @@ These are Moksha locales identified as dialect collection points in:
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 make_Feok2005_map("Feoktistov-Saarinen_2005-Moksha-sources_collection-locales.tsv")
 ```
+
+### Mordvin settlements in Bashkortostan (2014)
+
+The data for this article is derived from the All-Russian census 2010.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+make_Bashk2014_map("Narody-Bashkortostana-enciklopedia-2014_Mordva-locales.tsv")
+```
+
+### Mordvin populus attested in from census registry (2002)
+
+The data is derived from the All-Russian census 2002 as provided in *Mokšamordvan murteet* (2005), this means that the settlements in Khazakhstan, Armenia and other places outside the Russian Federation are not shown.
+
+* Feoktistov, Aleksandr & Saarinen, Sirkka. 2005. _Mokšamordvan murteet_. Suomalais-Ugrilaisen Seuran Toimituksia 249.  – Helsinki: Suomalais-Ugrilainen Seura. (https://www.sgr.fi/fi/items/show/111)
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+make_census2002_map("2002-census-mordvin-pop.tsv")
+```
