@@ -83,3 +83,4 @@ The data is derived from the All-Russian census 2002 as provided in *Mokšamordv
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 make_census2002_map("2002-census-mordvin-pop.tsv")
 ```
+

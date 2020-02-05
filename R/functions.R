@@ -79,7 +79,7 @@ read_Bashk2014_file <- function(filename){
 
 read_census2002_file <- function(filename){
    read_tsv(filename) %>%
-   slice(1:352) %>%
+   slice(1:411) %>%
    mutate(language = "Mordva") %>%
    mutate(dialect = lang) %>%
    mutate(coordinate = str_trim(coordinate)) %>%
