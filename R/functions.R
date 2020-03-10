@@ -64,7 +64,7 @@ read_mordva_file <- function(filename){
 
 read_Feok2005_file <- function(filename){
    read_tsv(filename) %>%
-   slice(1:303) %>%
+   slice(1:301) %>%
    mutate(language = "Mordva") %>%
    mutate(coordinate = str_trim(coordinate)) %>%
    separate(coordinate, into = c("latitude", "longitude"), sep = ", ") %>%
