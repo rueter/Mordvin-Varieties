@@ -78,8 +78,8 @@ read_Feok2005_file <- function(filename){
    mutate(longitude = case_when(str_detect(longitude, ":$") ~ str_glue("{longitude}00"),
                                 TRUE ~ longitude)) %>%
    mutate(longitude = str_remove(longitude, "и ")) %>%
-   mutate(latitude = celestial::dms2deg(latitude)) %>%
-   mutate(longitude = celestial::dms2deg(longitude)) # %>%
+   mutate(latitude = dg2dec(latitude)) %>%
+   mutate(longitude = dg2dec(longitude)) # %>%
    #mutate(popup_content = paste0())
 
 }
@@ -99,8 +99,8 @@ read_Bashk2014_file <- function(filename){
    mutate(longitude = case_when(str_detect(longitude, ":$") ~ str_glue("{longitude}00"),
                                 TRUE ~ longitude)) %>%
    mutate(longitude = str_remove(longitude, "и ")) %>%
-   mutate(latitude = celestial::dms2deg(latitude)) %>%
-   mutate(longitude = celestial::dms2deg(longitude))
+   mutate(latitude = dg2dec(latitude)) %>%
+   mutate(longitude = dg2dec(longitude))
 
 }
 
@@ -120,8 +120,8 @@ read_census2002_file <- function(filename){
    mutate(longitude = case_when(str_detect(longitude, ":$") ~ str_glue("{longitude}00"),
                                 TRUE ~ longitude)) %>%
    mutate(longitude = str_remove(longitude, "и ")) %>%
-   mutate(latitude = celestial::dms2deg(latitude)) %>%
-   mutate(longitude = celestial::dms2deg(longitude)) # %>%
+   mutate(latitude = dg2dec(latitude)) %>%
+   mutate(longitude = dg2dec(longitude)) # %>%
    #mutate(popup_content = paste0())
 
 }
