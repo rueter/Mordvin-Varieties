@@ -50,7 +50,6 @@ my_colors <-
                                       grDevices::colors())])
   )
 
-
 read_mordva_file <- function(filename){
   
   read_csv(filename) %>% 
@@ -68,36 +67,22 @@ read_Feok2005_file <- function(filename){
    slice(1:303) %>%
    mutate(language = "Mordva") %>%
    mutate(coordinate = str_trim(coordinate)) %>%
-   mutate(coordinate = str_remove_all(coordinate, "″")) %>%
-   mutate(coordinate = str_replace_all(coordinate, "[°′]", ":")) %>%
    separate(coordinate, into = c("latitude", "longitude"), sep = ", ") %>%
    mutate(latitude = str_squish(latitude)) %>%
    mutate(longitude = str_squish(longitude)) %>%
-   mutate(latitude = case_when(str_detect(latitude, ":$") ~ str_glue("{latitude}00"),
-                               TRUE ~ latitude)) %>%
-   mutate(longitude = case_when(str_detect(longitude, ":$") ~ str_glue("{longitude}00"),
-                                TRUE ~ longitude)) %>%
    mutate(longitude = str_remove(longitude, "и ")) %>%
    mutate(latitude = dg2dec(latitude)) %>%
-   mutate(longitude = dg2dec(longitude)) # %>%
-   #mutate(popup_content = paste0())
+   mutate(longitude = dg2dec(longitude))
 
 }
 
 read_Bashk2014_file <- function(filename){
    read_tsv(filename) %>%
-#   slice(10:20) %>%
    mutate(language = "Mordva") %>%
    mutate(coordinate = str_trim(coordinate)) %>%
-   mutate(coordinate = str_remove_all(coordinate, "″")) %>%
-   mutate(coordinate = str_replace_all(coordinate, "[°′]", ":")) %>%
    separate(coordinate, into = c("latitude", "longitude"), sep = ", ") %>%
    mutate(latitude = str_squish(latitude)) %>%
    mutate(longitude = str_squish(longitude)) %>%
-   mutate(latitude = case_when(str_detect(latitude, ":$") ~ str_glue("{latitude}00"),
-                               TRUE ~ latitude)) %>%
-   mutate(longitude = case_when(str_detect(longitude, ":$") ~ str_glue("{longitude}00"),
-                                TRUE ~ longitude)) %>%
    mutate(longitude = str_remove(longitude, "и ")) %>%
    mutate(latitude = dg2dec(latitude)) %>%
    mutate(longitude = dg2dec(longitude))
@@ -106,23 +91,16 @@ read_Bashk2014_file <- function(filename){
 
 read_census2002_file <- function(filename){
    read_tsv(filename) %>%
-   slice(1:410) %>%
+   #slice(1:410) %>%
    mutate(language = "Mordva") %>%
    mutate(dialect = lang) %>%
    mutate(coordinate = str_trim(coordinate)) %>%
-   mutate(coordinate = str_remove_all(coordinate, "″")) %>%
-   mutate(coordinate = str_replace_all(coordinate, "[°′]", ":")) %>%
    separate(coordinate, into = c("latitude", "longitude"), sep = ", ") %>%
    mutate(latitude = str_squish(latitude)) %>%
    mutate(longitude = str_squish(longitude)) %>%
-   mutate(latitude = case_when(str_detect(latitude, ":$") ~ str_glue("{latitude}00"),
-                               TRUE ~ latitude)) %>%
-   mutate(longitude = case_when(str_detect(longitude, ":$") ~ str_glue("{longitude}00"),
-                                TRUE ~ longitude)) %>%
    mutate(longitude = str_remove(longitude, "и ")) %>%
    mutate(latitude = dg2dec(latitude)) %>%
-   mutate(longitude = dg2dec(longitude)) # %>%
-   #mutate(popup_content = paste0())
+   mutate(longitude = dg2dec(longitude))
 
 }
 
@@ -145,7 +123,6 @@ make_mordva_map <- function(csv_file){
                      lng = ~longitude) %>%
     addLegend("bottomright", pal = pal, values = ~dialect,
               title = "Dialect codes",
-              #                     labFormat = labelFormat(prefix = "$"),
               opacity = 1
     )
   
@@ -169,7 +146,6 @@ make_Feok2005_map <- function(tsv_file){
                      lng = ~longitude) %>%
     addLegend("bottomright", pal = pal, values = ~dialect,
               title = "Dialect codes",
-              #                     labFormat = labelFormat(prefix = "$"),
               opacity = 1
     )
   
@@ -193,7 +169,6 @@ make_Bashk2014_map <- function(tsv_file){
                      lng = ~longitude) %>%
     addLegend("bottomright", pal = pal, values = ~dialect,
               title = "Dialect codes",
-              #                     labFormat = labelFormat(prefix = "$"),
               opacity = 1
     )
   
@@ -217,7 +192,6 @@ make_census2002_map <- function(tsv_file){
                      lng = ~longitude) %>%
     addLegend("bottomright", pal = pal, values = ~dialect,
               title = "Dialect codes",
-              #                     labFormat = labelFormat(prefix = "$"),
               opacity = 1
     )
   
