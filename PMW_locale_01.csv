@@ -133,8 +133,8 @@ Mdf:Čer,x,x,Festung Tscheremschan,x,mdf:X,Tscheremschan,x,x,x,с.,"54.654699, 5
 Myv:Dav,x,x,Dawidowo,Давыдовка,myv:X,Korsun,Николаевский район,x,Ульяновский область,с.,"53.065355, 47.161184"
 Myv:God,x,x,Godjaikino,Годяйкино,myv:X,Gorodischtsche,Инзенский район,x,Ульяновский область,с.,"53.509560, 46.580801"
 Myv:Gol,x,x,Golodjawka,x,myv:X,Chwalynsk,x,x,x,?нп.,E
-Myv:Gor,x,x,x,x,myv:X,Gorodischtsche,Городищенский и Сосновоборский р-ны,x,x,р.,E
-Mdf:Gor,x,x,x,x,mdf:X,Gorodischtsche,Городищенский и Сосновоборский р-ны,x,x,р.,E
+Myv:Gor,x,x,x,x,myv:Mixed,Gorodischtsche,Городищенский и Сосновоборский р-ны,x,Пензенский область,р.,"53.266667, 45.700000"
+Mdf:Gor,x,x,x,x,mdf:Mixed,Gorodischtsche,Городищенский и Сосновоборский р-ны,x,Пензенский область,р.,E
 Myv:Gr,x,x,Gratschowka,Грачёвка,myv:X,Samara,"Кошкинский район",x,Куйбышевский облость,с.,E
 Myv:Hl,x,x,Chlystowka,Отрадное,myv:X,Ardatow,x,x,x,с.,"54.434554, 45.671750"
 Myv:Hol,x,x,Cholstowka,Холстовка,myv:X,Chwalynsk,x,x,x,с.,"52.848754, 47.222521"
