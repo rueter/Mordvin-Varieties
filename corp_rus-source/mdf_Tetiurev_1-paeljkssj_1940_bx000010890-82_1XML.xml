@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- This is prepared for testing VRT XML in Korp, 2022-05-14
+This was funded by the Heikkilä Foundation
+It also utilizes materials digitized in the Finnish Kindred Language Digitization Pilot
+The morphology has been developed in the Giella infrastructure, which includes work with disambiguation.
+Work with Mormula development at the University of Turku, 2021–2022, has brought about the development of the function.cg3.
+Finally, dependencies are brought from the GiellaLT sms dependencies.cg3.
+-->
 <text id="Tetiurev_1-paeljkssj_1940_bx000010890-82" datefrom="19391000" dateto="19391231" iso_lang="mdf" timefrom="000000" timeto="235959">
 <sentence sent_id="1.1.1" text="Минь карматама природать тонафнемонза.">
 <w sID="1" wf="Минь" l="мон" Upos="PRON" Xpos="Pron" msd="Case=Nom|Number=Plur|Person=1|PronType=Prs" CGdeprel="@SUBJ&gt;" CGdephead="#1-&gt;2" misc="GTtags=Pers,Pl1,Nom"/>
