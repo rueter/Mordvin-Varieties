@@ -1,4 +1,5 @@
-# -*- coding : utf-8 -*-
+:[# --*-- coding:utf-8 --*--
+
 # sent_id = 1.1.1
 # text = Минь карматано природанть тонавтнеме.
 Минь	1	мон	PRON	Pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Pers,Pl1,Nom
@@ -816,22 +817,23 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 .	9	.	PUNCT	CLB	_	2	punct	_	CGdephead=#9-&gt;2|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 2.20.7
-# text = [none
-]	1	]	PUNCT	PUNCT	PunctSide=Fin	2	punct	_	CGdephead=#1-&gt;2|CGdeprel=@CLB|GTtags=PUNCT,RIGHT[none
+# text = ТЕКСТ АРАСЬ
+ТЕКСТ	1	текст	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Indef
+АРАСЬ	2	арась	AUX	V	Case=Loc|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Pres|VerbType=Aux	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@FAUX|GTtags=Aux,Neg,Loc,Prs,ScSg3
 
 # sent_id = 2.20.8
 # text = Значит, перегнойде башка, почвасонть ули песок ды сёвонь.
-Значит	2	значит	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=Ind,Prs,ScSg3|SpaceAfter=No
-,	3	,	PUNCT	CLB	_	2	punct	_	CGdephead=#3-&gt;2|CGdeprel=@CLB|GTtags=CLB
-перегнойде	4	перегной	ADJ	A	Case=Abl|Definite=Ind|Number=Plur,Sing	4	dep	_	CGdephead=#4-&gt;4|CGdeprel=@CMP-STD|GTtags=Der/MWN,N,SP,Abl,Indef
-башка	5	башка	ADV	Adv	_	0	advmod	_	CGdephead=#5-&gt;0|CGdeprel=@ADVL|GTtags=|SpaceAfter=No
-,	6	,	PUNCT	CLB	_	5	punct	_	CGdephead=#6-&gt;5|CGdeprel=@CLB|GTtags=CLB
-почвасонть	7	почва	NOUN	N	Case=Ine|Definite=Def|Number=Sing	8	obl	_	CGdephead=#7-&gt;8|CGdeprel=@ADVL&gt;|GTtags=Sg,Ine,Def
-ули	8	улемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	2	dep	_	CGdephead=#8-&gt;2|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg3
-песок	9	песок	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	8	nsubj	_	CGdephead=#9-&gt;8|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef
-ды	10	ды	CCONJ	CC	_	9	dep	_	CGdephead=#10-&gt;9|CGdeprel=@CNP|GTtags=
-сёвонь	11	сёв	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	8	obj	_	CGdephead=#11-&gt;8|CGdeprel=@&lt;OBJ|GTtags=SP,Gen,Indef|SpaceAfter=No
-.	12	.	PUNCT	CLB	_	2	punct	_	CGdephead=#12-&gt;2|CGdeprel=@CLB|GTtags=CLB
+Значит	3	значит	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	2	dep	_	CGdephead=#3-&gt;2|CGdeprel=@FMV|GTtags=Ind,Prs,ScSg3|SpaceAfter=No
+,	4	,	PUNCT	CLB	_	3	punct	_	CGdephead=#4-&gt;3|CGdeprel=@CLB|GTtags=CLB
+перегнойде	5	перегной	ADJ	A	Case=Abl|Definite=Ind|Number=Plur,Sing	5	dep	_	CGdephead=#5-&gt;5|CGdeprel=@CMP-STD|GTtags=Der/MWN,N,SP,Abl,Indef
+башка	6	башка	ADV	Adv	_	0	advmod	_	CGdephead=#6-&gt;0|CGdeprel=@ADVL|GTtags=|SpaceAfter=No
+,	7	,	PUNCT	CLB	_	6	punct	_	CGdephead=#7-&gt;6|CGdeprel=@CLB|GTtags=CLB
+почвасонть	8	почва	NOUN	N	Case=Ine|Definite=Def|Number=Sing	9	obl	_	CGdephead=#8-&gt;9|CGdeprel=@ADVL&gt;|GTtags=Sg,Ine,Def
+ули	9	улемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	3	dep	_	CGdephead=#9-&gt;3|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg3
+песок	10	песок	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	9	nsubj	_	CGdephead=#10-&gt;9|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef
+ды	11	ды	CCONJ	CC	_	10	dep	_	CGdephead=#11-&gt;10|CGdeprel=@CNP|GTtags=
+сёвонь	12	сёв	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	9	obj	_	CGdephead=#12-&gt;9|CGdeprel=@&lt;OBJ|GTtags=SP,Gen,Indef|SpaceAfter=No
+.	13	.	PUNCT	CLB	_	2	punct	_	CGdephead=#13-&gt;2|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 2.21.1
 # text = 5 опыт.
@@ -2296,7 +2298,8 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 .	10	.	PUNCT	CLB	_	6	punct	_	CGdephead=#10-&gt;6|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 2.54.1
-# text = [!!
+# text = Ды бути царской Россиясь пурныль иезэнзэ 4—5 миллиардт пондот зёрна, то минек велень хозяйствась 1937 иестэ макссь уш 7-шка миллиардт пондот зёрна.
+# comment = ,!!
 Ды	1	ды	CCONJ	CC	_	1	cc	_	CGdephead=#1-&gt;1|CGdeprel=@CC|GTtags=
 бути	2	бути	SCONJ	CS	_	2	dep	_	CGdephead=#2-&gt;2|CGdeprel=@SC|GTtags=
 царской	3	царской	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	4	amod	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
@@ -2320,34 +2323,13 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 миллиардт	21	миллиард	NUM	Num	Case=Nom|Definite=Ind|NumType=Card|Number=Plur	22	nummod	_	CGdephead=#21-&gt;22|CGdeprel=@&gt;N|GTtags=Card,Pl,Nom,Indef
 пондот	22	пондо	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	23	nmod	_	CGdephead=#22-&gt;23|CGdeprel=@&gt;N|GTtags=Pl,Nom,Indef
 зёрна	23	зёрна	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	18	nsubj	_	CGdephead=#23-&gt;18|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-.	24	.	PUNCT	CLB	_	18	punct	_	CGdephead=#24-&gt;18|CGdeprel=@CLB|GTtags=CLB[!!
-Ды	1	ды	CCONJ	CC	_	1	cc	_	CGdephead=#1-&gt;1|CGdeprel=@CC|GTtags=
-бути	2	бути	SCONJ	CS	_	2	dep	_	CGdephead=#2-&gt;2|CGdeprel=@SC|GTtags=
-царской	3	царской	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	4	amod	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-Россиясь	4	Россия	PROPN	N	Case=Nom|Definite=Def|Number=Sing	5	nsubj	_	CGdephead=#4-&gt;5|CGdeprel=@SUBJ&gt;|GTtags=Prop,Sg,Nom,Def
-пурныль	5	пурнамс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	18	dep	_	CGdephead=#5-&gt;18|CGdeprel=@FS-ADVL&gt;|GTtags=IV,Ind,Prt2,ScSg3
-иезэнзэ	6	ие	NOUN	N	Case=Ill|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	CGdephead=#6-&gt;4|CGdeprel=@&lt;ADVL|GTtags=SP,Ill,PxSg3
-4—5	7	4—5	NUM	Num	_	0	dep	_	CGdephead=#7-&gt;0|CGdeprel=@X|GTtags=
-миллиардт	8	миллиард	NUM	Num	Case=Nom|Definite=Ind|NumType=Card|Number=Plur	9	nummod	_	CGdephead=#8-&gt;9|CGdeprel=@&gt;N|GTtags=Card,Pl,Nom,Indef
-пондот	9	пондо	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	10	nmod	_	CGdephead=#9-&gt;10|CGdeprel=@&gt;N|GTtags=Pl,Nom,Indef
-зёрна	10	зёрна	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	nsubj	_	CGdephead=#10-&gt;5|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-,	11	,	PUNCT	CLB	_	5	punct	_	CGdephead=#11-&gt;5|CGdeprel=@CLB|GTtags=CLB
-то	12	то	ADV	Adv	AdvType=Tim	18	advmod	_	CGdephead=#12-&gt;18|CGdeprel=@ADVL&gt;|GTtags=Sem/Time
-минек	13	мон	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	14	det	_	CGdephead=#13-&gt;14|CGdeprel=@&gt;N|GTtags=Pers,Pl1,Gen
-велень	14	веле	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	15	nmod	_	CGdephead=#14-&gt;15|CGdeprel=@&gt;N|GTtags=SP,Gen,Indef
-хозяйствась	15	хозяйства	NOUN	N	Case=Nom|Definite=Def|Number=Sing	18	nsubj	_	CGdephead=#15-&gt;18|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Def
-1937	16	1937	NUM	Num	_	0	dep	_	CGdephead=#16-&gt;0|CGdeprel=@X|GTtags=
-иестэ	17	ие	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	18	obl	_	CGdephead=#17-&gt;18|CGdeprel=@ADVL&gt;|GTtags=SP,Ela,Indef
-макссь	18	максомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#18-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScSg3
-уш	19	уш	ADV	Adv	AdvType=Tim	18	advmod	_	CGdephead=#19-&gt;18|CGdeprel=@&lt;ADVL|GTtags=Sem/Time
-7-шка	20	7	NUM	Num	Case=Comp|Definite=Ind|Number=Plur,Sing	22	nummod	_	CGdephead=#20-&gt;22|CGdeprel=@&gt;N|GTtags=SP,Comp,Indef
-миллиардт	21	миллиард	NUM	Num	Case=Nom|Definite=Ind|NumType=Card|Number=Plur	22	nummod	_	CGdephead=#21-&gt;22|CGdeprel=@&gt;N|GTtags=Card,Pl,Nom,Indef
-пондот	22	пондо	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	23	nmod	_	CGdephead=#22-&gt;23|CGdeprel=@&gt;N|GTtags=Pl,Nom,Indef
-зёрна	23	зёрна	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	18	nsubj	_	CGdephead=#23-&gt;18|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-.	24	.	PUNCT	CLB	_	18	punct	_	CGdephead=#24-&gt;18|CGdeprel=@CLB|GTtags=CLB
+.	24	.	PUNCT	CLB	_	18
 
 # sent_id = 2.55.1
-# text = Народтнэнь великой вожденть Сталин ялганть руководстванзо коряс минек колхозной крестьянствась эри счастливой зажиточной эрямосо.
+# text = Народтнэнь великой вожденть Сталин ялганть руководстванзо коряс минек колхозной крестьянствась эри счастливой зажиточной эрямосо.]	punct	_	CGdephead=#24-&gt;18
+
+# sent_id = 2.55.1
+# text = Народтнэнь великой вожденть Сталин ялганть руководстванзо коряс минек колхозной крестьянствась эри счастливой зажиточной эрямосо.]|CGdeprel=@CLB|GTtags=CLB
 Народтнэнь	1	народ	NOUN	N	Case=Gen|Definite=Def|Number=Plur	3	nmod	_	CGdephead=#1-&gt;3|CGdeprel=@&gt;N|GTtags=Pl,Gen,Def
 великой	2	великой	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	3	amod	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
 вожденть	3	вождь	NOUN	N	Case=Gen|Definite=Def|Number=Sing	4	nmod	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Sg,Gen,Def
@@ -4616,7 +4598,8 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 .	5	.	PUNCT	CLB	_	1	punct	_	CGdephead=#5-&gt;1|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 2.118.4
-# text = [!!
+# text = Зярдо сынь кулыльть, сынст раковинкатне прыльть морянь потмаксос.
+# comment = ,!!
 Зярдо	1	зярдо	ADV	Adv	AdvType=Tim|PronType=Int	3	advmod	_	CGdephead=#1-&gt;3|CGdeprel=@ADVL&gt;|GTtags=Interr,Sem/Time
 сынь	2	сон	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	CGdephead=#2-&gt;3|CGdeprel=@SUBJ&gt;|GTtags=Pers,Pl3,Nom
 кулыльть	3	куломс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#3-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3|SpaceAfter=No
@@ -4626,20 +4609,11 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 прыльть	7	прамс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	3	dep	_	CGdephead=#7-&gt;3|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
 морянь	8	моря	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	9	nmod	_	CGdephead=#8-&gt;9|CGdeprel=@&gt;N|GTtags=SP,Gen,Indef
 потмаксос	9	потмакс	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	7	obl	_	CGdephead=#9-&gt;7|CGdeprel=@&lt;ADVL|GTtags=SP,Ill,Indef|SpaceAfter=No
-.	10	.	PUNCT	CLB	_	3	punct	_	CGdephead=#10-&gt;3|CGdeprel=@CLB|GTtags=CLB[!!
-Зярдо	1	зярдо	ADV	Adv	AdvType=Tim|PronType=Int	3	advmod	_	CGdephead=#1-&gt;3|CGdeprel=@ADVL&gt;|GTtags=Interr,Sem/Time
-сынь	2	сон	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	CGdephead=#2-&gt;3|CGdeprel=@SUBJ&gt;|GTtags=Pers,Pl3,Nom
-кулыльть	3	куломс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#3-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3|SpaceAfter=No
-,	4	,	PUNCT	CLB	_	3	punct	_	CGdephead=#4-&gt;3|CGdeprel=@CLB|GTtags=CLB
-сынст	5	сон	PRON	Pron	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	det	_	CGdephead=#5-&gt;6|CGdeprel=@&gt;N|GTtags=Pers,Pl3,Gen
-раковинкатне	6	раковинка	NOUN	N	Case=Nom|Definite=Def|Number=Plur	7	nsubj	_	CGdephead=#6-&gt;7|CGdeprel=@SUBJ&gt;|GTtags=Pl,Nom,Def
-прыльть	7	прамс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	3	dep	_	CGdephead=#7-&gt;3|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
-морянь	8	моря	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	9	nmod	_	CGdephead=#8-&gt;9|CGdeprel=@&gt;N|GTtags=SP,Gen,Indef
-потмаксос	9	потмакс	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	7	obl	_	CGdephead=#9-&gt;7|CGdeprel=@&lt;ADVL|GTtags=SP,Ill,Indef|SpaceAfter=No
-.	10	.	PUNCT	CLB	_	3	punct	_	CGdephead=#10-&gt;3|CGdeprel=@CLB|GTtags=CLB
+.	10	.	PUNCT	CLB	_	3
 
 # sent_id = 2.118.5
-# text = [!!
+# text = Ютыльть пинге мельга пингеть, тыща ие мельга тыща иеть.
+# comment = ,!!
 Ютыльть	1	ютамс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=2	0	root	_	CGdephead=#1-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prt2,ScPl3
 пинге	2	пинге	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	4	nmod	_	CGdephead=#2-&gt;4|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
 мельга	3	мельга	ADP	Po	AdpType=Post|AdvType=Loc|Case=Prl	1	dep	_	CGdephead=#3-&gt;1|CGdeprel=@&lt;ADVL|GTtags=Po,Spat,Prl
@@ -4650,21 +4624,13 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 мельга	8	мельга	ADP	Po	AdpType=Post|AdvType=Loc|Case=Prl	0	dep	_	CGdephead=#8-&gt;0|CGdeprel=@ADVL|GTtags=Po,Spat,Prl
 тыща	9	тыща	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	10	nmod	_	CGdephead=#9-&gt;10|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
 иеть	10	ие	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=2	10	obj	_	CGdephead=#10-&gt;10|CGdeprel=@OBJ|GTtags=Pl,Gen,PxSg2|SpaceAfter=No
-.	11	.	PUNCT	CLB	_	1	punct	_	CGdephead=#11-&gt;1|CGdeprel=@CLB|GTtags=CLB[!!
-Ютыльть	1	ютамс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=2	0	root	_	CGdephead=#1-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prt2,ScPl3
-пинге	2	пинге	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	4	nmod	_	CGdephead=#2-&gt;4|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-мельга	3	мельга	ADP	Po	AdpType=Post|AdvType=Loc|Case=Prl	1	dep	_	CGdephead=#3-&gt;1|CGdeprel=@&lt;ADVL|GTtags=Po,Spat,Prl
-пингеть	4	пинге	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	6	nmod	_	CGdephead=#4-&gt;6|CGdeprel=@&gt;N|GTtags=Pl,Nom,Indef|SpaceAfter=No
-,	5	,	PUNCT	CLB	_	4	punct	_	CGdephead=#5-&gt;4|CGdeprel=@CLB|GTtags=CLB
-тыща	6	тыща	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	7	nmod	_	CGdephead=#6-&gt;7|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-ие	7	ие	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	9	nmod	_	CGdephead=#7-&gt;9|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-мельга	8	мельга	ADP	Po	AdpType=Post|AdvType=Loc|Case=Prl	0	dep	_	CGdephead=#8-&gt;0|CGdeprel=@ADVL|GTtags=Po,Spat,Prl
-тыща	9	тыща	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	10	nmod	_	CGdephead=#9-&gt;10|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-иеть	10	ие	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=2	10	obj	_	CGdephead=#10-&gt;10|CGdeprel=@OBJ|GTtags=Pl,Gen,PxSg2|SpaceAfter=No
-.	11	.	PUNCT	CLB	_	1	punct	_	CGdephead=#11-&gt;1|CGdeprel=@CLB|GTtags=CLB
+.	11	.	PUNCT	CLB	_	1
 
 # sent_id = 2.118.6
-# text = Раковинкатнеде морянть потмакссо пурнавсть яла седе ламо ды ламо.
+# text = Раковинкатнеде морянть потмакссо пурнавсть яла седе ламо ды ламо.]	punct	_	CGdephead=#11-&gt;1
+
+# sent_id = 2.118.6
+# text = Раковинкатнеде морянть потмакссо пурнавсть яла седе ламо ды ламо.]|CGdeprel=@CLB|GTtags=CLB
 Раковинкатнеде	1	раковинка	NOUN	N	Case=Abl|Definite=Def|Number=Plur	4	obl	_	CGdephead=#1-&gt;4|CGdeprel=@ADVL&gt;|GTtags=Pl,Abl,Def
 морянть	2	моря	NOUN	N	Case=Gen|Definite=Def|Number=Sing	3	nmod	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=Sg,Gen,Def
 потмакссо	3	потмакс	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	4	obl	_	CGdephead=#3-&gt;4|CGdeprel=@ADVL&gt;|GTtags=SP,Ine,Indef
@@ -4677,7 +4643,8 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 .	10	.	PUNCT	CLB	_	4	punct	_	CGdephead=#10-&gt;4|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 2.118.7
-# text = [!!
+# text = Сынь матрыльть ды плотнакстомильть велькссэст аштиця ведень слойтнень сталмонть ало.
+# comment = ,!!
 Сынь	1	сон	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Pers,Pl3,Nom
 матрыльть	2	матрамс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
 ды	3	ды	CCONJ	CC	_	2	dep	_	CGdephead=#3-&gt;2|CGdeprel=@CVP|GTtags=
@@ -4688,21 +4655,13 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 слойтнень	8	слой	NOUN	N	Case=Gen|Definite=Def|Number=Plur	9	nmod	_	CGdephead=#8-&gt;9|CGdeprel=@&gt;N|GTtags=Pl,Gen,Def
 сталмонть	9	сталмо	NOUN	N	Case=Gen|Definite=Def|Number=Sing	4	obl	_	CGdephead=#9-&gt;9|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
 ало	10	ало	ADP	Adp	Case=Loc	9	case	_	CGdephead=#10-&gt;4|CGdeprel=@&lt;ADVL|GTtags=Loc|SpaceAfter=No
-.	11	.	PUNCT	CLB	_	2	punct	_	CGdephead=#11-&gt;2|CGdeprel=@CLB|GTtags=CLB[!!
-Сынь	1	сон	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Pers,Pl3,Nom
-матрыльть	2	матрамс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
-ды	3	ды	CCONJ	CC	_	2	dep	_	CGdephead=#3-&gt;2|CGdeprel=@CVP|GTtags=
-плотнакстомильть	4	плотнакстомомс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	2	dep	_	CGdephead=#4-&gt;2|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
-велькссэст	5	велькс	NOUN	N	Case=Ine|NounType=Relat|Number=Plur,Sing|Number[psor]=Plur|Person[psor]=3	4	obl	_	CGdephead=#5-&gt;4|CGdeprel=@&lt;ADVL|GTtags=Relator,SP,Ine,PxPl3
-аштиця	6	аштемс	VERB	V	Case=Nom|Definite=Ind|Derivation=VerbYcja|Number=Sing|Valency=1	7	dep	_	CGdephead=#6-&gt;7|CGdeprel=@&gt;N|GTtags=IV,Der/Ycja,NomAg,N,Sg,Nom,Indef
-ведень	7	ведь	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	CGdephead=#7-&gt;4|CGdeprel=@&lt;SUBJ|GTtags=Pl,Nom,PxSg1
-слойтнень	8	слой	NOUN	N	Case=Gen|Definite=Def|Number=Plur	9	nmod	_	CGdephead=#8-&gt;9|CGdeprel=@&gt;N|GTtags=Pl,Gen,Def
-сталмонть	9	сталмо	NOUN	N	Case=Gen|Definite=Def|Number=Sing	4	obl	_	CGdephead=#9-&gt;9|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
-ало	10	ало	ADP	Adp	Case=Loc	9	case	_	CGdephead=#10-&gt;4|CGdeprel=@&lt;ADVL|GTtags=Loc|SpaceAfter=No
-.	11	.	PUNCT	CLB	_	2	punct	_	CGdephead=#11-&gt;2|CGdeprel=@CLB|GTtags=CLB
+.	11	.	PUNCT	CLB	_	2
 
 # sent_id = 2.118.8
-# text = Истя морятнень потмакссо теевсть поронь эчке слойть.
+# text = Истя морятнень потмакссо теевсть поронь эчке слойть.]	punct	_	CGdephead=#11-&gt;2
+
+# sent_id = 2.118.8
+# text = Истя морятнень потмакссо теевсть поронь эчке слойть.]|CGdeprel=@CLB|GTtags=CLB
 Истя	1	истя	ADV	Adv	AdvType=Man	4	advmod	_	CGdephead=#1-&gt;4|CGdeprel=@ADVL&gt;|GTtags=Manner
 морятнень	2	моря	NOUN	N	Case=Gen|Definite=Def|Number=Plur	3	nmod	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=Pl,Gen,Def
 потмакссо	3	потмакс	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	4	obl	_	CGdephead=#3-&gt;4|CGdeprel=@ADVL&gt;|GTtags=SP,Ine,Indef
@@ -5707,7 +5666,8 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 .	14	.	PUNCT	CLB	_	2	punct	_	CGdephead=#14-&gt;2|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 2.147.4
-# text = [!][!
+# text = Ведень кодамо бу петнявкс аволинек сае, сон карми улеме салов: эйсэнзэ ули сал.
+# comment = !,!
 Ведень	1	Ведень	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	4	nmod	_	CGdephead=#1-&gt;4|CGdeprel=@&gt;N|GTtags=Prop,Sg,Nom,Indef
 кодамо	2	кодамо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=Interr,Sg,Nom,Indef
 бу	3	бу	PART	Pcle	Mood=Sub|VerbType=Aux	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=Aux,Conj
@@ -5723,28 +5683,13 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 эйсэнзэ	13	эйсэ	ADP	Adp	Case=Ine|Number[psor]=Sing|Person[psor]=3	14	dep	_	CGdephead=#13-&gt;14|CGdeprel=@ADVL&gt;|GTtags=Ine,PxSg3
 ули	14	улемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	6	dep	_	CGdephead=#14-&gt;6|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg3
 сал	15	сал	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	14	nsubj	_	CGdephead=#15-&gt;14|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-.	16	.	PUNCT	CLB	_	5	punct	_	CGdephead=#16-&gt;5|CGdeprel=@CLB|GTtags=CLB
-	1	[	PUNCT	PUNCT	PunctSide=Ini	2	punct	_	CGdephead=#1-&gt;2|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
-!	2	!	PUNCT	CLB	_	2[!]	punct	_	CGdephead=#2-&gt;2[!]|CGdeprel=@CLB|GTtags=CLB
-Ведень	1	Ведень	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	4	nmod	_	CGdephead=#1-&gt;4|CGdeprel=@&gt;N|GTtags=Prop,Sg,Nom,Indef
-кодамо	2	кодамо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=Interr,Sg,Nom,Indef
-бу	3	бу	PART	Pcle	Mood=Sub|VerbType=Aux	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=Aux,Conj
-петнявкс	4	петнявкс	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	15	nmod	_	CGdephead=#4-&gt;15|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-аволинек	5	а	AUX	V	Mood=Sub|Number[subj]=Plur|Person[subj]=1|Polarity=Neg|VerbType=Aux	0	dep	_	CGdephead=#5-&gt;0|CGdeprel=@FS-OBJ|GTtags=Aux,Neg,Conj,ScPl1
-сае	6	саемс	VERB	V	Connegative=Yes|Valency=2	5	dep	_	CGdephead=#6-&gt;5|CGdeprel=@FS-IMV|GTtags=TV,ConNeg|SpaceAfter=No
-,	7	,	PUNCT	CLB	_	6	punct	_	CGdephead=#7-&gt;6|CGdeprel=@CLB|GTtags=CLB
-сон	8	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	CGdephead=#8-&gt;9|CGdeprel=@SUBJ&gt;|GTtags=Pers,Sg3,Nom
-карми	9	кармамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	dep	_	CGdephead=#9-&gt;0|CGdeprel=@FAUX|GTtags=IV,Ind,Prs,ScSg3
-улеме	10	улемс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	10	dep	_	CGdephead=#10-&gt;10|CGdeprel=@FS-&lt;FMAINV|GTtags=IV,Inf,Loc
-салов	11	салов	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	6	obj	_	CGdephead=#11-&gt;6|CGdeprel=@&lt;OBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-:	12	:	PUNCT	CLB	_	5	punct	_	CGdephead=#12-&gt;5|CGdeprel=@CLB|GTtags=CLB
-эйсэнзэ	13	эйсэ	ADP	Adp	Case=Ine|Number[psor]=Sing|Person[psor]=3	14	dep	_	CGdephead=#13-&gt;14|CGdeprel=@ADVL&gt;|GTtags=Ine,PxSg3
-ули	14	улемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	6	dep	_	CGdephead=#14-&gt;6|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg3
-сал	15	сал	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	14	nsubj	_	CGdephead=#15-&gt;14|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-.	16	.	PUNCT	CLB	_	5	punct	_	CGdephead=#16-&gt;5|CGdeprel=@CLB|GTtags=CLB
+.	16	.	PUNCT	CLB	_	5
 
 # sent_id = 2.147.5
-# text = Минек саезь салось солась ведьсэнть.
+# text = Минек саезь салось солась ведьсэнть.]	punct	_	CGdephead=#16-&gt;5
+
+# sent_id = 2.147.5
+# text = Минек саезь салось солась ведьсэнть.]|CGdeprel=@CLB|GTtags=CLB
 Минек	1	мон	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	det	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;N|GTtags=Pers,Pl1,Gen
 саезь	2	саемс	VERB	V	Case=Nom|Definite=Ind|Derivation=Ozj|Number=Sing|Valency=1|VerbForm=Conv	3	dep	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=IV,Der/Ozj,Ger,Der/MWN,N,Sg,Nom,Indef
 салось	3	сал	NOUN	N	Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	CGdephead=#3-&gt;4|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Def
@@ -6113,23 +6058,24 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 .	10	.	PUNCT	CLB	_	3	punct	_	CGdephead=#10-&gt;3|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 2.158.2
-# text = [none
-]	1	]	PUNCT	PUNCT	PunctSide=Fin	2	punct	_	CGdephead=#1-&gt;2|CGdeprel=@CLB|GTtags=PUNCT,RIGHT[none
+# text = ТЕКСТ АРАСЬ
+ТЕКСТ	1	текст	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Indef
+АРАСЬ	2	арась	AUX	V	Case=Loc|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Pres|VerbType=Aux	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@FAUX|GTtags=Aux,Neg,Loc,Prs,ScSg3
 
 # sent_id = 2.158.3
 # text = Но лиясто сон эрси красязь эрьва кодамо цветс эрьва кодамо примесьтнесэ.
-Но	2	но	CCONJ	CC	_	2	cc	_	CGdephead=#2-&gt;2|CGdeprel=@CC|GTtags=
-лиясто	3	лия	DET	Det	Case=Ela|Definite=Ind|Number=Plur,Sing	5	dep	_	CGdephead=#3-&gt;5|CGdeprel=@ADVL&gt;|GTtags=SP,Ela,Indef
-сон	4	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	CGdephead=#4-&gt;5|CGdeprel=@SUBJ&gt;|GTtags=Pers,Sg3,Nom
-эрси	5	эрсемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	CGdephead=#5-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg3
-красязь	6	красямс	VERB	V	Derivation=Ozj|Valency=1|VerbForm=Conv	5	dep	_	CGdephead=#6-&gt;5|CGdeprel=@IMV|GTtags=IV,Der/Ozj,Ger
-эрьва	7	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing	8	dep	_	CGdephead=#7-&gt;8|CGdeprel=@&gt;A|GTtags=Sg,Nom,Indef
-кодамо	8	кодамо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	9	amod	_	CGdephead=#8-&gt;9|CGdeprel=@&gt;N|GTtags=Interr,Sg,Nom,Indef
-цветс	9	цвет	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	6	obl	_	CGdephead=#9-&gt;6|CGdeprel=@&lt;ADVL|GTtags=SP,Ill,Indef
-эрьва	10	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing	11	dep	_	CGdephead=#10-&gt;11|CGdeprel=@&gt;A|GTtags=Sg,Nom,Indef
-кодамо	11	кодамо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	11	amod	_	CGdephead=#11-&gt;11|CGdeprel=@&gt;N|GTtags=Interr,Sg,Nom,Indef
-примесьтнесэ	12	примесьтнесэ	_	_	_	0	dep	_	CGdephead=#12-&gt;0|CGdeprel=@X|GTtags=?|SpaceAfter=No
-.	13	.	PUNCT	CLB	_	5	punct	_	CGdephead=#13-&gt;5|CGdeprel=@CLB|GTtags=CLB
+Но	3	но	CCONJ	CC	_	2	dep	_	CGdephead=#3-&gt;2|CGdeprel=@CVP|GTtags=
+лиясто	4	лия	DET	Det	Case=Ela|Definite=Ind|Number=Plur,Sing	6	dep	_	CGdephead=#4-&gt;6|CGdeprel=@ADVL&gt;|GTtags=SP,Ela,Indef
+сон	5	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	CGdephead=#5-&gt;6|CGdeprel=@SUBJ&gt;|GTtags=Pers,Sg3,Nom
+эрси	6	эрсемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	2	dep	_	CGdephead=#6-&gt;2|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg3
+красязь	7	красямс	VERB	V	Derivation=Ozj|Valency=1|VerbForm=Conv	2	dep	_	CGdephead=#7-&gt;2|CGdeprel=@IMV|GTtags=IV,Der/Ozj,Ger
+эрьва	8	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing	9	dep	_	CGdephead=#8-&gt;9|CGdeprel=@&gt;A|GTtags=Sg,Nom,Indef
+кодамо	9	кодамо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	10	amod	_	CGdephead=#9-&gt;10|CGdeprel=@&gt;N|GTtags=Interr,Sg,Nom,Indef
+цветс	10	цвет	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	7	obl	_	CGdephead=#10-&gt;7|CGdeprel=@&lt;ADVL|GTtags=SP,Ill,Indef
+эрьва	11	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing	12	dep	_	CGdephead=#11-&gt;12|CGdeprel=@&gt;A|GTtags=Sg,Nom,Indef
+кодамо	12	кодамо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	12	amod	_	CGdephead=#12-&gt;12|CGdeprel=@&gt;N|GTtags=Interr,Sg,Nom,Indef
+примесьтнесэ	13	примесьтнесэ	_	_	_	0	dep	_	CGdephead=#13-&gt;0|CGdeprel=@X|GTtags=?|SpaceAfter=No
+.	14	.	PUNCT	CLB	_	2	punct	_	CGdephead=#14-&gt;2|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 2.159.1
 # text = Самосадочной сал.
@@ -6240,7 +6186,8 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 .	5	.	PUNCT	CLB	_	3	punct	_	CGdephead=#5-&gt;3|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 2.162.1
-# text = [!!
+# text = Те салонть икеле таргилизь коймсэ, ней жо амолькшнить эйсэнзэ особой машинасо — экскаваторсо.
+# comment = ,!!
 Те	1	те	DET	Det	Case=Nom|Number=Sing|PronType=Dem	2	det	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;N|GTtags=Dem,Sg,Nom
 салонть	2	сал	NOUN	N	Case=Gen|Definite=Def|Number=Sing	4	obl	_	CGdephead=#2-&gt;2|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
 икеле	3	икеле	ADP	Adp	Case=Loc	2	case	_	CGdephead=#3-&gt;4|CGdeprel=@ADVL&gt;|GTtags=Loc
@@ -6255,25 +6202,13 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 машинасо	12	машина	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	9	obl	_	CGdephead=#12-&gt;9|CGdeprel=@&lt;ADVL|GTtags=SP,Ine,Indef
 —	13	—	PUNCT	PUNCT	_	14	punct	_	CGdephead=#13-&gt;14|CGdeprel=@CLB|GTtags=PUNCT
 экскаваторсо	14	экскаватор	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	9	obl	_	CGdephead=#14-&gt;9|CGdeprel=@&lt;ADVL|GTtags=SP,Ine,Indef|SpaceAfter=No
-.	15	.	PUNCT	CLB	_	4	punct	_	CGdephead=#15-&gt;4|CGdeprel=@CLB|GTtags=CLB[!!
-Те	1	те	DET	Det	Case=Nom|Number=Sing|PronType=Dem	2	det	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;N|GTtags=Dem,Sg,Nom
-салонть	2	сал	NOUN	N	Case=Gen|Definite=Def|Number=Sing	4	obl	_	CGdephead=#2-&gt;2|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
-икеле	3	икеле	ADP	Adp	Case=Loc	2	case	_	CGdephead=#3-&gt;4|CGdeprel=@ADVL&gt;|GTtags=Loc
-таргилизь	4	таргамс	VERB	V	Aspect=Hab|Mood=Ind|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Past|Valency=2	0	root	_	CGdephead=#4-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prt2,ScPl3,OcPl3
-коймсэ	5	койме	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	4	obl	_	CGdephead=#5-&gt;4|CGdeprel=@&lt;ADVL|GTtags=SP,Ine,Indef|SpaceAfter=No
-,	6	,	PUNCT	CLB	_	5	punct	_	CGdephead=#6-&gt;5|CGdeprel=@CLB|GTtags=CLB
-ней	7	ней	ADV	Adv	AdvType=Tim	9	advmod	_	CGdephead=#7-&gt;9|CGdeprel=@ADVL&gt;|GTtags=Sem/Time
-жо	8	жо	PART	Pcle	_	8	dep	_	CGdephead=#8-&gt;8|CGdeprel=@&lt;DISC|GTtags=
-амолькшнить	9	амолькшнемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	4	dep	_	CGdephead=#9-&gt;4|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScPl3
-эйсэнзэ	10	эйсэ	ADP	Adp	Case=Ine|Number[psor]=Sing|Person[psor]=3	9	dep	_	CGdephead=#10-&gt;9|CGdeprel=@&lt;ADVL|GTtags=Ine,PxSg3
-особой	11	особой	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	12	amod	_	CGdephead=#11-&gt;12|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-машинасо	12	машина	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	9	obl	_	CGdephead=#12-&gt;9|CGdeprel=@&lt;ADVL|GTtags=SP,Ine,Indef
-—	13	—	PUNCT	PUNCT	_	14	punct	_	CGdephead=#13-&gt;14|CGdeprel=@CLB|GTtags=PUNCT
-экскаваторсо	14	экскаватор	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	9	obl	_	CGdephead=#14-&gt;9|CGdeprel=@&lt;ADVL|GTtags=SP,Ine,Indef|SpaceAfter=No
-.	15	.	PUNCT	CLB	_	4	punct	_	CGdephead=#15-&gt;4|CGdeprel=@CLB|GTtags=CLB
+.	15	.	PUNCT	CLB	_	4
 
 # sent_id = 2.162.2
-# text = Костямодо мейле салонть усксесызь весе СССР-нть келес.
+# text = Костямодо мейле салонть усксесызь весе СССР-нть келес.]	punct	_	CGdephead=#15-&gt;4
+
+# sent_id = 2.162.2
+# text = Костямодо мейле салонть усксесызь весе СССР-нть келес.]|CGdeprel=@CLB|GTtags=CLB
 Костямодо	1	костямо	NOUN	N	Case=Abl|Definite=Ind|Number=Plur,Sing	1	dep	_	CGdephead=#1-&gt;1|CGdeprel=@CMP-STD|GTtags=SP,Abl,Indef
 мейле	2	мейле	ADV	Adv	AdvType=Tim	4	advmod	_	CGdephead=#2-&gt;4|CGdeprel=@ADVL&gt;|GTtags=Sem/Time
 салонть	3	сал	NOUN	N	Case=Gen|Definite=Def|Number=Sing	3	nmod:gobj	_	CGdephead=#3-&gt;3|CGdeprel=@-FOBJ&gt;|GTtags=Sg,Gen,Def
@@ -8110,7 +8045,8 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 .	3	.	PUNCT	CLB	_	2	punct	_	CGdephead=#3-&gt;2|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 2.222.1
-# text = [!!
+# text = Сявориця чувтнэ прыльть болотанть эйс ды ваильть эйзэнзэ.
+# comment = ,!!
 Сявориця	1	сяворемс	VERB	V	Case=Nom|Definite=Ind|Derivation=VerbYcja|Number=Sing|Valency=1	2	dep	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;N|GTtags=IV,Der/Ycja,NomAg,N,Sg,Nom,Indef
 чувтнэ	2	чувто	NOUN	N	Case=Nom|Definite=Def|Number=Plur	3	nsubj	_	CGdephead=#2-&gt;3|CGdeprel=@SUBJ&gt;|GTtags=Pl,Nom,Def
 прыльть	3	прамс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#3-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
@@ -8119,32 +8055,22 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 ды	6	ды	CCONJ	CC	_	3	dep	_	CGdephead=#6-&gt;3|CGdeprel=@CVP|GTtags=
 ваильть	7	ваямс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	3	dep	_	CGdephead=#7-&gt;3|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
 эйзэнзэ	8	эйс	ADP	Adp	Case=Ill|Number[psor]=Sing|Person[psor]=3	7	dep	_	CGdephead=#8-&gt;7|CGdeprel=@&lt;ADVL|GTtags=Ill,PxSg3|SpaceAfter=No
-.	9	.	PUNCT	CLB	_	3	punct	_	CGdephead=#9-&gt;3|CGdeprel=@CLB|GTtags=CLB[!!
-Сявориця	1	сяворемс	VERB	V	Case=Nom|Definite=Ind|Derivation=VerbYcja|Number=Sing|Valency=1	2	dep	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;N|GTtags=IV,Der/Ycja,NomAg,N,Sg,Nom,Indef
-чувтнэ	2	чувто	NOUN	N	Case=Nom|Definite=Def|Number=Plur	3	nsubj	_	CGdephead=#2-&gt;3|CGdeprel=@SUBJ&gt;|GTtags=Pl,Nom,Def
-прыльть	3	прамс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#3-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
-болотанть	4	болота	NOUN	N	Case=Gen|Definite=Def|Number=Sing	3	obl	_	CGdephead=#4-&gt;4|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
-эйс	5	эйс	ADP	Adp	Case=Ill	4	case	_	CGdephead=#5-&gt;3|CGdeprel=@&lt;ADVL|GTtags=Ill
-ды	6	ды	CCONJ	CC	_	3	dep	_	CGdephead=#6-&gt;3|CGdeprel=@CVP|GTtags=
-ваильть	7	ваямс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	3	dep	_	CGdephead=#7-&gt;3|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
-эйзэнзэ	8	эйс	ADP	Adp	Case=Ill|Number[psor]=Sing|Person[psor]=3	7	dep	_	CGdephead=#8-&gt;7|CGdeprel=@&lt;ADVL|GTtags=Ill,PxSg3|SpaceAfter=No
-.	9	.	PUNCT	CLB	_	3	punct	_	CGdephead=#9-&gt;3|CGdeprel=@CLB|GTtags=CLB
+.	9	.	PUNCT	CLB	_	3
 
 # sent_id = 2.222.2
-# text = [!!
+# text = Сынст таркас касыльть одт.
+# comment = ,!!
 Сынст	1	сон	PRON	Pron	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	det	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;N|GTtags=Pers,Pl3,Gen
 таркас	2	тарка	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	2	obl	_	CGdephead=#2-&gt;2|CGdeprel=@ADVL&gt;|GTtags=SP,Ill,Indef
 касыльть	3	касы	ADJ	A	Case=Nom|Definite=Ind|Number=Plur|Number[subj]=Plur|Person[subj]=3|Tense=Past	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@PRED|GTtags=Der/MWN,N,Pl,Nom,Indef,Clt/Cop,Prt2,ScPl3
 одт	4	од	ADJ	A	Case=Nom|Definite=Ind|Number=Plur	0	dep	_	CGdephead=#4-&gt;0|CGdeprel=@PRED|GTtags=Pl,Nom,Indef|SpaceAfter=No
-.	5	.	PUNCT	CLB	_	3	punct	_	CGdephead=#5-&gt;3|CGdeprel=@CLB|GTtags=CLB[!!
-Сынст	1	сон	PRON	Pron	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	det	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;N|GTtags=Pers,Pl3,Gen
-таркас	2	тарка	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	2	obl	_	CGdephead=#2-&gt;2|CGdeprel=@ADVL&gt;|GTtags=SP,Ill,Indef
-касыльть	3	касы	ADJ	A	Case=Nom|Definite=Ind|Number=Plur|Number[subj]=Plur|Person[subj]=3|Tense=Past	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@PRED|GTtags=Der/MWN,N,Pl,Nom,Indef,Clt/Cop,Prt2,ScPl3
-одт	4	од	ADJ	A	Case=Nom|Definite=Ind|Number=Plur	0	dep	_	CGdephead=#4-&gt;0|CGdeprel=@PRED|GTtags=Pl,Nom,Indef|SpaceAfter=No
-.	5	.	PUNCT	CLB	_	3	punct	_	CGdephead=#5-&gt;3|CGdeprel=@CLB|GTtags=CLB
+.	5	.	PUNCT	CLB	_	3
 
 # sent_id = 2.222.3
-# text = Болотанть эйс пракшныльть пек ламо сяворезь чувтот.
+# text = Болотанть эйс пракшныльть пек ламо сяворезь чувтот.]	punct	_	CGdephead=#5-&gt;3
+
+# sent_id = 2.222.3
+# text = Болотанть эйс пракшныльть пек ламо сяворезь чувтот.]|CGdeprel=@CLB|GTtags=CLB
 Болотанть	1	болота	NOUN	N	Case=Gen|Definite=Def|Number=Sing	3	obl	_	CGdephead=#1-&gt;1|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
 эйс	2	эйс	ADP	Adp	Case=Ill	1	case	_	CGdephead=#2-&gt;3|CGdeprel=@ADVL&gt;|GTtags=Ill
 пракшныльть	3	пракшномс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#3-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
@@ -8526,7 +8452,8 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 .	15	.	PUNCT	CLB	_	8	punct	_	CGdephead=#15-&gt;8|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 2.233.3
-# text = [!!
+# text = Робочей-катальщикесь вачкилизе лазнозь уголиянть тележкас ды ускилизе тов, косо сонзэ вачкилизь алашасо усксема тележкас.
+# comment = ,!!
 Робочей-катальщикесь	1	Робочей-катальщикесь	_	_	_	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=?
 вачкилизе	2	вачкамс	VERB	V	Aspect=Hab|Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|Valency=2	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prt2,ScSg3,OcSg3
 лазнозь	3	лазномс	VERB	V	Case=Nom|Definite=Ind|Derivation=Ozj|Number=Sing|Valency=2|VerbForm=Conv	2	dep	_	CGdephead=#3-&gt;2|CGdeprel=@&lt;SUBJ|GTtags=TV,Der/Ozj,Ger,Der/MWN,N,Sg,Nom,Indef
@@ -8542,26 +8469,13 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 алашасо	13	алаша	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	12	obl	_	CGdephead=#13-&gt;12|CGdeprel=@&lt;ADVL|GTtags=SP,Ine,Indef
 усксема	14	усксемс	VERB	V	Case=Nom|Definite=Ind|NomAct|Number=Sing|Valency=1|VerbForm=VNoun	15	dep	_	CGdephead=#14-&gt;15|CGdeprel=@&gt;N|GTtags=IV,Der/OmA,NomAct,N,Sg,Nom,Indef
 тележкас	15	тележка	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	12	obl	_	CGdephead=#15-&gt;12|CGdeprel=@&lt;ADVL|GTtags=SP,Ill,Indef|SpaceAfter=No
-.	16	.	PUNCT	CLB	_	2	punct	_	CGdephead=#16-&gt;2|CGdeprel=@CLB|GTtags=CLB[!!
-Робочей-катальщикесь	1	Робочей-катальщикесь	_	_	_	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=?
-вачкилизе	2	вачкамс	VERB	V	Aspect=Hab|Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|Valency=2	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prt2,ScSg3,OcSg3
-лазнозь	3	лазномс	VERB	V	Case=Nom|Definite=Ind|Derivation=Ozj|Number=Sing|Valency=2|VerbForm=Conv	2	dep	_	CGdephead=#3-&gt;2|CGdeprel=@&lt;SUBJ|GTtags=TV,Der/Ozj,Ger,Der/MWN,N,Sg,Nom,Indef
-уголиянть	4	уголия	NOUN	N	Case=Gen|Definite=Def|Number=Sing	5	nmod	_	CGdephead=#4-&gt;5|CGdeprel=@&gt;N|GTtags=Sg,Gen,Def
-тележкас	5	тележка	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	2	obl	_	CGdephead=#5-&gt;2|CGdeprel=@&lt;ADVL|GTtags=SP,Ill,Indef
-ды	6	ды	CCONJ	CC	_	2	dep	_	CGdephead=#6-&gt;2|CGdeprel=@CVP|GTtags=
-ускилизе	7	ускомс	VERB	V	Aspect=Hab|Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|Valency=2	2	dep	_	CGdephead=#7-&gt;2|CGdeprel=@FMV|GTtags=TV,Ind,Prt2,ScSg3,OcSg3
-тов	8	тов	ADV	Adv	Case=Lat	7	advmod	_	CGdephead=#8-&gt;7|CGdeprel=@&lt;ADVL|GTtags=Lat|SpaceAfter=No
-,	9	,	PUNCT	CLB	_	8	punct	_	CGdephead=#9-&gt;8|CGdeprel=@CLB|GTtags=CLB
-косо	10	косо	ADV	Adv	Case=Ine|PronType=Int	12	advmod	_	CGdephead=#10-&gt;12|CGdeprel=@ADVL&gt;|GTtags=Interr,Ine
-сонзэ	11	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	11	dep	_	CGdephead=#11-&gt;11|CGdeprel=@-FOBJ&gt;|GTtags=Pers,Sg3,Gen
-вачкилизь	12	вачкамс	VERB	V	Aspect=Hab|Mood=Ind|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Past|Valency=2	7	dep	_	CGdephead=#12-&gt;7|CGdeprel=@FS-OBJ|GTtags=TV,Ind,Prt2,ScPl3,OcSg3
-алашасо	13	алаша	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	12	obl	_	CGdephead=#13-&gt;12|CGdeprel=@&lt;ADVL|GTtags=SP,Ine,Indef
-усксема	14	усксемс	VERB	V	Case=Nom|Definite=Ind|NomAct|Number=Sing|Valency=1|VerbForm=VNoun	15	dep	_	CGdephead=#14-&gt;15|CGdeprel=@&gt;N|GTtags=IV,Der/OmA,NomAct,N,Sg,Nom,Indef
-тележкас	15	тележка	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	12	obl	_	CGdephead=#15-&gt;12|CGdeprel=@&lt;ADVL|GTtags=SP,Ill,Indef|SpaceAfter=No
-.	16	.	PUNCT	CLB	_	2	punct	_	CGdephead=#16-&gt;2|CGdeprel=@CLB|GTtags=CLB
+.	16	.	PUNCT	CLB	_	2
 
 # sent_id = 2.233.4
-# text = Те ульнесь пек стака робота сех а паро условиясо.
+# text = Те ульнесь пек стака робота сех а паро условиясо.]	punct	_	CGdephead=#16-&gt;2
+
+# sent_id = 2.233.4
+# text = Те ульнесь пек стака робота сех а паро условиясо.]|CGdeprel=@CLB|GTtags=CLB
 Те	1	те	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	2	nsubj	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Dem,Sg,Nom,Indef
 ульнесь	2	ульнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScSg3
 пек	3	пек	ADV	Adv	AdvType=Deg	4	dep	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;A|GTtags=Deg
@@ -11087,7 +11001,8 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 .	7	.	PUNCT	CLB	_	4	punct	_	CGdephead=#7-&gt;4|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 2.302.3
-# text = [!!
+# text = Вейке килограммозо аштиль 1200 целковойть, секс што эзть машто сонзэ дёшовасто получамо.
+# comment = ,!!
 Вейке	1	вейке	NUM	Num	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	2	nummod	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;N|GTtags=Card,Sg,Nom,Indef
 килограммозо	2	килограмм	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	CGdephead=#2-&gt;3|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,PxSg3
 аштиль	3	аштемс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=2	0	root	_	CGdephead=#3-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prt2,ScSg3
@@ -11101,39 +11016,23 @@ I	1	I	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 сонзэ	11	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	det	_	CGdephead=#11-&gt;12|CGdeprel=@&gt;N|GTtags=Pers,Sg3,Gen
 дёшовасто	12	дёшова	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	10	obl	_	CGdephead=#12-&gt;10|CGdeprel=@&lt;ADVL|GTtags=SP,Ela,Indef
 получамо	13	получамс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	13	dep	_	CGdephead=#13-&gt;13|CGdeprel=@FS-&lt;FMAINV|GTtags=IV,Inf,Loc|SpaceAfter=No
-.	14	.	PUNCT	CLB	_	3	punct	_	CGdephead=#14-&gt;3|CGdeprel=@CLB|GTtags=CLB[!!
-Вейке	1	вейке	NUM	Num	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	2	nummod	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;N|GTtags=Card,Sg,Nom,Indef
-килограммозо	2	килограмм	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	CGdephead=#2-&gt;3|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,PxSg3
-аштиль	3	аштемс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=2	0	root	_	CGdephead=#3-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prt2,ScSg3
-1200	4	1200	NUM	Num	_	0	dep	_	CGdephead=#4-&gt;0|CGdeprel=@X|GTtags=
-целковойть	5	целковой	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	3	obj	_	CGdephead=#5-&gt;3|CGdeprel=@&lt;OBJ|GTtags=Pl,Nom,Indef|SpaceAfter=No
-,	6	,	PUNCT	CLB	_	9	punct	_	CGdephead=#6-&gt;9|CGdeprel=@CLB|GTtags=CLB
-секс	7	секс	ADV	Adv	_	10	advmod	_	CGdephead=#7-&gt;10|CGdeprel=@ADVL&gt;|GTtags=
-што	8	што	SCONJ	CS	_	8	dep	_	CGdephead=#8-&gt;8|CGdeprel=@SC|GTtags=
-эзть	9	а	AUX	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Polarity=Neg|Tense=Past|VerbType=Aux	3	dep	_	CGdephead=#9-&gt;3|CGdeprel=@FS-&lt;ADVL|GTtags=Aux,Neg,Ind,Prt1,ScPl3
-машто	10	маштомс	VERB	V	Connegative=Yes|Valency=1	9	dep	_	CGdephead=#10-&gt;9|CGdeprel=@FS-IMV|GTtags=IV,ConNeg
-сонзэ	11	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	det	_	CGdephead=#11-&gt;12|CGdeprel=@&gt;N|GTtags=Pers,Sg3,Gen
-дёшовасто	12	дёшова	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	10	obl	_	CGdephead=#12-&gt;10|CGdeprel=@&lt;ADVL|GTtags=SP,Ela,Indef
-получамо	13	получамс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	13	dep	_	CGdephead=#13-&gt;13|CGdeprel=@FS-&lt;FMAINV|GTtags=IV,Inf,Loc|SpaceAfter=No
-.	14	.	PUNCT	CLB	_	3	punct	_	CGdephead=#14-&gt;3|CGdeprel=@CLB|GTtags=CLB
+.	14	.	PUNCT	CLB	_	3
 
 # sent_id = 2.302.4
-# text = [!!
+# text = Сонзэ эйстэ тейнильть ансяк мазылгавтнемат.
+# comment = ,!!
 Сонзэ	1	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	obl	_	CGdephead=#1-&gt;1|CGdeprel=@&gt;P|GTtags=Pers,Sg3,Gen
 эйстэ	2	эйстэ	ADP	Adp	Case=Ela	1	case	_	CGdephead=#2-&gt;3|CGdeprel=@ADVL&gt;|GTtags=Ela
 тейнильть	3	тейнемс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#3-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
 ансяк	4	ансяк	ADV	Adv	_	3	advmod	_	CGdephead=#4-&gt;3|CGdeprel=@&lt;ADVL|GTtags=Exclusive
 мазылгавтнемат	5	мазылгавтнемс	VERB	V	Case=Nom|Definite=Ind|NomAct|Number=Plur|Valency=2|VerbForm=VNoun	3	dep	_	CGdephead=#5-&gt;3|CGdeprel=@&lt;SUBJ|GTtags=TV,Der/OmA,NomAct,N,Pl,Nom,Indef|SpaceAfter=No
-.	6	.	PUNCT	CLB	_	3	punct	_	CGdephead=#6-&gt;3|CGdeprel=@CLB|GTtags=CLB[!!
-Сонзэ	1	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	obl	_	CGdephead=#1-&gt;1|CGdeprel=@&gt;P|GTtags=Pers,Sg3,Gen
-эйстэ	2	эйстэ	ADP	Adp	Case=Ela	1	case	_	CGdephead=#2-&gt;3|CGdeprel=@ADVL&gt;|GTtags=Ela
-тейнильть	3	тейнемс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#3-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
-ансяк	4	ансяк	ADV	Adv	_	3	advmod	_	CGdephead=#4-&gt;3|CGdeprel=@&lt;ADVL|GTtags=Exclusive
-мазылгавтнемат	5	мазылгавтнемс	VERB	V	Case=Nom|Definite=Ind|NomAct|Number=Plur|Valency=2|VerbForm=VNoun	3	dep	_	CGdephead=#5-&gt;3|CGdeprel=@&lt;SUBJ|GTtags=TV,Der/OmA,NomAct,N,Pl,Nom,Indef|SpaceAfter=No
-.	6	.	PUNCT	CLB	_	3	punct	_	CGdephead=#6-&gt;3|CGdeprel=@CLB|GTtags=CLB
+.	6	.	PUNCT	CLB	_	3
 
 # sent_id = 2.303.1
-# text = Ансяк аволь умок электричестванть лездамонзо кувалт кармасть получамо алюминий дёшова способсо.
+# text = Ансяк аволь умок электричестванть лездамонзо кувалт кармасть получамо алюминий дёшова способсо.]	punct	_	CGdephead=#6-&gt;3
+
+# sent_id = 2.303.1
+# text = Ансяк аволь умок электричестванть лездамонзо кувалт кармасть получамо алюминий дёшова способсо.]|CGdeprel=@CLB|GTtags=CLB
 Ансяк	1	ансяк	ADV	Adv	_	1	advmod	_	CGdephead=#1-&gt;1|CGdeprel=@ADVL&gt;|GTtags=Exclusive
 аволь	2	а	AUX	V	Mood=Sub|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|VerbType=Aux	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@FAUX|GTtags=Aux,Neg,Conj,ScSg3
 умок	3	умок	ADV	Adv	AdvType=Tim	2	advmod	_	CGdephead=#3-&gt;2|CGdeprel=@&lt;ADVL|GTtags=Sem/Time
@@ -15190,14 +15089,15 @@ II	1	II	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 .	1	.	PUNCT	CLB	_	1	punct	_	CGdephead=#1-&gt;1|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 3.93.2
-# text = [none
-]	1	]	PUNCT	PUNCT	PunctSide=Fin	2	punct	_	CGdephead=#1-&gt;2|CGdeprel=@CLB|GTtags=PUNCT,RIGHT[none
+# text = ТЕКСТ АРАСЬ
+ТЕКСТ	1	текст	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Indef
+АРАСЬ	2	арась	AUX	V	Case=Loc|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Pres|VerbType=Aux	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@FAUX|GTtags=Aux,Neg,Loc,Prs,ScSg3
 
 # sent_id = 3.94.1
 # text = 33 рис. Ведень турбинанть установказо Днепрогэссэ.
-33	2	33	NUM	Num	_	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=
-рис	3	рис	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@HNOUN|GTtags=Sg,Nom,Indef|SpaceAfter=No
-.	4	.	PUNCT	CLB	_	3	punct	_	CGdephead=#4-&gt;3|CGdeprel=@CLB|GTtags=CLB
+33	3	33	NUM	Num	_	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=
+рис	4	рис	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	CGdephead=#4-&gt;2|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
+.	5	.	PUNCT	CLB	_	2	punct	_	CGdephead=#5-&gt;2|CGdeprel=@CLB|GTtags=CLB
 турбинанть	1	турбина	NOUN	N	Case=Gen|Definite=Def|Number=Sing	2	nmod	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;N|GTtags=Sg,Gen,Def
 установказо	2	установка	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@SUBJ|GTtags=Sg,Nom,PxSg3
 Днепрогэссэ	3	Днепрогэссэ	_	_	_	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=?|SpaceAfter=No
@@ -17059,62 +16959,42 @@ III	1	III	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|C
 .	11	.	PUNCT	CLB	_	2	punct	_	CGdephead=#11-&gt;2|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 4.32.3
-# text = [none
-]	1	]	PUNCT	PUNCT	PunctSide=Fin	2	punct	_	CGdephead=#1-&gt;2|CGdeprel=@CLB|GTtags=PUNCT,RIGHT[none
+# text = ТЕКСТ АРАСЬ
+ТЕКСТ	1	текст	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Indef
+АРАСЬ	2	арась	AUX	V	Case=Loc|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Pres|VerbType=Aux	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@FAUX|GTtags=Aux,Neg,Loc,Prs,ScSg3
 
 # sent_id = 4.32.4
-# text = [!][!
-Но	2	но	CCONJ	CC	_	2	cc	_	CGdephead=#2-&gt;2|CGdeprel=@CC|GTtags=
-аволь	3	аволь	PART	Pcle	NegationType=Contrastive|Polarity=Neg	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=Neg,Emphatic
-седе	4	се	PRON	Pron	Case=Abl|Definite=Ind|Number=Sing|PronType=Dem	7	obl	_	CGdephead=#4-&gt;7|CGdeprel=@ADVL&gt;|GTtags=Dem,Sg,Abl,Indef
-простой	5	простай	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	11	amod	_	CGdephead=#5-&gt;11|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-ли	6	ли	PART	Pcle	_	6	dep	_	CGdephead=#6-&gt;6|CGdeprel=@&lt;QST|GTtags=
-улевель	7	улевемс	VERB	V	Mood=Sub|Number[subj]=Sing|Person[subj]=3|Valency=1	0	root	_	CGdephead=#7-&gt;0|CGdeprel=@FMV|GTtags=IV,Conj,ScSg3|SpaceAfter=No
-,	8	,	PUNCT	CLB	_	9	punct	_	CGdephead=#8-&gt;9|CGdeprel=@CLB|GTtags=CLB
-бути	9	бути	SCONJ	CS	_	9	dep	_	CGdephead=#9-&gt;9|CGdeprel=@SC|GTtags=
-кавонст	10	кавонст	NUM	Num	Coll|NumType=Card	0	dep	_	CGdephead=#10-&gt;0|CGdeprel=@X|GTtags=Card,Coll
-раматнень	11	рама	NOUN	N	Case=Gen|Definite=Def|Number=Plur	12	nmod	_	CGdephead=#11-&gt;12|CGdeprel=@&gt;N|GTtags=Pl,Gen,Def
-таркас	12	тарка	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	7	obl	_	CGdephead=#12-&gt;7|CGdeprel=@&lt;ADVL|GTtags=SP,Ill,Indef
-аравтомс	13	аравтомс	VERB	V	Valency=1|VerbForm=Inf	7	dep	_	CGdephead=#13-&gt;7|CGdeprel=@FS-IMV|GTtags=IV,Inf
-вейке	14	вейке	NUM	Num	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	15	nummod	_	CGdephead=#14-&gt;15|CGdeprel=@&gt;N|GTtags=Card,Sg,Nom,Indef
-рама	15	рама	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	17	nmod	_	CGdephead=#15-&gt;17|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-эчке	16	эчке	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	17	amod	_	CGdephead=#16-&gt;17|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-сулика	17	сулика	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	10	obl	_	CGdephead=#17-&gt;18|CGdeprel=@&gt;P|GTtags=Sg,Nom,Indef
-марто	18	марто	ADP	Po	AdpType=Post	17	case	_	CGdephead=#18-&gt;10|CGdeprel=@ADVL|GTtags=Po|SpaceAfter=No
-?	19	?	PUNCT	CLB	_	7	punct	_	CGdephead=#19-&gt;7|CGdeprel=@CLB|GTtags=CLB
+# text = Но аволь седе простой ли улевель, бути кавонст раматнень таркас аравтомс вейке рама эчке сулика марто?—может появамо истямо вопрос.
+# comment = !,!
+Но	3	но	CCONJ	CC	_	2	dep	_	CGdephead=#3-&gt;2|CGdeprel=@CVP|GTtags=
+аволь	4	а	AUX	V	Mood=Sub|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|VerbType=Aux	2	dep	_	CGdephead=#4-&gt;2|CGdeprel=@FAUX|GTtags=Aux,Neg,Conj,ScSg3
+седе	5	се	PRON	Pron	Case=Abl|Definite=Ind|Number=Sing|PronType=Dem	4	obl	_	CGdephead=#5-&gt;4|CGdeprel=@&lt;ADVL|GTtags=Dem,Sg,Abl,Indef
+простой	6	простай	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	12	amod	_	CGdephead=#6-&gt;12|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
+ли	7	ли	PART	Pcle	_	7	dep	_	CGdephead=#7-&gt;7|CGdeprel=@&lt;QST|GTtags=
+улевель	8	улевемс	VERB	V	Mood=Sub|Number[subj]=Sing|Person[subj]=3|Valency=1	2	dep	_	CGdephead=#8-&gt;2|CGdeprel=@FMV|GTtags=IV,Conj,ScSg3|SpaceAfter=No
+,	9	,	PUNCT	CLB	_	10	punct	_	CGdephead=#9-&gt;10|CGdeprel=@CLB|GTtags=CLB
+бути	10	бути	SCONJ	CS	_	10	dep	_	CGdephead=#10-&gt;10|CGdeprel=@SC|GTtags=
+кавонст	11	кавонст	NUM	Num	Coll|NumType=Card	0	dep	_	CGdephead=#11-&gt;0|CGdeprel=@X|GTtags=Card,Coll
+раматнень	12	рама	NOUN	N	Case=Gen|Definite=Def|Number=Plur	13	nmod	_	CGdephead=#12-&gt;13|CGdeprel=@&gt;N|GTtags=Pl,Gen,Def
+таркас	13	тарка	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	8	obl	_	CGdephead=#13-&gt;8|CGdeprel=@&lt;ADVL|GTtags=SP,Ill,Indef
+аравтомс	14	аравтомс	VERB	V	Valency=1|VerbForm=Inf	4	dep	_	CGdephead=#14-&gt;4|CGdeprel=@FS-IMV|GTtags=IV,Inf
+вейке	15	вейке	NUM	Num	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	16	nummod	_	CGdephead=#15-&gt;16|CGdeprel=@&gt;N|GTtags=Card,Sg,Nom,Indef
+рама	16	рама	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	18	nmod	_	CGdephead=#16-&gt;18|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
+эчке	17	эчке	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	18	amod	_	CGdephead=#17-&gt;18|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
+сулика	18	сулика	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	11	obl	_	CGdephead=#18-&gt;19|CGdeprel=@&gt;P|GTtags=Sg,Nom,Indef
+марто	19	марто	ADP	Po	AdpType=Post	18	case	_	CGdephead=#19-&gt;11|CGdeprel=@ADVL|GTtags=Po|SpaceAfter=No
+?	20	?	PUNCT	CLB	_	2	punct	_	CGdephead=#20-&gt;2|CGdeprel=@CLB|GTtags=CLB
 может	1	может	ADV	Adv	Parenthetic	0	advmod	_	CGdephead=#1-&gt;0|CGdeprel=@ADVL|GTtags=Parenthetic
 появамо	2	появамо	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	4	nmod	_	CGdephead=#2-&gt;4|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
 истямо	3	истямо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	4	amod	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Dem,Der/MWN,Sg,Nom,Indef
 вопрос	4	вопрос	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#4-&gt;0|CGdeprel=@PRED|GTtags=Sg,Nom,Indef|SpaceAfter=No
-.	5	.	PUNCT	CLB	_	1	punct	_	CGdephead=#5-&gt;1|CGdeprel=@CLB|GTtags=CLB
-	1	[	PUNCT	PUNCT	PunctSide=Ini	2	punct	_	CGdephead=#1-&gt;2|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
-!	2	!	PUNCT	CLB	_	2[!]	punct	_	CGdephead=#2-&gt;2[!]|CGdeprel=@CLB|GTtags=CLB
-Но	1	но	CCONJ	CC	_	1	cc	_	CGdephead=#1-&gt;1|CGdeprel=@CC|GTtags=
-аволь	2	аволь	PART	Pcle	NegationType=Contrastive|Polarity=Neg	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=Neg,Emphatic
-седе	3	се	PRON	Pron	Case=Abl|Definite=Ind|Number=Sing|PronType=Dem	6	obl	_	CGdephead=#3-&gt;6|CGdeprel=@ADVL&gt;|GTtags=Dem,Sg,Abl,Indef
-простой	4	простай	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	10	amod	_	CGdephead=#4-&gt;10|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-ли	5	ли	PART	Pcle	_	5	dep	_	CGdephead=#5-&gt;5|CGdeprel=@&lt;QST|GTtags=
-улевель	6	улевемс	VERB	V	Mood=Sub|Number[subj]=Sing|Person[subj]=3|Valency=1	0	root	_	CGdephead=#6-&gt;0|CGdeprel=@FMV|GTtags=IV,Conj,ScSg3|SpaceAfter=No
-,	7	,	PUNCT	CLB	_	8	punct	_	CGdephead=#7-&gt;8|CGdeprel=@CLB|GTtags=CLB
-бути	8	бути	SCONJ	CS	_	8	dep	_	CGdephead=#8-&gt;8|CGdeprel=@SC|GTtags=
-кавонст	9	кавонст	NUM	Num	Coll|NumType=Card	0	dep	_	CGdephead=#9-&gt;0|CGdeprel=@X|GTtags=Card,Coll
-раматнень	10	рама	NOUN	N	Case=Gen|Definite=Def|Number=Plur	11	nmod	_	CGdephead=#10-&gt;11|CGdeprel=@&gt;N|GTtags=Pl,Gen,Def
-таркас	11	тарка	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	6	obl	_	CGdephead=#11-&gt;6|CGdeprel=@&lt;ADVL|GTtags=SP,Ill,Indef
-аравтомс	12	аравтомс	VERB	V	Valency=1|VerbForm=Inf	6	dep	_	CGdephead=#12-&gt;6|CGdeprel=@FS-IMV|GTtags=IV,Inf
-вейке	13	вейке	NUM	Num	Case=Nom|Definite=Ind|NumType=Card|Number=Sing	14	nummod	_	CGdephead=#13-&gt;14|CGdeprel=@&gt;N|GTtags=Card,Sg,Nom,Indef
-рама	14	рама	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	16	nmod	_	CGdephead=#14-&gt;16|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-эчке	15	эчке	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	16	amod	_	CGdephead=#15-&gt;16|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-сулика	16	сулика	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	9	obl	_	CGdephead=#16-&gt;17|CGdeprel=@&gt;P|GTtags=Sg,Nom,Indef
-марто	17	марто	ADP	Po	AdpType=Post	16	case	_	CGdephead=#17-&gt;9|CGdeprel=@ADVL|GTtags=Po|SpaceAfter=No
-?	18	?	PUNCT	CLB	_	6	punct	_	CGdephead=#18-&gt;6|CGdeprel=@CLB|GTtags=CLB
-может	1	может	ADV	Adv	Parenthetic	0	advmod	_	CGdephead=#1-&gt;0|CGdeprel=@ADVL|GTtags=Parenthetic
-появамо	2	появамо	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	4	nmod	_	CGdephead=#2-&gt;4|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-истямо	3	истямо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	4	amod	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Dem,Der/MWN,Sg,Nom,Indef
-вопрос	4	вопрос	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#4-&gt;0|CGdeprel=@PRED|GTtags=Sg,Nom,Indef|SpaceAfter=No
-.	5	.	PUNCT	CLB	_	1	punct	_	CGdephead=#5-&gt;1|CGdeprel=@CLB|GTtags=CLB
+.	5	.	PUNCT	CLB	_	1
 
 # sent_id = 4.33.1
-# text = Лиси, што кудосонть истя лембесь а ванстави.
+# text = Лиси, што кудосонть истя лембесь а ванстави.]	punct	_	CGdephead=#5-&gt;1
+
+# sent_id = 4.33.1
+# text = Лиси, што кудосонть истя лембесь а ванстави.]|CGdeprel=@CLB|GTtags=CLB
 Лиси	1	лисемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	CGdephead=#1-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg3|SpaceAfter=No
 ,	2	,	PUNCT	CLB	_	3	punct	_	CGdephead=#2-&gt;3|CGdeprel=@CLB|GTtags=CLB
 што	3	што	SCONJ	CS	_	3	dep	_	CGdephead=#3-&gt;3|CGdeprel=@SC|GTtags=
@@ -17239,7 +17119,8 @@ III	1	III	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|C
 .	19	.	PUNCT	CLB	_	4	punct	_	CGdephead=#19-&gt;4|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 4.35.6
-# text = [opt
+# text = Тень пингстэ эряви саемс истямо посуда, штобу те стаканонть стенканзо эчкест улест вейкеть васенце стаканонть стенканзо марто.
+# comment = opt
 Тень	1	те	PRON	Pron	Case=Gen|Definite=Ind|Number=Sing|PronType=Dem	2	dep	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;P|GTtags=Dem,Sg,Gen,Indef
 пингстэ	2	пингстэ	ADP	Po	AdpType=Post|Case=Temp|Ela	4	dep	_	CGdephead=#2-&gt;4|CGdeprel=@ADVL&gt;|GTtags=Po,Ela,Temp
 эряви	3	эрявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@FAUX|GTtags=IV,Ind,Prs,ScSg3
@@ -17258,29 +17139,13 @@ III	1	III	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|C
 стаканонть	16	стакан	NOUN	N	Case=Gen|Definite=Def|Number=Sing	17	nmod	_	CGdephead=#16-&gt;17|CGdeprel=@&gt;N|GTtags=Sg,Gen,Def
 стенканзо	17	стенка	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	13	obl	_	CGdephead=#17-&gt;18|CGdeprel=@&gt;P|GTtags=Pl,Nom,PxSg3
 марто	18	марто	ADP	Po	AdpType=Post	17	case	_	CGdephead=#18-&gt;13|CGdeprel=@&lt;ADVL|GTtags=Po|SpaceAfter=No
-.	19	.	PUNCT	CLB	_	3	punct	_	CGdephead=#19-&gt;3|CGdeprel=@CLB|GTtags=CLB[opt
-Тень	1	те	PRON	Pron	Case=Gen|Definite=Ind|Number=Sing|PronType=Dem	2	dep	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;P|GTtags=Dem,Sg,Gen,Indef
-пингстэ	2	пингстэ	ADP	Po	AdpType=Post|Case=Temp|Ela	4	dep	_	CGdephead=#2-&gt;4|CGdeprel=@ADVL&gt;|GTtags=Po,Ela,Temp
-эряви	3	эрявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@FAUX|GTtags=IV,Ind,Prs,ScSg3
-саемс	4	саемс	VERB	V	Valency=1|VerbForm=Inf	3	dep	_	CGdephead=#4-&gt;3|CGdeprel=@IMV|GTtags=IV,Inf
-истямо	5	истямо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	6	amod	_	CGdephead=#5-&gt;6|CGdeprel=@&gt;N|GTtags=Dem,Der/MWN,Sg,Nom,Indef
-посуда	6	посуда	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	nsubj	_	CGdephead=#6-&gt;3|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-,	7	,	PUNCT	CLB	_	8	punct	_	CGdephead=#7-&gt;8|CGdeprel=@CLB|GTtags=CLB
-штобу	8	штобу	SCONJ	CS	_	8	dep	_	CGdephead=#8-&gt;8|CGdeprel=@SC|GTtags=
-те	9	те	DET	Det	Case=Nom|Number=Sing|PronType=Dem	10	det	_	CGdephead=#9-&gt;10|CGdeprel=@&gt;N|GTtags=Dem,Sg,Nom
-стаканонть	10	стакан	NOUN	N	Case=Gen|Definite=Def|Number=Sing	11	nmod	_	CGdephead=#10-&gt;11|CGdeprel=@&gt;N|GTtags=Sg,Gen,Def
-стенканзо	11	стенка	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	13	nsubj	_	CGdephead=#11-&gt;13|CGdeprel=@SUBJ&gt;|GTtags=Pl,Nom,PxSg3
-эчкест	12	эчке	ADJ	A	Case=Gen|Number=Plur|Number[psor]=Plur|Person[psor]=3	12	dep	_	CGdephead=#12-&gt;12|CGdeprel=@ADVL-habitive&gt;|GTtags=Der/MWN,N,Pl,Gen,PxPl3
-улест	13	улемс	VERB	V	Mood=Opt|Number[subj]=Plur|Person[subj]=3|Valency=1	4	dep	_	CGdephead=#13-&gt;4|CGdeprel=@FS-&lt;ADVL|GTtags=IV,Opt,ScPl3
-вейкеть	14	вейке	NUM	Num	Case=Nom|Definite=Ind|NumType=Card|Number=Plur	16	nummod	_	CGdephead=#14-&gt;16|CGdeprel=@&gt;N|GTtags=Card,Pl,Nom,Indef
-васенце	15	васенце	ADJ	A	Case=Nom|Definite=Ind|NumType=Ord|Number=Sing	16	amod	_	CGdephead=#15-&gt;16|CGdeprel=@&gt;N|GTtags=Ord,Sg,Nom,Indef
-стаканонть	16	стакан	NOUN	N	Case=Gen|Definite=Def|Number=Sing	17	nmod	_	CGdephead=#16-&gt;17|CGdeprel=@&gt;N|GTtags=Sg,Gen,Def
-стенканзо	17	стенка	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	13	obl	_	CGdephead=#17-&gt;18|CGdeprel=@&gt;P|GTtags=Pl,Nom,PxSg3
-марто	18	марто	ADP	Po	AdpType=Post	17	case	_	CGdephead=#18-&gt;13|CGdeprel=@&lt;ADVL|GTtags=Po|SpaceAfter=No
-.	19	.	PUNCT	CLB	_	3	punct	_	CGdephead=#19-&gt;3|CGdeprel=@CLB|GTtags=CLB
+.	19	.	PUNCT	CLB	_	3
 
 # sent_id = 4.35.7
-# text = А вейкетьчись тесэ ансяк сеньсэ, што пси ведь марто омбоце стаканось эрьва ёндо пирязь воздухонь слойсэ, кона ашти стаканонть стенканзо ды банканть стенканзо ютксо.
+# text = А вейкетьчись тесэ ансяк сеньсэ, што пси ведь марто омбоце стаканось эрьва ёндо пирязь воздухонь слойсэ, кона ашти стаканонть стенканзо ды банканть стенканзо ютксо.]	punct	_	CGdephead=#19-&gt;3
+
+# sent_id = 4.35.7
+# text = А вейкетьчись тесэ ансяк сеньсэ, што пси ведь марто омбоце стаканось эрьва ёндо пирязь воздухонь слойсэ, кона ашти стаканонть стенканзо ды банканть стенканзо ютксо.]|CGdeprel=@CLB|GTtags=CLB
 А	1	а	CCONJ	CC	_	1	cc	_	CGdephead=#1-&gt;1|CGdeprel=@CC|GTtags=
 вейкетьчись	2	вейкетьчи	NOUN	N	Case=Nom|Definite=Def|Number=Sing	20	dep	_	CGdephead=#2-&gt;20|CGdeprel=@SUBJ|GTtags=Sg,Nom,Def
 тесэ	3	тесэ	ADV	Adv	Case=Ine	5	advmod	_	CGdephead=#3-&gt;5|CGdeprel=@ADVL|GTtags=Ine
@@ -18056,9 +17921,8 @@ III	1	III	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|C
 .	6	.	PUNCT	CLB	_	2	punct	_	CGdephead=#6-&gt;2|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 4.51.1
-# text = [!]Седе мейле Монгольфье братнэ тейсть специальной шар, конаньсэ должны кепедевеме воздухе ломать.
-	1	[	PUNCT	PUNCT	PunctSide=Ini	2	punct	_	CGdephead=#1-&gt;2|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
-!	2	!	PUNCT	CLB	_	2	punct	_	CGdephead=#2-&gt;2|CGdeprel=@CLB|GTtags=CLB
+# text = Седе мейле Монгольфье братнэ тейсть специальной шар, конаньсэ должны кепедевеме воздухе ломать.
+# comment = !,
 Седе	1	се	PRON	Pron	Case=Abl|Definite=Ind|Number=Sing|PronType=Dem	1	dep	_	CGdephead=#1-&gt;1|CGdeprel=@CMP-STD|GTtags=Dem,Sg,Abl,Indef
 мейле	2	мейле	ADV	Adv	AdvType=Tim	5	advmod	_	CGdephead=#2-&gt;5|CGdeprel=@ADVL&gt;|GTtags=Sem/Time
 Монгольфье	3	Монгольфье	_	_	_	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=?
@@ -18072,10 +17936,13 @@ III	1	III	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|C
 кепедевеме	11	кепедевемс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	5	dep	_	CGdephead=#11-&gt;5|CGdeprel=@IMV|GTtags=IV,Inf,Loc
 воздухе	12	воздухе	_	_	_	0	dep	_	CGdephead=#12-&gt;0|CGdeprel=@X|GTtags=?
 ломать	13	ломань	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	11	obj	_	CGdephead=#13-&gt;11|CGdeprel=@&lt;OBJ|GTtags=Pl,Nom,Indef,Err/Orth|SpaceAfter=No
-.	14	.	PUNCT	CLB	_	5	punct	_	CGdephead=#14-&gt;5|CGdeprel=@CLB|GTtags=CLB
+.	14	.	PUNCT	CLB	_	5
 
 # sent_id = 4.51.2
-# text = Те ульнесь покш шар, кона пештезель эждезь воздухсо (40 рис.).
+# text = Те ульнесь покш шар, кона пештезель эждезь воздухсо (40 рис.).]	punct	_	CGdephead=#14-&gt;5
+
+# sent_id = 4.51.2
+# text = Те ульнесь покш шар, кона пештезель эждезь воздухсо (40 рис.).]|CGdeprel=@CLB|GTtags=CLB
 Те	1	те	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	2	nsubj	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Dem,Sg,Nom,Indef
 ульнесь	2	ульнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScSg3
 покш	3	покш	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	4	amod	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
@@ -18237,24 +18104,19 @@ III	1	III	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|C
 .	11	.	PUNCT	CLB	_	4	punct	_	CGdephead=#11-&gt;4|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 4.56.2
-# text = [!!
+# text = Но неть ливтнематне сеетьстэ прядовильть беряньстэ.
+# comment = ,!!
 Но	1	но	CCONJ	CC	_	1	cc	_	CGdephead=#1-&gt;1|CGdeprel=@CC|GTtags=
 неть	2	неть	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|PronType=Dem	3	det	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=Dem,Pl,Nom,Indef
 ливтнематне	3	ливтнема	NOUN	N	Case=Nom|Definite=Def|Number=Plur	5	nsubj	_	CGdephead=#3-&gt;5|CGdeprel=@SUBJ&gt;|GTtags=Pl,Nom,Def
 сеетьстэ	4	сеедьстэ	ADV	Adv	Err/Sub|NumType=Mult	5	advmod	_	CGdephead=#4-&gt;5|CGdeprel=@ADVL&gt;|GTtags=Err/Sub,Iter
 прядовильть	5	прядовомс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#5-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
 беряньстэ	6	берянь	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	5	obl	_	CGdephead=#6-&gt;5|CGdeprel=@&lt;ADVL|GTtags=SP,Ela,Indef|SpaceAfter=No
-.	7	.	PUNCT	CLB	_	5	punct	_	CGdephead=#7-&gt;5|CGdeprel=@CLB|GTtags=CLB[!!
-Но	1	но	CCONJ	CC	_	1	cc	_	CGdephead=#1-&gt;1|CGdeprel=@CC|GTtags=
-неть	2	неть	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|PronType=Dem	3	det	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=Dem,Pl,Nom,Indef
-ливтнематне	3	ливтнема	NOUN	N	Case=Nom|Definite=Def|Number=Plur	5	nsubj	_	CGdephead=#3-&gt;5|CGdeprel=@SUBJ&gt;|GTtags=Pl,Nom,Def
-сеетьстэ	4	сеедьстэ	ADV	Adv	Err/Sub|NumType=Mult	5	advmod	_	CGdephead=#4-&gt;5|CGdeprel=@ADVL&gt;|GTtags=Err/Sub,Iter
-прядовильть	5	прядовомс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#5-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
-беряньстэ	6	берянь	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	5	obl	_	CGdephead=#6-&gt;5|CGdeprel=@&lt;ADVL|GTtags=SP,Ela,Indef|SpaceAfter=No
-.	7	.	PUNCT	CLB	_	5	punct	_	CGdephead=#7-&gt;5|CGdeprel=@CLB|GTtags=CLB
+.	7	.	PUNCT	CLB	_	5
 
 # sent_id = 4.56.3
-# text = [!!][!!
+# text = Воздухонть эждеманзо кис неть шартнэсэ ладсильть жаровнят, конатнесэ теильть тол.
+# comment = !!,!!
 Воздухонть	1	воздух	NOUN	N	Case=Gen|Definite=Def|Number=Sing	2	nmod	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;N|GTtags=Sg,Gen,Def
 эждеманзо	2	эждема	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	nsubj	_	CGdephead=#2-&gt;0|CGdeprel=@SUBJ&gt;|GTtags=Pl,Nom,PxSg3
 кис	3	кие	PRON	Pron	Case=Ill|PronType=Int	6	obl	_	CGdephead=#3-&gt;6|CGdeprel=@ADVL&gt;|GTtags=Interr,Ill
@@ -18266,24 +18128,11 @@ III	1	III	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|C
 конатнесэ	9	кона	PRON	Pron	Case=Ine|Definite=Def|Number=Plur|PronType=Rel	10	obl	_	CGdephead=#9-&gt;10|CGdeprel=@ADVL&gt;|GTtags=Rel,Pl,Ine,Def
 теильть	10	теемс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	7	dep	_	CGdephead=#10-&gt;7|CGdeprel=@FS-N&lt;|GTtags=IV,Ind,Prt2,ScPl3
 тол	11	тол	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	10	obj	_	CGdephead=#11-&gt;10|CGdeprel=@&lt;OBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-.	12	.	PUNCT	CLB	_	2	punct	_	CGdephead=#12-&gt;2|CGdeprel=@CLB|GTtags=CLB
-	1	[	PUNCT	PUNCT	PunctSide=Ini	2	punct	_	CGdephead=#1-&gt;2|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
-!	2	!	PUNCT	CLB	_	2[!!]	punct	_	CGdephead=#2-&gt;2[!!]|CGdeprel=@CLB|GTtags=CLB
-Воздухонть	1	воздух	NOUN	N	Case=Gen|Definite=Def|Number=Sing	2	nmod	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;N|GTtags=Sg,Gen,Def
-эждеманзо	2	эждема	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	nsubj	_	CGdephead=#2-&gt;0|CGdeprel=@SUBJ&gt;|GTtags=Pl,Nom,PxSg3
-кис	3	кие	PRON	Pron	Case=Ill|PronType=Int	6	obl	_	CGdephead=#3-&gt;6|CGdeprel=@ADVL&gt;|GTtags=Interr,Ill
-неть	4	неть	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|PronType=Dem	5	det	_	CGdephead=#4-&gt;5|CGdeprel=@&gt;N|GTtags=Dem,Pl,Nom,Indef
-шартнэсэ	5	шар	NOUN	N	Case=Ine|Definite=Def|Number=Plur	6	obl	_	CGdephead=#5-&gt;6|CGdeprel=@ADVL&gt;|GTtags=Pl,Ine,Def
-ладсильть	6	ладсемс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#6-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
-жаровнят	7	жаровня	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	6	nsubj	_	CGdephead=#7-&gt;6|CGdeprel=@&lt;SUBJ|GTtags=Pl,Nom,Indef|SpaceAfter=No
-,	8	,	PUNCT	CLB	_	9	punct	_	CGdephead=#8-&gt;9|CGdeprel=@CLB|GTtags=CLB
-конатнесэ	9	кона	PRON	Pron	Case=Ine|Definite=Def|Number=Plur|PronType=Rel	10	obl	_	CGdephead=#9-&gt;10|CGdeprel=@ADVL&gt;|GTtags=Rel,Pl,Ine,Def
-теильть	10	теемс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	7	dep	_	CGdephead=#10-&gt;7|CGdeprel=@FS-N&lt;|GTtags=IV,Ind,Prt2,ScPl3
-тол	11	тол	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	10	obj	_	CGdephead=#11-&gt;10|CGdeprel=@&lt;OBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-.	12	.	PUNCT	CLB	_	2	punct	_	CGdephead=#12-&gt;2|CGdeprel=@CLB|GTtags=CLB
+.	12	.	PUNCT	CLB	_	2
 
 # sent_id = 4.56.4
-# text = [!!
+# text = Тень видьга воздушной шартнэсэ сеетьстэ эрсильть пожарт.
+# comment = ,!!
 Тень	1	те	PRON	Pron	Case=Gen|Definite=Ind|Number=Sing|PronType=Dem	1	dep	_	CGdephead=#1-&gt;1|CGdeprel=@&gt;P|GTtags=Dem,Sg,Gen,Indef
 видьга	2	видь	NOUN	N	Case=Prl|Definite=Ind|NounType=Relat|Number=Plur,Sing	6	obl	_	CGdephead=#2-&gt;6|CGdeprel=@ADVL&gt;|GTtags=Relator,SP,Prl,Indef
 воздушной	3	воздушной	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	4	amod	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
@@ -18291,18 +18140,11 @@ III	1	III	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|C
 сеетьстэ	5	сеедьстэ	ADV	Adv	Err/Sub|NumType=Mult	6	advmod	_	CGdephead=#5-&gt;6|CGdeprel=@ADVL&gt;|GTtags=Err/Sub,Iter
 эрсильть	6	эрсемс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#6-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
 пожарт	7	пожар	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	6	nsubj	_	CGdephead=#7-&gt;6|CGdeprel=@&lt;SUBJ|GTtags=Pl,Nom,Indef|SpaceAfter=No
-.	8	.	PUNCT	CLB	_	6	punct	_	CGdephead=#8-&gt;6|CGdeprel=@CLB|GTtags=CLB[!!
-Тень	1	те	PRON	Pron	Case=Gen|Definite=Ind|Number=Sing|PronType=Dem	1	dep	_	CGdephead=#1-&gt;1|CGdeprel=@&gt;P|GTtags=Dem,Sg,Gen,Indef
-видьга	2	видь	NOUN	N	Case=Prl|Definite=Ind|NounType=Relat|Number=Plur,Sing	6	obl	_	CGdephead=#2-&gt;6|CGdeprel=@ADVL&gt;|GTtags=Relator,SP,Prl,Indef
-воздушной	3	воздушной	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	4	amod	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-шартнэсэ	4	шар	NOUN	N	Case=Ine|Definite=Def|Number=Plur	6	obl	_	CGdephead=#4-&gt;6|CGdeprel=@ADVL&gt;|GTtags=Pl,Ine,Def
-сеетьстэ	5	сеедьстэ	ADV	Adv	Err/Sub|NumType=Mult	6	advmod	_	CGdephead=#5-&gt;6|CGdeprel=@ADVL&gt;|GTtags=Err/Sub,Iter
-эрсильть	6	эрсемс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#6-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
-пожарт	7	пожар	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	6	nsubj	_	CGdephead=#7-&gt;6|CGdeprel=@&lt;SUBJ|GTtags=Pl,Nom,Indef|SpaceAfter=No
-.	8	.	PUNCT	CLB	_	6	punct	_	CGdephead=#8-&gt;6|CGdeprel=@CLB|GTtags=CLB
+.	8	.	PUNCT	CLB	_	6
 
 # sent_id = 4.57.1
-# text = [!!
+# text = Но куроксто теезель шар, конань пештилизь уш аволь эждезь воздухсо, но газсо, кона воздухонть коряс седе шождыне.
+# comment = ,!!
 Но	1	но	CCONJ	CC	_	1	cc	_	CGdephead=#1-&gt;1|CGdeprel=@CC|GTtags=
 куроксто	2	куро	NOUN	N	Case=Abl|Indef|Definite=Ind|SP|Number=Plur,Sing|Tra	3	nmod	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=SP,Tra,Indef,Der/MWN,N,SP,Abl,Indef
 теезель	3	теемс	VERB	V	Case=Nom|Derivation=Ozj|Clt/Cop Prt2 ScSg3|Definite=Ind|Number=Sing|Valency=1|VerbForm=Conv	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@PRED|GTtags=IV,Der/Ozj,Ger,Der/MWN,N,Sg,Nom,Indef,Clt/Cop Prt2 ScSg3
@@ -18323,31 +18165,13 @@ III	1	III	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|C
 коряс	18	коряс	ADP	Po	AdpType=Post|Case=Ill	17	case	_	CGdephead=#18-&gt;7|CGdeprel=@&lt;ADVL|GTtags=Po,Ill
 седе	19	се	PRON	Pron	Case=Abl|Definite=Ind|Number=Sing|PronType=Dem	19	det	_	CGdephead=#19-&gt;19|CGdeprel=@&gt;N|GTtags=Dem,Sg,Abl,Indef
 шождыне	20	шождыне	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	20	obj	_	CGdephead=#20-&gt;20|CGdeprel=@&lt;OBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-.	21	.	PUNCT	CLB	_	3	punct	_	CGdephead=#21-&gt;3|CGdeprel=@CLB|GTtags=CLB[!!
-Но	1	но	CCONJ	CC	_	1	cc	_	CGdephead=#1-&gt;1|CGdeprel=@CC|GTtags=
-куроксто	2	куро	NOUN	N	Case=Abl|Indef|Definite=Ind|SP|Number=Plur,Sing|Tra	3	nmod	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=SP,Tra,Indef,Der/MWN,N,SP,Abl,Indef
-теезель	3	теемс	VERB	V	Case=Nom|Derivation=Ozj|Clt/Cop Prt2 ScSg3|Definite=Ind|Number=Sing|Valency=1|VerbForm=Conv	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@PRED|GTtags=IV,Der/Ozj,Ger,Der/MWN,N,Sg,Nom,Indef,Clt/Cop Prt2 ScSg3
-шар	4	шар	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	nsubj	_	CGdephead=#4-&gt;0|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-,	5	,	PUNCT	CLB	_	6	punct	_	CGdephead=#5-&gt;6|CGdeprel=@CLB|GTtags=CLB
-конань	6	кона	PRON	Pron	Case=Gen|Number=Plur,Sing|PronType=Rel	6	dep	_	CGdephead=#6-&gt;6|CGdeprel=@-FOBJ&gt;|GTtags=Rel,SP,Gen
-пештилизь	7	пештемс	VERB	V	Aspect=Hab|Mood=Ind|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Past|Valency=2	4	dep	_	CGdephead=#7-&gt;4|CGdeprel=@FS-N&lt;|GTtags=TV,Ind,Prt2,ScPl3,OcSg3
-уш	8	уш	ADV	Adv	AdvType=Tim	7	advmod	_	CGdephead=#8-&gt;7|CGdeprel=@&lt;ADVL|GTtags=Sem/Time
-аволь	9	аволь	PART	Pcle	NegationType=Contrastive|Polarity=Neg	0	dep	_	CGdephead=#9-&gt;0|CGdeprel=@X|GTtags=Neg,Emphatic
-эждезь	10	эждемс	VERB	V	Case=Nom|Definite=Ind|Derivation=Ozj|Number=Sing|Valency=1|VerbForm=Conv	11	dep	_	CGdephead=#10-&gt;11|CGdeprel=@&gt;N|GTtags=IV,Der/Ozj,Ger,Der/MWN,N,Sg,Nom,Indef
-воздухсо	11	воздух	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	9	obl	_	CGdephead=#11-&gt;9|CGdeprel=@&lt;ADVL|GTtags=SP,Ine,Indef|SpaceAfter=No
-,	12	,	PUNCT	CLB	_	13	punct	_	CGdephead=#12-&gt;13|CGdeprel=@CLB|GTtags=CLB
-но	13	но	CCONJ	CC	_	13	cc	_	CGdephead=#13-&gt;13|CGdeprel=@CC|GTtags=
-газсо	14	газ	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	17	nmod	_	CGdephead=#14-&gt;17|CGdeprel=@&gt;N|GTtags=SP,Ine,Indef|SpaceAfter=No
-,	15	,	PUNCT	CLB	_	16	punct	_	CGdephead=#15-&gt;16|CGdeprel=@CLB|GTtags=CLB
-кона	16	кона	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	14	det	_	CGdephead=#16-&gt;14|CGdeprel=@&gt;N|GTtags=Rel,Sg,Nom,Indef
-воздухонть	17	воздух	NOUN	N	Case=Gen|Definite=Def|Number=Sing	7	obl	_	CGdephead=#17-&gt;18|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
-коряс	18	коряс	ADP	Po	AdpType=Post|Case=Ill	17	case	_	CGdephead=#18-&gt;7|CGdeprel=@&lt;ADVL|GTtags=Po,Ill
-седе	19	се	PRON	Pron	Case=Abl|Definite=Ind|Number=Sing|PronType=Dem	19	det	_	CGdephead=#19-&gt;19|CGdeprel=@&gt;N|GTtags=Dem,Sg,Abl,Indef
-шождыне	20	шождыне	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	20	obj	_	CGdephead=#20-&gt;20|CGdeprel=@&lt;OBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-.	21	.	PUNCT	CLB	_	3	punct	_	CGdephead=#21-&gt;3|CGdeprel=@CLB|GTtags=CLB
+.	21	.	PUNCT	CLB	_	3
 
 # sent_id = 4.57.2
-# text = Истят воздушной шартнэнь нолдыть тевс минек шкастонтькак.
+# text = Истят воздушной шартнэнь нолдыть тевс минек шкастонтькак.]	punct	_	CGdephead=#21-&gt;3
+
+# sent_id = 4.57.2
+# text = Истят воздушной шартнэнь нолдыть тевс минек шкастонтькак.]|CGdeprel=@CLB|GTtags=CLB
 Истят	1	истямо	ADJ	A	Case=Nom|Definite=Ind|Number=Plur|PronType=Dem	3	amod	_	CGdephead=#1-&gt;3|CGdeprel=@&gt;N|GTtags=Dem,Pl,Nom,Indef
 воздушной	2	воздушной	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	3	amod	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
 шартнэнь	3	шар	NOUN	N	Case=Gen|Definite=Def|Number=Plur	3	nmod:gobj	_	CGdephead=#3-&gt;3|CGdeprel=@-FOBJ&gt;|GTtags=Pl,Gen,Def
@@ -21131,7 +20955,8 @@ IV	1	IV	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 .	9	.	PUNCT	CLB	_	5	punct	_	CGdephead=#9-&gt;5|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 5.15.3
-# text = [!!
+# text = Пургиненть пингстэ ёндолось лоштявиль те стерженентень ды туиль сонзэ эзга мода потс.
+# comment = ,!!
 Пургиненть	1	пургине	NOUN	N	Case=Gen|Definite=Def|Number=Sing	2	dep	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
 пингстэ	2	пингстэ	ADP	Po	AdpType=Post|Case=Temp|Ela	4	dep	_	CGdephead=#2-&gt;4|CGdeprel=@ADVL&gt;|GTtags=Po,Ela,Temp
 ёндолось	3	ёндол	NOUN	N	Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	CGdephead=#3-&gt;4|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Def
@@ -21144,23 +20969,13 @@ IV	1	IV	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 эзга	10	эзга	ADP	Adp	Case=Prl	9	case	_	CGdephead=#10-&gt;8|CGdeprel=@&lt;ADVL|GTtags=Prl
 мода	11	мода	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	12	nmod	_	CGdephead=#11-&gt;12|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
 потс	12	потмо	NOUN	N	Case=Ill|NounType=Relat|Number=Plur,Sing	8	obl	_	CGdephead=#12-&gt;8|CGdeprel=@&lt;ADVL|GTtags=Relator,SP,Ill|SpaceAfter=No
-.	13	.	PUNCT	CLB	_	4	punct	_	CGdephead=#13-&gt;4|CGdeprel=@CLB|GTtags=CLB[!!
-Пургиненть	1	пургине	NOUN	N	Case=Gen|Definite=Def|Number=Sing	2	dep	_	CGdephead=#1-&gt;2|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
-пингстэ	2	пингстэ	ADP	Po	AdpType=Post|Case=Temp|Ela	4	dep	_	CGdephead=#2-&gt;4|CGdeprel=@ADVL&gt;|GTtags=Po,Ela,Temp
-ёндолось	3	ёндол	NOUN	N	Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	CGdephead=#3-&gt;4|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Def
-лоштявиль	4	лоштявомс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#4-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScSg3
-те	5	те	DET	Det	Case=Nom|Number=Sing|PronType=Dem	6	det	_	CGdephead=#5-&gt;6|CGdeprel=@&gt;N|GTtags=Dem,Sg,Nom
-стерженентень	6	стержень	NOUN	N	Case=Dat|Definite=Def|Number=Sing	4	obl	_	CGdephead=#6-&gt;4|CGdeprel=@&lt;ADVL|GTtags=Sg,Dat,Def
-ды	7	ды	CCONJ	CC	_	4	dep	_	CGdephead=#7-&gt;4|CGdeprel=@CVP|GTtags=
-туиль	8	туемс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	4	dep	_	CGdephead=#8-&gt;4|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScSg3
-сонзэ	9	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	obl	_	CGdephead=#9-&gt;9|CGdeprel=@&gt;P|GTtags=Pers,Sg3,Gen
-эзга	10	эзга	ADP	Adp	Case=Prl	9	case	_	CGdephead=#10-&gt;8|CGdeprel=@&lt;ADVL|GTtags=Prl
-мода	11	мода	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	12	nmod	_	CGdephead=#11-&gt;12|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-потс	12	потмо	NOUN	N	Case=Ill|NounType=Relat|Number=Plur,Sing	8	obl	_	CGdephead=#12-&gt;8|CGdeprel=@&lt;ADVL|GTtags=Relator,SP,Ill|SpaceAfter=No
-.	13	.	PUNCT	CLB	_	4	punct	_	CGdephead=#13-&gt;4|CGdeprel=@CLB|GTtags=CLB
+.	13	.	PUNCT	CLB	_	4
 
 # sent_id = 5.15.4
-# text = Те ульнесь васенце громоотвод.
+# text = Те ульнесь васенце громоотвод.]	punct	_	CGdephead=#13-&gt;4
+
+# sent_id = 5.15.4
+# text = Те ульнесь васенце громоотвод.]|CGdeprel=@CLB|GTtags=CLB
 Те	1	те	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	2	nsubj	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Dem,Sg,Nom,Indef
 ульнесь	2	ульнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScSg3
 васенце	3	васенце	ADJ	A	Case=Nom|Definite=Ind|NumType=Ord|Number=Sing	4	amod	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Ord,Sg,Nom,Indef
@@ -21428,7 +21243,8 @@ IV	1	IV	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 .	17	.	PUNCT	CLB	_	5	punct	_	CGdephead=#17-&gt;5|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 5.21.4
-# text = [!!
+# text = Ды кеветееце таркастонть, конань занилизе царской Россиясь электричествань производстванть коряс, Советской Союзось лиссь ней омбоце таркас весе мирэнть лангсо.
+# comment = ,!!
 Ды	1	ды	CCONJ	CC	_	1	cc	_	CGdephead=#1-&gt;1|CGdeprel=@CC|GTtags=
 кеветееце	2	кеветее	_	_	Ex/Num|Case=Nom|Der/cje|Ex/A|Definite=Ind|NumType=Ord|Number=Sing	3	dep	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=Ex/Num,Ex/A,Der/cje,Ord,Sg,Nom,Indef
 таркастонть	3	тарка	NOUN	N	Case=Ela|Definite=Def|Number=Sing	0	obl	_	CGdephead=#3-&gt;0|CGdeprel=@ADVL|GTtags=Sg,Ela,Def|SpaceAfter=No
@@ -21450,32 +21266,13 @@ IV	1	IV	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 весе	19	весе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing	15	nsubj	_	CGdephead=#19-&gt;15|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef
 мирэнть	20	мир	NOUN	N	Case=Gen|Definite=Def|Number=Sing	20	nmod	_	CGdephead=#20-&gt;20|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
 лангсо	21	ланго	NOUN	N	Case=Ine|Definite=Ind|NounType=Relat|Number=Plur,Sing	15	obl	_	CGdephead=#21-&gt;15|CGdeprel=@&lt;ADVL|GTtags=Relator,SP,Ine,Indef|SpaceAfter=No
-.	22	.	PUNCT	CLB	_	3	punct	_	CGdephead=#22-&gt;3|CGdeprel=@CLB|GTtags=CLB[!!
-Ды	1	ды	CCONJ	CC	_	1	cc	_	CGdephead=#1-&gt;1|CGdeprel=@CC|GTtags=
-кеветееце	2	кеветее	_	_	Ex/Num|Case=Nom|Der/cje|Ex/A|Definite=Ind|NumType=Ord|Number=Sing	3	dep	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=Ex/Num,Ex/A,Der/cje,Ord,Sg,Nom,Indef
-таркастонть	3	тарка	NOUN	N	Case=Ela|Definite=Def|Number=Sing	0	obl	_	CGdephead=#3-&gt;0|CGdeprel=@ADVL|GTtags=Sg,Ela,Def|SpaceAfter=No
-,	4	,	PUNCT	CLB	_	5	punct	_	CGdephead=#4-&gt;5|CGdeprel=@CLB|GTtags=CLB
-конань	5	кона	PRON	Pron	Case=Gen|Number=Plur,Sing|PronType=Rel	5	dep	_	CGdephead=#5-&gt;5|CGdeprel=@-FOBJ&gt;|GTtags=Rel,SP,Gen
-занилизе	6	занямс	VERB	V	Aspect=Hab|Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|Valency=2	3	dep	_	CGdephead=#6-&gt;3|CGdeprel=@FS-N&lt;|GTtags=TV,Ind,Prt2,ScSg3,OcSg3
-царской	7	царской	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	8	amod	_	CGdephead=#7-&gt;8|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-Россиясь	8	Россия	PROPN	N	Case=Nom|Definite=Def|Number=Sing	6	nsubj	_	CGdephead=#8-&gt;6|CGdeprel=@&lt;SUBJ|GTtags=Prop,Sg,Nom,Def
-электричествань	9	электричества	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	10	nmod	_	CGdephead=#9-&gt;10|CGdeprel=@&gt;N|GTtags=SP,Gen,Indef
-производстванть	10	производства	NOUN	N	Case=Gen|Definite=Def|Number=Sing	6	obl	_	CGdephead=#10-&gt;11|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
-коряс	11	коряс	ADP	Po	AdpType=Post|Case=Ill	10	case	_	CGdephead=#11-&gt;6|CGdeprel=@&lt;ADVL|GTtags=Po,Ill|SpaceAfter=No
-,	12	,	PUNCT	CLB	_	11	punct	_	CGdephead=#12-&gt;11|CGdeprel=@CLB|GTtags=CLB
-Советской	13	советской	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	14	amod	_	CGdephead=#13-&gt;14|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-Союзось	14	союз	NOUN	N	Case=Nom|Definite=Def|Number=Sing	15	nsubj	_	CGdephead=#14-&gt;15|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Def
-лиссь	15	лисемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#15-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt1,ScSg3
-ней	16	ней	ADV	Adv	AdvType=Tim	15	advmod	_	CGdephead=#16-&gt;15|CGdeprel=@&lt;ADVL|GTtags=Sem/Time
-омбоце	17	омбоце	ADJ	A	Case=Nom|Definite=Ind|NumType=Ord|Number=Sing	18	amod	_	CGdephead=#17-&gt;18|CGdeprel=@&gt;N|GTtags=Ord,Sg,Nom,Indef
-таркас	18	тарка	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	15	obl	_	CGdephead=#18-&gt;15|CGdeprel=@&lt;ADVL|GTtags=SP,Ill,Indef
-весе	19	весе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing	15	nsubj	_	CGdephead=#19-&gt;15|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef
-мирэнть	20	мир	NOUN	N	Case=Gen|Definite=Def|Number=Sing	20	nmod	_	CGdephead=#20-&gt;20|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
-лангсо	21	ланго	NOUN	N	Case=Ine|Definite=Ind|NounType=Relat|Number=Plur,Sing	15	obl	_	CGdephead=#21-&gt;15|CGdeprel=@&lt;ADVL|GTtags=Relator,SP,Ine,Indef|SpaceAfter=No
-.	22	.	PUNCT	CLB	_	3	punct	_	CGdephead=#22-&gt;3|CGdeprel=@CLB|GTtags=CLB
+.	22	.	PUNCT	CLB	_	3
 
 # sent_id = 6.1.1
-# text = V. РАСТЕНИЯТНЕНЬ ЭРЯМОСТ.
+# text = V. РАСТЕНИЯТНЕНЬ ЭРЯМОСТ.]	punct	_	CGdephead=#22-&gt;3
+
+# sent_id = 6.1.1
+# text = V. РАСТЕНИЯТНЕНЬ ЭРЯМОСТ.]|CGdeprel=@CLB|GTtags=CLB
 V	1	V	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@PRED|GTtags=Sg,Nom,Indef|SpaceAfter=No
 .	2	.	PUNCT	CLB	_	1	punct	_	CGdephead=#2-&gt;1|CGdeprel=@CLB|GTtags=CLB
 ЭРЯМОСТ	1	эрямо	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Plur|Person[psor]=3	1	obj	_	CGdephead=#1-&gt;1|CGdeprel=@OBJ|GTtags=Pl,Gen,PxPl3|SpaceAfter=No
@@ -23794,7 +23591,8 @@ V	1	V	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 .	11	.	PUNCT	CLB	_	7	punct	_	CGdephead=#11-&gt;7|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 6.72.3
-# text = [opt
+# text = Веденть лангс нуртятано оень слой, штобу ведесь илязо коське.
+# comment = opt
 Веденть	1	Ведь	PROPN	N	Case=Gen|Definite=Def|Number=Sing	1	nmod	_	CGdephead=#1-&gt;1|CGdeprel=@&gt;P|GTtags=Prop,Sg,Gen,Def
 лангс	2	ланго	NOUN	N	Case=Ill|Definite=Ind|NounType=Relat|Number=Plur,Sing	3	obl	_	CGdephead=#2-&gt;3|CGdeprel=@ADVL&gt;|GTtags=Relator,SP,Ill,Indef
 нуртятано	3	нуртямс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	CGdephead=#3-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prs,ScPl1
@@ -23805,21 +23603,13 @@ V	1	V	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdep
 ведесь	8	ведь	NOUN	N	Case=Nom|Definite=Def|Number=Sing	9	nsubj	_	CGdephead=#8-&gt;9|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Def
 илязо	9	а	AUX	V	Mood=Opt|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|VerbType=Aux	3	dep	_	CGdephead=#9-&gt;3|CGdeprel=@FS-&lt;ADVL|GTtags=Aux,Neg,Opt,ScSg3
 коське	10	коськемс	VERB	V	Connegative=Yes|Valency=1	9	dep	_	CGdephead=#10-&gt;9|CGdeprel=@FS-IMV|GTtags=IV,ConNeg|SpaceAfter=No
-.	11	.	PUNCT	CLB	_	3	punct	_	CGdephead=#11-&gt;3|CGdeprel=@CLB|GTtags=CLB[opt
-Веденть	1	Ведь	PROPN	N	Case=Gen|Definite=Def|Number=Sing	1	nmod	_	CGdephead=#1-&gt;1|CGdeprel=@&gt;P|GTtags=Prop,Sg,Gen,Def
-лангс	2	ланго	NOUN	N	Case=Ill|Definite=Ind|NounType=Relat|Number=Plur,Sing	3	obl	_	CGdephead=#2-&gt;3|CGdeprel=@ADVL&gt;|GTtags=Relator,SP,Ill,Indef
-нуртятано	3	нуртямс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	CGdephead=#3-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prs,ScPl1
-оень	4	ой	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	nmod	_	CGdephead=#4-&gt;5|CGdeprel=@&gt;N|GTtags=SP,Gen,Indef
-слой	5	слой	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	obj	_	CGdephead=#5-&gt;3|CGdeprel=@&lt;OBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-,	6	,	PUNCT	CLB	_	7	punct	_	CGdephead=#6-&gt;7|CGdeprel=@CLB|GTtags=CLB
-штобу	7	штобу	SCONJ	CS	_	7	dep	_	CGdephead=#7-&gt;7|CGdeprel=@SC|GTtags=
-ведесь	8	ведь	NOUN	N	Case=Nom|Definite=Def|Number=Sing	9	nsubj	_	CGdephead=#8-&gt;9|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Def
-илязо	9	а	AUX	V	Mood=Opt|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|VerbType=Aux	3	dep	_	CGdephead=#9-&gt;3|CGdeprel=@FS-&lt;ADVL|GTtags=Aux,Neg,Opt,ScSg3
-коське	10	коськемс	VERB	V	Connegative=Yes|Valency=1	9	dep	_	CGdephead=#10-&gt;9|CGdeprel=@FS-IMV|GTtags=IV,ConNeg|SpaceAfter=No
-.	11	.	PUNCT	CLB	_	3	punct	_	CGdephead=#11-&gt;3|CGdeprel=@CLB|GTtags=CLB
+.	11	.	PUNCT	CLB	_	3
 
 # sent_id = 6.72.4
-# text = Тешкстасынек ведень уровененть пробиркасонть.
+# text = Тешкстасынек ведень уровененть пробиркасонть.]	punct	_	CGdephead=#11-&gt;3
+
+# sent_id = 6.72.4
+# text = Тешкстасынек ведень уровененть пробиркасонть.]|CGdeprel=@CLB|GTtags=CLB
 Тешкстасынек	1	тешкстамс	VERB	V	Mood=Ind|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	CGdephead=#1-&gt;0|CGdeprel=@FMV|GTtags=TV,Ind,Prs,ScPl1,OcPl3
 ведень	2	ведь	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	3	nmod	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=SP,Gen,Indef
 уровененть	3	уровень	NOUN	N	Case=Gen|Definite=Def|Number=Sing	4	nmod	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Sg,Gen,Def
@@ -25300,7 +25090,8 @@ VI	1	VI	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 .	8	.	PUNCT	CLB	_	2	punct	_	CGdephead=#8-&gt;2|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 7.12.1
-# text = [opt
+# text = Роботанть экшсэ эряви аштемс озадо истя, штобу валдось аволь пра видьстэ сельмс ды штобу улезэ парсте валдомтозь книгась, конань тынь ловнотадо или тетрадкась, конань эйс тынь сёрмадтадо.
+# comment = opt
 Роботанть	1	робота	NOUN	N	Case=Gen|Definite=Def|Number=Sing	1	nmod	_	CGdephead=#1-&gt;1|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
 экшсэ	2	экш	NOUN	N	Case=Ine|Definite=Ind|NounType=Relat|Number=Plur,Sing	4	obl	_	CGdephead=#2-&gt;4|CGdeprel=@ADVL&gt;|GTtags=Relator,SP,Ine,Indef
 эряви	3	эрявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@FAUX|GTtags=IV,Ind,Prs,ScSg3
@@ -25331,41 +25122,13 @@ VI	1	VI	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 эйс	28	эй	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	30	obl	_	CGdephead=#28-&gt;30|CGdeprel=@ADVL&gt;|GTtags=SP,Ill,Indef
 тынь	29	тон	PRON	Pron	Case=Nom|Number=Plur|Person=2|PronType=Prs	30	nsubj	_	CGdephead=#29-&gt;30|CGdeprel=@SUBJ&gt;|GTtags=Pers,Pl2,Nom
 сёрмадтадо	30	сёрмадомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=2|Tense=Pres|Valency=1	25	dep	_	CGdephead=#30-&gt;25|CGdeprel=@FS-N&lt;|GTtags=IV,Ind,Prs,ScPl2|SpaceAfter=No
-.	31	.	PUNCT	CLB	_	3	punct	_	CGdephead=#31-&gt;3|CGdeprel=@CLB|GTtags=CLB[opt
-Роботанть	1	робота	NOUN	N	Case=Gen|Definite=Def|Number=Sing	1	nmod	_	CGdephead=#1-&gt;1|CGdeprel=@&gt;P|GTtags=Sg,Gen,Def
-экшсэ	2	экш	NOUN	N	Case=Ine|Definite=Ind|NounType=Relat|Number=Plur,Sing	4	obl	_	CGdephead=#2-&gt;4|CGdeprel=@ADVL&gt;|GTtags=Relator,SP,Ine,Indef
-эряви	3	эрявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@FAUX|GTtags=IV,Ind,Prs,ScSg3
-аштемс	4	аштемс	VERB	V	Valency=1|VerbForm=Inf	3	dep	_	CGdephead=#4-&gt;3|CGdeprel=@IMV|GTtags=IV,Inf
-озадо	5	озадо	ADV	Adv	Pred2	4	advmod	_	CGdephead=#5-&gt;4|CGdeprel=@&lt;ADVL|GTtags=Pred2
-истя	6	истя	ADV	Adv	AdvType=Man	4	advmod	_	CGdephead=#6-&gt;4|CGdeprel=@&lt;ADVL|GTtags=Manner|SpaceAfter=No
-,	7	,	PUNCT	CLB	_	8	punct	_	CGdephead=#7-&gt;8|CGdeprel=@CLB|GTtags=CLB
-штобу	8	штобу	SCONJ	CS	_	8	dep	_	CGdephead=#8-&gt;8|CGdeprel=@SC|GTtags=
-валдось	9	валдо	NOUN	N	Case=Nom|Definite=Def|Number=Sing	10	nsubj	_	CGdephead=#9-&gt;10|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Def
-аволь	10	а	AUX	V	Mood=Sub|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|VerbType=Aux	4	dep	_	CGdephead=#10-&gt;4|CGdeprel=@FS-&lt;ADVL|GTtags=Aux,Neg,Conj,ScSg3
-пра	11	прамс	VERB	V	Connegative=Yes|Valency=1	10	dep	_	CGdephead=#11-&gt;10|CGdeprel=@FS-IMV|GTtags=IV,ConNeg
-видьстэ	12	видь	NOUN	N	Case=Ela|Definite=Ind|NounType=Relat|Number=Plur,Sing	11	obl	_	CGdephead=#12-&gt;11|CGdeprel=@&lt;ADVL|GTtags=Relator,SP,Ela,Indef
-сельмс	13	сельме	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	11	obl	_	CGdephead=#13-&gt;11|CGdeprel=@&lt;ADVL|GTtags=SP,Ill,Indef
-ды	14	ды	CCONJ	CC	_	15	dep	_	CGdephead=#14-&gt;15|CGdeprel=@CVP|GTtags=
-штобу	15	штобу	SCONJ	CS	_	15	dep	_	CGdephead=#15-&gt;15|CGdeprel=@SC|GTtags=
-улезэ	16	улемс	VERB	V	Mood=Opt|Number[subj]=Sing|Person[subj]=3|Valency=1	11	dep	_	CGdephead=#16-&gt;11|CGdeprel=@FS-&lt;ADVL|GTtags=IV,Opt,ScSg3
-парсте	17	парсте	ADV	Adv	_	16	advmod	_	CGdephead=#17-&gt;16|CGdeprel=@&lt;ADVL|GTtags=
-валдомтозь	18	валдомтомс	VERB	V	Case=Nom|Definite=Ind|Derivation=Ozj|Number=Sing|Valency=1|VerbForm=Conv	19	dep	_	CGdephead=#18-&gt;19|CGdeprel=@&gt;N|GTtags=IV,Der/Ozj,Ger,Der/MWN,N,Sg,Nom,Indef
-книгась	19	книга	NOUN	N	Case=Nom|Definite=Def|Number=Sing	16	nsubj	_	CGdephead=#19-&gt;16|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Def|SpaceAfter=No
-,	20	,	PUNCT	CLB	_	14	punct	_	CGdephead=#20-&gt;14|CGdeprel=@CLB|GTtags=CLB
-конань	21	кона	PRON	Pron	Case=Gen|Number=Plur,Sing|PronType=Rel	25	det	_	CGdephead=#21-&gt;25|CGdeprel=@&gt;N|GTtags=Rel,SP,Gen
-тынь	22	тон	PRON	Pron	Case=Nom|Number=Plur|Person=2|PronType=Prs	23	nsubj	_	CGdephead=#22-&gt;23|CGdeprel=@SUBJ&gt;|GTtags=Pers,Pl2,Nom
-ловнотадо	23	ловномс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=2|Tense=Pres|Valency=1	19	dep	_	CGdephead=#23-&gt;19|CGdeprel=@FS-N&lt;|GTtags=IV,Ind,Prs,ScPl2
-или	24	илямс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	3	dep	_	CGdephead=#24-&gt;3|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg3
-тетрадкась	25	тетрадка	NOUN	N	Case=Nom|Definite=Def|Number=Sing	24	nsubj	_	CGdephead=#25-&gt;24|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Def|SpaceAfter=No
-,	26	,	PUNCT	CLB	_	14	punct	_	CGdephead=#26-&gt;14|CGdeprel=@CLB|GTtags=CLB
-конань	27	кона	PRON	Pron	Case=Gen|Number=Plur,Sing|PronType=Rel	28	det	_	CGdephead=#27-&gt;28|CGdeprel=@&gt;N|GTtags=Rel,SP,Gen
-эйс	28	эй	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	30	obl	_	CGdephead=#28-&gt;30|CGdeprel=@ADVL&gt;|GTtags=SP,Ill,Indef
-тынь	29	тон	PRON	Pron	Case=Nom|Number=Plur|Person=2|PronType=Prs	30	nsubj	_	CGdephead=#29-&gt;30|CGdeprel=@SUBJ&gt;|GTtags=Pers,Pl2,Nom
-сёрмадтадо	30	сёрмадомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=2|Tense=Pres|Valency=1	25	dep	_	CGdephead=#30-&gt;25|CGdeprel=@FS-N&lt;|GTtags=IV,Ind,Prs,ScPl2|SpaceAfter=No
-.	31	.	PUNCT	CLB	_	3	punct	_	CGdephead=#31-&gt;3|CGdeprel=@CLB|GTtags=CLB
+.	31	.	PUNCT	CLB	_	3
 
 # sent_id = 7.12.2
-# text = Бути виев валдось пры видьстэ сельмс, тень эйстэ сельтне колавить.
+# text = Бути виев валдось пры видьстэ сельмс, тень эйстэ сельтне колавить.]	punct	_	CGdephead=#31-&gt;3
+
+# sent_id = 7.12.2
+# text = Бути виев валдось пры видьстэ сельмс, тень эйстэ сельтне колавить.]|CGdeprel=@CLB|GTtags=CLB
 Бути	1	бути	SCONJ	CS	_	1	dep	_	CGdephead=#1-&gt;1|CGdeprel=@SC|GTtags=
 виев	2	виев	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	3	amod	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
 валдось	3	валдо	NOUN	N	Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	CGdephead=#3-&gt;4|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Def
@@ -25618,7 +25381,8 @@ VI	1	VI	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 .	14	.	PUNCT	CLB	_	2	punct	_	CGdephead=#14-&gt;2|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 7.17.2
-# text = [!][!
+# text = Эряви теемс эстеть кудосо роботамонь уголнэ, косо бу улевельть весе тынк тонавтнема принадлежностне ды косо можна улевель бу анокстамс максозь уроктнэнь.
+# comment = !,!
 Эряви	1	эрявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@FAUX|GTtags=IV,Ind,Prs,ScSg3
 теемс	2	теемс	VERB	V	Valency=1|VerbForm=Inf	1	dep	_	CGdephead=#2-&gt;1|CGdeprel=@IMV|GTtags=IV,Inf
 эстеть	3	тонсь	PRON	Pron	Case=Dat|Number=Sing|PronType=Prs|Reflex=Yes|Person=2|Variant=Short	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=Refl,Sg2,Dat,Short
@@ -25641,35 +25405,13 @@ VI	1	VI	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 анокстамс	20	анокстамс	VERB	V	Valency=2|VerbForm=Inf	1	dep	_	CGdephead=#20-&gt;1|CGdeprel=@IMV|GTtags=TV,Inf
 максозь	21	максомс	VERB	V	Case=Nom|Definite=Ind|Derivation=Ozj|Number=Sing|Valency=2|VerbForm=Conv	22	dep	_	CGdephead=#21-&gt;22|CGdeprel=@&gt;N|GTtags=TV,Der/Ozj,Ger,Der/MWN,N,Sg,Nom,Indef
 уроктнэнь	22	урок	NOUN	N	Case=Gen|Definite=Def|Number=Plur	20	dep	_	CGdephead=#22-&gt;20|CGdeprel=@-F&lt;OBJ|GTtags=Pl,Gen,Def|SpaceAfter=No
-.	23	.	PUNCT	CLB	_	1	punct	_	CGdephead=#23-&gt;1|CGdeprel=@CLB|GTtags=CLB
-	1	[	PUNCT	PUNCT	PunctSide=Ini	2	punct	_	CGdephead=#1-&gt;2|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
-!	2	!	PUNCT	CLB	_	2[!]	punct	_	CGdephead=#2-&gt;2[!]|CGdeprel=@CLB|GTtags=CLB
-Эряви	1	эрявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@FAUX|GTtags=IV,Ind,Prs,ScSg3
-теемс	2	теемс	VERB	V	Valency=1|VerbForm=Inf	1	dep	_	CGdephead=#2-&gt;1|CGdeprel=@IMV|GTtags=IV,Inf
-эстеть	3	тонсь	PRON	Pron	Case=Dat|Number=Sing|PronType=Prs|Reflex=Yes|Person=2|Variant=Short	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=Refl,Sg2,Dat,Short
-кудосо	4	кудо	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	2	obl	_	CGdephead=#4-&gt;2|CGdeprel=@&lt;ADVL|GTtags=SP,Ine,Indef
-роботамонь	5	роботамо	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	6	nmod	_	CGdephead=#5-&gt;6|CGdeprel=@&gt;N|GTtags=SP,Gen,Indef
-уголнэ	6	уголнэ	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	1	nsubj	_	CGdephead=#6-&gt;1|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-,	7	,	PUNCT	CLB	_	6	punct	_	CGdephead=#7-&gt;6|CGdeprel=@CLB|GTtags=CLB
-косо	8	косо	ADV	Adv	Case=Ine|PronType=Int	10	advmod	_	CGdephead=#8-&gt;10|CGdeprel=@ADVL&gt;|GTtags=Interr,Ine
-бу	9	бу	PART	Pcle	Mood=Sub|VerbType=Aux	0	dep	_	CGdephead=#9-&gt;0|CGdeprel=@X|GTtags=Aux,Conj
-улевельть	10	улемс	VERB	V	Mood=Sub|Number[subj]=Plur|Person[subj]=3|Valency=1	1	dep	_	CGdephead=#10-&gt;1|CGdeprel=@FMV|GTtags=IV,Conj,ScPl3
-весе	11	весе	ADV	Adv	_	10	advmod	_	CGdephead=#11-&gt;10|CGdeprel=@&lt;ADVL|GTtags=
-тынк	12	тон	PRON	Pron	Case=Gen|Number=Plur|Person=2|PronType=Prs	13	det	_	CGdephead=#12-&gt;13|CGdeprel=@&gt;N|GTtags=Pers,Pl2,Gen
-тонавтнема	13	тонавтнема	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	14	nmod	_	CGdephead=#13-&gt;14|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-принадлежностне	14	принадлежность	NOUN	N	Case=Temp|Definite=Ind|Number=Plur,Sing	10	obl	_	CGdephead=#14-&gt;10|CGdeprel=@&lt;ADVL|GTtags=SP,Temp,Indef
-ды	15	ды	CCONJ	CC	_	10	dep	_	CGdephead=#15-&gt;10|CGdeprel=@CVP|GTtags=
-косо	16	косо	ADV	Adv	Case=Ine|PronType=Int	10	advmod	_	CGdephead=#16-&gt;10|CGdeprel=@&lt;ADVL|GTtags=Interr,Ine
-можна	17	можна	ADV	Adv	_	10	advmod	_	CGdephead=#17-&gt;10|CGdeprel=@&lt;ADVL|GTtags=
-улевель	18	улемс	VERB	V	Mood=Sub|Number[subj]=Sing|Person[subj]=3|Valency=1	1	dep	_	CGdephead=#18-&gt;1|CGdeprel=@FMV|GTtags=IV,Conj,ScSg3
-бу	19	бу	PART	Pcle	Mood=Sub|VerbType=Aux	0	dep	_	CGdephead=#19-&gt;0|CGdeprel=@X|GTtags=Aux,Conj
-анокстамс	20	анокстамс	VERB	V	Valency=2|VerbForm=Inf	1	dep	_	CGdephead=#20-&gt;1|CGdeprel=@IMV|GTtags=TV,Inf
-максозь	21	максомс	VERB	V	Case=Nom|Definite=Ind|Derivation=Ozj|Number=Sing|Valency=2|VerbForm=Conv	22	dep	_	CGdephead=#21-&gt;22|CGdeprel=@&gt;N|GTtags=TV,Der/Ozj,Ger,Der/MWN,N,Sg,Nom,Indef
-уроктнэнь	22	урок	NOUN	N	Case=Gen|Definite=Def|Number=Plur	20	dep	_	CGdephead=#22-&gt;20|CGdeprel=@-F&lt;OBJ|GTtags=Pl,Gen,Def|SpaceAfter=No
-.	23	.	PUNCT	CLB	_	1	punct	_	CGdephead=#23-&gt;1|CGdeprel=@CLB|GTtags=CLB
+.	23	.	PUNCT	CLB	_	1
 
 # sent_id = 7.18.1
-# text = Кудосо эряви аволь ансяк анокстамс уроктнэнь ды теемс виень коряс кудо ютконь роботанть, но эряви обязательна оймсемскак.
+# text = Кудосо эряви аволь ансяк анокстамс уроктнэнь ды теемс виень коряс кудо ютконь роботанть, но эряви обязательна оймсемскак.]	punct	_	CGdephead=#23-&gt;1
+
+# sent_id = 7.18.1
+# text = Кудосо эряви аволь ансяк анокстамс уроктнэнь ды теемс виень коряс кудо ютконь роботанть, но эряви обязательна оймсемскак.]|CGdeprel=@CLB|GTtags=CLB
 Кудосо	1	кудо	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	5	obl	_	CGdephead=#1-&gt;5|CGdeprel=@ADVL&gt;|GTtags=SP,Ine,Indef
 эряви	2	эрявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@FAUX|GTtags=IV,Ind,Prs,ScSg3
 аволь	3	аволь	PART	Pcle	NegationType=Contrastive|Polarity=Neg	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=Neg,Emphatic
@@ -25918,7 +25660,8 @@ VI	1	VI	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 .	10	.	PUNCT	CLB	_	5	punct	_	CGdephead=#10-&gt;5|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 7.23.1
-# text = [opt
+# text = Васняяк мелявтыть сень кувалт, штобу улезэ ванькс.
+# comment = opt
 Васняяк	1	васня	ADV	Adv	AdvType=Tim|Clitic=Add	2	advmod	_	CGdephead=#1-&gt;2|CGdeprel=@ADVL&gt;|GTtags=Sem/Time,Clt/Add
 мелявтыть	2	мелявтомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScPl3
 сень	3	се	PRON	Pron	Case=Gen|Definite=Ind|Number=Sing|PronType=Dem	2	obl	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;P|GTtags=Dem,Sg,Gen,Indef
@@ -25927,19 +25670,13 @@ VI	1	VI	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 штобу	6	штобу	SCONJ	CS	_	6	dep	_	CGdephead=#6-&gt;6|CGdeprel=@SC|GTtags=
 улезэ	7	улемс	VERB	V	Mood=Opt|Number[subj]=Sing|Person[subj]=3|Valency=1	2	dep	_	CGdephead=#7-&gt;2|CGdeprel=@FS-&lt;ADVL|GTtags=IV,Opt,ScSg3
 ванькс	8	ванькс	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	7	obj	_	CGdephead=#8-&gt;7|CGdeprel=@&lt;OBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-.	9	.	PUNCT	CLB	_	2	punct	_	CGdephead=#9-&gt;2|CGdeprel=@CLB|GTtags=CLB[opt
-Васняяк	1	васня	ADV	Adv	AdvType=Tim|Clitic=Add	2	advmod	_	CGdephead=#1-&gt;2|CGdeprel=@ADVL&gt;|GTtags=Sem/Time,Clt/Add
-мелявтыть	2	мелявтомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScPl3
-сень	3	се	PRON	Pron	Case=Gen|Definite=Ind|Number=Sing|PronType=Dem	2	obl	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;P|GTtags=Dem,Sg,Gen,Indef
-кувалт	4	кувалт	ADP	Po	AdpType=Post	3	case	_	CGdephead=#4-&gt;2|CGdeprel=@&lt;ADVL|GTtags=Po|SpaceAfter=No
-,	5	,	PUNCT	CLB	_	6	punct	_	CGdephead=#5-&gt;6|CGdeprel=@CLB|GTtags=CLB
-штобу	6	штобу	SCONJ	CS	_	6	dep	_	CGdephead=#6-&gt;6|CGdeprel=@SC|GTtags=
-улезэ	7	улемс	VERB	V	Mood=Opt|Number[subj]=Sing|Person[subj]=3|Valency=1	2	dep	_	CGdephead=#7-&gt;2|CGdeprel=@FS-&lt;ADVL|GTtags=IV,Opt,ScSg3
-ванькс	8	ванькс	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	7	obj	_	CGdephead=#8-&gt;7|CGdeprel=@&lt;OBJ|GTtags=Sg,Nom,Indef|SpaceAfter=No
-.	9	.	PUNCT	CLB	_	2	punct	_	CGdephead=#9-&gt;2|CGdeprel=@CLB|GTtags=CLB
+.	9	.	PUNCT	CLB	_	2
 
 # sent_id = 7.23.2
-# text = Сех пек бороцить пуленть каршо.
+# text = Сех пек бороцить пуленть каршо.]	punct	_	CGdephead=#9-&gt;2
+
+# sent_id = 7.23.2
+# text = Сех пек бороцить пуленть каршо.]|CGdeprel=@CLB|GTtags=CLB
 Сех	1	сех	PART	Pcle	Superl|Superl	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=Superl,Superl
 пек	2	пек	ADV	Adv	AdvType=Deg	3	advmod	_	CGdephead=#2-&gt;3|CGdeprel=@ADVL&gt;|GTtags=Deg
 бороцить	3	бороцямс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	CGdephead=#3-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScPl3
@@ -26202,22 +25939,20 @@ VI	1	VI	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 .	11	.	PUNCT	CLB	_	3	punct	_	CGdephead=#11-&gt;3|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 7.30.4
-# text = [!!
+# text = Чамильть цела ошт ды велеть.
+# comment = ,!!
 Чамильть	1	чамомс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#1-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
 цела	2	цела	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	3	amod	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
 ошт	3	ош	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	5	nmod	_	CGdephead=#3-&gt;5|CGdeprel=@&gt;N|GTtags=Pl,Nom,Indef
 ды	4	ды	CCONJ	CC	_	3	dep	_	CGdephead=#4-&gt;3|CGdeprel=@CNP|GTtags=
 велеть	5	веле	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	1	nsubj	_	CGdephead=#5-&gt;1|CGdeprel=@&lt;SUBJ|GTtags=Pl,Nom,Indef|SpaceAfter=No
-.	6	.	PUNCT	CLB	_	1	punct	_	CGdephead=#6-&gt;1|CGdeprel=@CLB|GTtags=CLB[!!
-Чамильть	1	чамомс	VERB	V	Aspect=Hab|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|Valency=1	0	root	_	CGdephead=#1-&gt;0|CGdeprel=@FMV|GTtags=IV,Ind,Prt2,ScPl3
-цела	2	цела	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	3	amod	_	CGdephead=#2-&gt;3|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-ошт	3	ош	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	5	nmod	_	CGdephead=#3-&gt;5|CGdeprel=@&gt;N|GTtags=Pl,Nom,Indef
-ды	4	ды	CCONJ	CC	_	3	dep	_	CGdephead=#4-&gt;3|CGdeprel=@CNP|GTtags=
-велеть	5	веле	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	1	nsubj	_	CGdephead=#5-&gt;1|CGdeprel=@&lt;SUBJ|GTtags=Pl,Nom,Indef|SpaceAfter=No
-.	6	.	PUNCT	CLB	_	1	punct	_	CGdephead=#6-&gt;1|CGdeprel=@CLB|GTtags=CLB
+.	6	.	PUNCT	CLB	_	1
 
 # sent_id = 7.30.5
-# text = Ней жо минек ливкстнэ, холерась, чумась — овсе чуро гостть.
+# text = Ней жо минек ливкстнэ, холерась, чумась — овсе чуро гостть.]	punct	_	CGdephead=#6-&gt;1
+
+# sent_id = 7.30.5
+# text = Ней жо минек ливкстнэ, холерась, чумась — овсе чуро гостть.]|CGdeprel=@CLB|GTtags=CLB
 Ней	1	ней	ADV	Adv	AdvType=Tim	0	advmod	_	CGdephead=#1-&gt;0|CGdeprel=@ADVL|GTtags=Sem/Time
 жо	2	жо	PART	Pcle	_	2	dep	_	CGdephead=#2-&gt;2|CGdeprel=@&lt;DISC|GTtags=
 минек	3	мон	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	det	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Pers,Pl1,Gen
@@ -26516,21 +26251,22 @@ VI	1	VI	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 .	20	.	PUNCT	CLB	_	1	punct	_	CGdephead=#20-&gt;1|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 7.38.3
-# text = [none
-]	1	]	PUNCT	PUNCT	PunctSide=Fin	2	punct	_	CGdephead=#1-&gt;2|CGdeprel=@CLB|GTtags=PUNCT,RIGHT[none
+# text = ТЕКСТ АРАСЬ
+ТЕКСТ	1	текст	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	CGdephead=#1-&gt;2|CGdeprel=@SUBJ&gt;|GTtags=Sg,Nom,Indef
+АРАСЬ	2	арась	AUX	V	Case=Loc|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Pres|VerbType=Aux	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@FAUX|GTtags=Aux,Neg,Loc,Prs,ScSg3
 
 # sent_id = 7.39.1
 # text = Минек перька могут улеме туберкулезной (чахоточной) сэредицят.
-Минек	2	мон	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	0	obl	_	CGdephead=#2-&gt;2|CGdeprel=@&gt;P|GTtags=Pers,Pl1,Gen
-перька	3	перька	ADP	Adp	Case=Prl	2	case	_	CGdephead=#3-&gt;0|CGdeprel=@ADVL|GTtags=Prl
-могут	4	могут	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	4	obj	_	CGdephead=#4-&gt;4|CGdeprel=@OBJ|GTtags=Sg,Nom,Indef
-улеме	5	улемс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	0	dep	_	CGdephead=#5-&gt;0|CGdeprel=@IMV|GTtags=IV,Inf,Loc
-туберкулезной	6	туберкулёзной	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	10	amod	_	CGdephead=#6-&gt;10|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
-(	7	(	PUNCT	PUNCT	PunctSide=Ini	8	punct	_	CGdephead=#7-&gt;8|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
-чахоточной	8	чахоточной	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	10	amod	_	CGdephead=#8-&gt;10|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef|SpaceAfter=No
-)	9	)	PUNCT	PUNCT	PunctSide=Fin	10	punct	_	CGdephead=#9-&gt;10|CGdeprel=@CLB|GTtags=PUNCT,RIGHT
-сэредицят	10	сэредемс	VERB	V	Case=Gen|Derivation=VerbYcja|Number=Plur|Number[psor]=Sing|Person[psor]=2|Valency=1	10	obj	_	CGdephead=#10-&gt;10|CGdeprel=@OBJ|GTtags=IV,Der/Ycja,NomAg,N,Pl,Gen,PxSg2|SpaceAfter=No
-.	11	.	PUNCT	CLB	_	3	punct	_	CGdephead=#11-&gt;3|CGdeprel=@CLB|GTtags=CLB
+Минек	3	мон	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	obl	_	CGdephead=#3-&gt;3|CGdeprel=@&gt;P|GTtags=Pers,Pl1,Gen
+перька	4	перька	ADP	Adp	Case=Prl	3	case	_	CGdephead=#4-&gt;2|CGdeprel=@&lt;ADVL|GTtags=Prl
+могут	5	могут	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	CGdephead=#5-&gt;2|CGdeprel=@&lt;SUBJ|GTtags=Sg,Nom,Indef
+улеме	6	улемс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	2	dep	_	CGdephead=#6-&gt;2|CGdeprel=@IMV|GTtags=IV,Inf,Loc
+туберкулезной	7	туберкулёзной	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	11	amod	_	CGdephead=#7-&gt;11|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
+(	8	(	PUNCT	PUNCT	PunctSide=Ini	9	punct	_	CGdephead=#8-&gt;9|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
+чахоточной	9	чахоточной	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	11	amod	_	CGdephead=#9-&gt;11|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef|SpaceAfter=No
+)	10	)	PUNCT	PUNCT	PunctSide=Fin	11	punct	_	CGdephead=#10-&gt;11|CGdeprel=@CLB|GTtags=PUNCT,RIGHT
+сэредицят	11	сэредемс	VERB	V	Case=Nom|Definite=Ind|Derivation=VerbYcja|Number=Plur|Valency=1	6	obj	_	CGdephead=#11-&gt;6|CGdeprel=@&lt;OBJ|GTtags=IV,Der/Ycja,NomAg,N,Pl,Nom,Indef|SpaceAfter=No
+.	12	.	PUNCT	CLB	_	2	punct	_	CGdephead=#12-&gt;2|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 7.39.2
 # text = Истямо сэредицянть сельгезэ ашти миненек покш опасностекс: сонзэ эйсэ миллионт туберкулезной микробт.
@@ -28212,7 +27948,8 @@ VI	1	VI	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 .	3	.	PUNCT	CLB	_	2	punct	_	CGdephead=#3-&gt;2|CGdeprel=@CLB|GTtags=CLB
 
 # sent_id = 8.8.2
-# text = [!][!
+# text = Паро улевель пурнамс эрьва кодат известнякт: эрьва кодамо плотность марто (плотнат, кавшанят), эрьва кодамо цветэнь (серойть, ашот, розовойть ды лият).
+# comment = !,!
 Паро	1	паро	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=Sg,Nom,Indef
 улевель	2	улемс	VERB	V	Mood=Sub|Number[subj]=Sing|Person[subj]=3|Valency=1	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=IV,Conj,ScSg3
 пурнамс	3	пурнамс	VERB	V	Valency=2|VerbForm=Inf	2	dep	_	CGdephead=#3-&gt;2|CGdeprel=@IMV|GTtags=TV,Inf
@@ -28242,42 +27979,13 @@ VI	1	VI	NUM	Num	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGd
 ды	27	ды	CCONJ	CC	_	26	dep	_	CGdephead=#27-&gt;26|CGdeprel=@CNP|GTtags=
 лият	28	лиемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Pres|Valency=1	2	dep	_	CGdephead=#28-&gt;2|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg2|SpaceAfter=No
 )	29	)	PUNCT	PUNCT	PunctSide=Fin	28	punct	_	CGdephead=#29-&gt;28|CGdeprel=@CLB|GTtags=PUNCT,RIGHT
-.	30	.	PUNCT	CLB	_	2	punct	_	CGdephead=#30-&gt;2|CGdeprel=@CLB|GTtags=CLB
-	1	[	PUNCT	PUNCT	PunctSide=Ini	2	punct	_	CGdephead=#1-&gt;2|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
-!	2	!	PUNCT	CLB	_	2[!]	punct	_	CGdephead=#2-&gt;2[!]|CGdeprel=@CLB|GTtags=CLB
-Паро	1	паро	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=Sg,Nom,Indef
-улевель	2	улемс	VERB	V	Mood=Sub|Number[subj]=Sing|Person[subj]=3|Valency=1	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=IV,Conj,ScSg3
-пурнамс	3	пурнамс	VERB	V	Valency=2|VerbForm=Inf	2	dep	_	CGdephead=#3-&gt;2|CGdeprel=@IMV|GTtags=TV,Inf
-эрьва	4	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing	5	dep	_	CGdephead=#4-&gt;5|CGdeprel=@&gt;A|GTtags=Sg,Nom,Indef
-кодат	5	кодамо	ADJ	A	Case=Nom|Definite=Ind|Number=Plur|PronType=Int	6	amod	_	CGdephead=#5-&gt;6|CGdeprel=@&gt;N|GTtags=Interr,Pl,Nom,Indef
-известнякт	6	известняк	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	3	obj	_	CGdephead=#6-&gt;3|CGdeprel=@&lt;OBJ|GTtags=Pl,Nom,Indef|SpaceAfter=No
-:	7	:	PUNCT	CLB	_	2	punct	_	CGdephead=#7-&gt;2|CGdeprel=@CLB|GTtags=CLB
-эрьва	8	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing	9	dep	_	CGdephead=#8-&gt;9|CGdeprel=@&gt;A|GTtags=Sg,Nom,Indef
-кодамо	9	кодамо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	10	amod	_	CGdephead=#9-&gt;10|CGdeprel=@&gt;N|GTtags=Interr,Sg,Nom,Indef
-плотность	10	плотность	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	1	obl	_	CGdephead=#10-&gt;11|CGdeprel=@&gt;P|GTtags=Sg,Nom,Indef
-марто	11	марто	ADP	Po	AdpType=Post	10	case	_	CGdephead=#11-&gt;1|CGdeprel=@ADVL|GTtags=Po
-(	12	(	PUNCT	PUNCT	PunctSide=Ini	13	punct	_	CGdephead=#12-&gt;13|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
-плотнат	13	плотна	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|Number[subj]=Sing|Person[subj]=2|Tense=Pres	0	dep	_	CGdephead=#13-&gt;0|CGdeprel=@PRED|GTtags=Sg,Nom,Indef,Clt/Cop,Prs,ScSg2|SpaceAfter=No
-,	14	,	PUNCT	CLB	_	13	punct	_	CGdephead=#14-&gt;13|CGdeprel=@CLB|GTtags=CLB
-кавшанят	15	кавшаня	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|Number[subj]=Sing|Person[subj]=2|Tense=Pres	0	dep	_	CGdephead=#15-&gt;0|CGdeprel=@PRED|GTtags=Sg,Nom,Indef,Clt/Cop,Prs,ScSg2|SpaceAfter=No
-)	16	)	PUNCT	PUNCT	PunctSide=Fin	15	punct	_	CGdephead=#16-&gt;15|CGdeprel=@CLB|GTtags=PUNCT,RIGHT
-,	17	,	PUNCT	CLB	_	2	punct	_	CGdephead=#17-&gt;2|CGdeprel=@CLB|GTtags=CLB
-эрьва	18	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing	19	dep	_	CGdephead=#18-&gt;19|CGdeprel=@&gt;A|GTtags=Sg,Nom,Indef
-кодамо	19	кодамо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	20	amod	_	CGdephead=#19-&gt;20|CGdeprel=@&gt;N|GTtags=Interr,Sg,Nom,Indef
-цветэнь	20	цвет	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	20	obj	_	CGdephead=#20-&gt;20|CGdeprel=@OBJ|GTtags=Pl,Nom,PxSg1
-(	21	(	PUNCT	PUNCT	PunctSide=Ini	22	punct	_	CGdephead=#21-&gt;22|CGdeprel=@CLB|GTtags=PUNCT,LEFT|SpaceAfter=No
-серойть	22	серой	ADJ	A	Case=Nom|Definite=Ind|Number=Plur	22	obj	_	CGdephead=#22-&gt;22|CGdeprel=@&lt;OBJ|GTtags=Pl,Nom,Indef|SpaceAfter=No
-,	23	,	PUNCT	CLB	_	22	punct	_	CGdephead=#23-&gt;22|CGdeprel=@CLB|GTtags=CLB
-ашот	24	ашо	ADJ	A	Case=Nom|Definite=Ind|Number=Plur	22	obj	_	CGdephead=#24-&gt;22|CGdeprel=@&lt;OBJ|GTtags=Pl,Nom,Indef|SpaceAfter=No
-,	25	,	PUNCT	CLB	_	24	punct	_	CGdephead=#25-&gt;24|CGdeprel=@CLB|GTtags=CLB
-розовойть	26	розовой	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	28	obj	_	CGdephead=#26-&gt;28|CGdeprel=@OBJ&gt;|GTtags=Pl,Nom,Indef
-ды	27	ды	CCONJ	CC	_	26	dep	_	CGdephead=#27-&gt;26|CGdeprel=@CNP|GTtags=
-лият	28	лиемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Pres|Valency=1	2	dep	_	CGdephead=#28-&gt;2|CGdeprel=@FMV|GTtags=IV,Ind,Prs,ScSg2|SpaceAfter=No
-)	29	)	PUNCT	PUNCT	PunctSide=Fin	28	punct	_	CGdephead=#29-&gt;28|CGdeprel=@CLB|GTtags=PUNCT,RIGHT
-.	30	.	PUNCT	CLB	_	2	punct	_	CGdephead=#30-&gt;2|CGdeprel=@CLB|GTtags=CLB
+.	30	.	PUNCT	CLB	_	2
 
 # sent_id = 8.8.3
-# text = Интересна муемс раковистой известняк.
+# text = Интересна муемс раковистой известняк.]	punct	_	CGdephead=#30-&gt;2
+
+# sent_id = 8.8.3
+# text = Интересна муемс раковистой известняк.]|CGdeprel=@CLB|GTtags=CLB
 Интересна	1	Интересна	_	_	_	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=?
 муемс	2	муемс	VERB	V	Valency=1|VerbForm=Inf	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@IMV|GTtags=IV,Inf
 раковистой	3	раковистой	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	4	amod	_	CGdephead=#3-&gt;4|CGdeprel=@&gt;N|GTtags=Sg,Nom,Indef
