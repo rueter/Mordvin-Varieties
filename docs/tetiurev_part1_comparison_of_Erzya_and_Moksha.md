@@ -1,10 +1,31 @@
 # Comparing parallel Erzya and Moksha corpus of Tetiurev
 
-The idea of building parallel corpora for minority Finno-Ugric languages spoken in the former Soviet Union has become prominent due to the Kindred Language Digitization project conducted at the National Library of Finland.
+In this investigation of Erzya and Moksha, a parallel corpus was made on the basis of a single natural history reader written for schools of the Soviet Union by V.A. Tetûrev in the 1930s and subsequently translated separately into Erzya and Moksha. The sentences were aligned and both translations were morphologically analyzed, so as to facilitate queries for both languages.
 
-This parallel corpus is based on the Erzya- and Moksha-language translations of a school reader written in Russian by V.A. Tetûrev. Estestvoznanie, častʹ I učebnik dlâ tretʹego klassa načalʹnoj školy.
+As this is but a small increment in research of how well the two languages can be aligned, we set out to observe contrasts in directionality with regard to the indicative second preterite and the conjunctive. Although both the second preterite and the conjunctive are expressed by a singular paradigm in Moksha, Erzya has two distinct morphological paradigms for the two.
+
+Although both languages had instances of the second preterite, a large portion of the Erzya second preterite forms were aligned with frequentative derivations of equivalent Moksha verbs in the first preterite. In fact, there was only one sentence where where both languages used the second preterite verb form.
+
+the two languages with
+ The first research question addressed the Moksha identical morphology for the indicative second preterite and conjunctive, whereas these two are distinct in Erzya.
+
+, but soon found that distinctions might originate in actual linguistic diversity,on the one hand, and the writing style of the individual translator. 
+
+Thus, the original research question behind this parallel corpus development, associated with the second preterite in Erzya and Moksha, was only the beginning of our learning process. Both languages have a second preterite, but Erzya morphologically distinguishes the second preterite from the conjunctive (aka subjunctive), while Moksha does not.
+We found a correlation between Erzya second preterite and what might be Moksha habitual first preterite. There were also correlations between the Erzya and Moksha
+
+## Background 
+
+XXX we are interested in shallow-transfer machine translation, 
+
+
+The idea of building parallel corpora for minority Finno-Ugric languages spoken in the former Soviet Union has become prominent due to the Kindred Language Digitization pilot projects conducted at the National Library of Finland. This work was directly associated with the five-year «Language Programme» funded by the Kone Foundation, which actually began preparatory work in 2011 through 2012 before funding was begun. One of the outcomes of the Kindred Language Digitization pilot projects was
+
+The parallel corpus is based on the Erzya- and Moksha-language translations of a school reader written in Russian by V.A. Tetûrev. Estestvoznanie, častʹ I učebnik dlâ tretʹego klassa načalʹnoj školy.
 The Erzya version 1939: Estestvoznaniâ vasence pelʹks, načalʹnoj školanʹ kolmoce klasso tonavtnema kniga (2nd edition), (translated: A. Tâguševa).
 The Moksha version 1940: Estestvoznaniâ, vasence pâlʹkssʹ, načalʹnaj školanʹ 3-ce klassa tonafnema kniga (4th edition), (translator, not given).
+
+XXX using finite-state morphology tools developed in the auspices of the GiellaLT infrastructure in Tromsoe, Norway as well as the Universities of Turku and Helsinki, Finland. 
 
 Moksha tokens 22991, missing tokens 710
 Erzya tokens 22609, missing tokens 255
@@ -60,3 +81,25 @@ cat mdf_Tetiurev_1-paeljkssj_1940_bx000010890-82.conllu-prep |grep '#'|perl -wpn
 ```
 
 # How the subjunction ‹штобу› 'in order to' used with infinitives and finites?
+
+
+Additional information:
+Ютавтозь кинигасо 2090 валрисьметь.
+Весе валрисьметнень эйстэ ансяк 28 те ёндо эрявикст.
+
+erz:prt2,mks:hab.prt1 = эрзянь кельсэ омбоце ютазь шкась ды мокшонь кельсэ "Aspect=Habitual" ды васенце ютазь шкась весемезэ = 13
+
+erz:conj,mks:conj = эрзянь ды мокшонь кельсэ конъюнктив весемезэ 5
+
+erz:opt,mks:conj эрзянь кельсэ оптатив ды мокшонь кельсэ конъюнктив весемезэ 4
+
+erz:prt2,mks:prt2 = эрзянь кельсэ омбоце ютазь шкась ды мокшонь кельсэяк теке  весемезэ 1Ютавтозь кинигасо 2090 валрисьметь.
+Весе валрисьметнень эйстэ ансяк 28 те ёндо эрявикст.
+
+erz:prt2,mks:hab.prt1 = эрзянь кельсэ омбоце ютазь шкась ды мокшонь кельсэ "Aspect=Habitual" ды васенце ютазь шкась весемезэ = 13
+
+erz:conj,mks:conj = эрзянь ды мокшонь кельсэ конъюнктив весемезэ 5
+
+erz:opt,mks:conj эрзянь кельсэ оптатив ды мокшонь кельсэ конъюнктив весемезэ 4
+
+erz:prt2,mks:prt2 = эрзянь кельсэ омбоце ютазь шкась ды мокшонь кельсэяк теке  весемезэ 1
