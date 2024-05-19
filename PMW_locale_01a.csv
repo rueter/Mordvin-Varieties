@@ -1,0 +1,249 @@
+id,entity,name_myv,name_mdf,name_deu,district_deu,region_deu,dialect,name_rus,district_rus,region_rus,coordinate
+Mdf:Adaš,село,x,Адажвеле,Adaschewo,Insar,Pensa,mdf:SE,Адашево,Инсарский район,Мордовская АССР,"53.946710, 44.319669"
+Myv:Af,село,Охонькино,x,Afonkino,Bugulma,Samara,myv:X,Мордовское Афонькино,Черемшанский район,Татарская АССР,"54.691027, 51.704656"
+Myv:Aks,?село,x,x,Aksjonowo,Buguruslan,Samara,myv:X,Аксёнкино,Северный район,Оренбургский область,"53.992015, 53.102156"
+Mdf:Aleks,посёлок,x,aĺaks,Aljoksowo,Insar,Pensa,mdf:SE,Нагорное Алёксово,Ковылкинский район,Мордовская АССР,"54.016667, 44.216667"
+Myv:Alešk,село,aĺakśej-veĺe,x,Aljoschkino,Buguruslan,Samara,myv:Mixed,Алёшкино,Похвистневский район,Куйбышевский область,"53.867527, 52.184752"
+Mdf:Alk,село,x,aĺt́e-v́iĺe,Alkino,Narowtschat,Pensa,mdf:Trans,Алькино,Ковылкинский район,Мордовская АССР,?
+Myv:Al,село,Алова,x,Alowo,Gorodischtsche,Pensa,myv:Mixed,Алово,Никольский район,Пензенская область,"53.560706, 46.148307"
+Myv:Alt,село,Коряйкужо,x,Altyschewo,Alatyr,Simbirsk,myv:NW,Алтышево,Алатырский район,Чувашская АССР,"54.912547, 46.695677"
+Myv:Andr,?село,x,x,Andrjowka,Chwalynsk,x,myv:X,Андреевка,Николаевский район,Уляновская область,"52.965495, 47.077829"
+Mdf:An,село,x,ana·ju,Anajewo,Spassk,Tambow,mdf:W,Анаево,Зубово-Полянский район,Мордовская АССР,"54.236895, 42.564523"
+Myv:Ating,село,at́iń-b́ijo,x,Atingejewo,x,Nishni-Nowgorod,myv:NW,Атингеево,Лукояновский район,Горьковская область,"55.037959, 44.236638"
+Mdf:Atjur,село,x,at́əŕś,Atjurjewo,Krasnoslobodsk,Pensa,mdf:C,Атюрево,Атюрьевский район,Мордовской АССР,"54.320567, 43.341170"
+Myv:Atr,село,atrać,x,Atrat,Alatyr,Simbirsk,myv:NW,Атрать,Алатырский район,Чувашская АССР,"55.008351, 46.669114"
+Mdf:Avg,деревня,x,mokšəń aagaər,Awgur,Insar,Pensa,mdf:SE,Мордовская Авгура,Ковылкинский район,Мордовская АССР,"54.162363, 44.213443"
+Myv:Bag,село,x,x,Bagana,Bugulma,Samara,myv:X,Багана,Шенталинский район,Куйбышевский область,"54.355511, 51.405616"
+Mdf:Bajm,деревня,x,Мокшень Баймак,Baimak,Insar,Pensa,mdf:SE,Мордовское Баймаково,Рузаевский район,Мордовская АССР,"54.031560, 44.734349"
+Myv:Ba,село,x,x,Bajewka,Chwalynsk,Saratow,myv:X,Баевка,Николаевский район,Уляновская область,"53.091310, 47.255660"
+Mdf:Bar,деревня,x,Бораж веле,Baraschewo,Temnikow,Tambow,mdf:C,Барашево,Атюрьевский район,Мордовской АССР,"54.484571, 43.268443"
+Myv:Beg,село,x,x,Begutsch,Petrowsk,x,myv:X,Бегуч,Камешкирский район,Пензенская область,"52.619264, 46.192917"
+Myv:Bel,район,x,x,x,Belebej,x,myv:X,x,Белебейский район,Башкирская область,E
+Myv:Bokla,село,Эрзянь Бокла,x,Bokla,östl. Buguruslan,x,myv:X,Советское(бывш. село Мордовская Бокла),Бугурусланский район,Оренбургский область,"53.823548, 52.787387"
+Mdf:Bold,село,x,Болду,Boldowo,Insar,Pensa,mdf:SE,Болдово,Рузаевский район,Мордовская АССР,"53.986663, 44.640673"
+Myv:BoljshaâËga,село,Ёга веле,x,x,x,x,myv:X,Большая Ега,Похвистневский район,Самарский область,"53.557000,51.985166"
+Myv:BolʹšojTolkaj,село,Покш Толкан веле,x,x,x,x,myv:X,Большой Толкай,Подхвистневский район,Самарская область,"53.476333,51.951000"
+Myv:MalyjTolkaj,село,Вишка Толкан веле,x,x,x,x,myv:X,Малый Толкай,Подхвистневский район,Самарская область,"53.65,52.133333"
+Myv:Bug,район,x,x,x,Bugulma u. Buguruslan,x,myv:X,Бугульминский район Татарской АССР:Бугурусланский район Оренбургская область,x,x,E
+Myv:Bugulma,район,x,x,x,Bugulma,Samara,myv:X,x,Шенталинский район,Куйбышевская область,E
+Myv:Bugur,район,x,x,x,Buguruslan,Samara,myv:X,x,Бугурусланский район,Оренбургская область,E
+Myv:Buinsk,район,x,x,x,Bui,x,myv:X,x,Буинский район,Татарской АССР,E
+Myv:Buz,район,x,x,x,Busuluk,x,myv:X,x,Бузулукский район,Оренбургская область,E
+Mdf:Cjatn,деревня,x,Цятна веле,Zjatnowka,Krasnoslobodsk,Pensa,mdf:C,Сейтяновка,Ковылкинский район,Мордовская АССР,"54.192443, 43.683276"
+Myv:Dav,село,x,x,Dawidowo,Korsun,x,myv:X,Давыдовка,Николаевский район,Ульяновский область,"53.065355, 47.161184"
+Myv:Djurki,село,d́uŕḱina,x,Djurki,Alatyr,Simbirsk,myv:C,Дюрки,Атяшевский район,Мордовская АССР,"54.649479, 46.368178"
+Myv:Drak,село,Дракина,x,Drakino,Spassk,Tambow,myv:Mixed,Дракино,Торбеевский район,Мордовская АССР,"54.046830, 43.260178"
+Myv:Dubr,село,x,x,Dubrowka,Petrowsk,Saratow,myv:Mixed,Дубровки,Камешкирский район,Пензенская область,"52.940267, 45.846706"
+Myv:Dudn,село,dud́ńikova,x,Dudnikowo,Temnikow,Tambow,myv:Mixed,Дудниково,Теньгушевский район,Мордовская АССР,"54.801130, 42.699243"
+Myv:God,село,x,x,Godjaikino,Gorodischtsche,x,myv:X,Годяйкино,Инзенский район,Ульяновский область,"53.509560, 46.580801"
+Myv:Gol,?населённый пункт,x,x,Golodjawka,Chwalynsk,Saratow,myv:X,x(рядом эрз. с. Барановка),Николаевский район,Уляновская область,E
+Mdf:Gor,район,x,x,x,Gorodischtsche,x,mdf:Mixed,x,Городищенский и Сосновоборский р-ны,Пензенский область,"53.266667, 45.700000"
+Myv:Gor,район,x,x,x,Gorodischtsche,x,myv:Mixed,x,Городищенский и Сосновоборский р-ны,Пензенский область,"53.266667, 45.700000"
+Myv:Gr,село,x,x,Gratschowka,Samara,x,myv:X,Грачёвка,"Кошкинский район",Куйбышевский область,E
+Mdf:Gumny,село,x,šongarńä,Gumny,Narowtschat,Pensa,mdf:C,Гумны,Ковылкинский район,Мордовская АССР,"54.021061, 43.734623"
+Myv:Hl,село,x,x,Chlystowka,Ardatow,Simbirsk,myv:X,Отрадное(до 26. IV. 1940, Хлыстовка),Чамзинский район,Мордовская АССР,"54.434554, 45.671750"
+Myv:Hol,село,x,x,Cholstowka,Chwalynsk,x,myv:X,Холстовка,Павловский район,Уляновская область,"52.848754, 47.222521"
+Myv:Idm,село,v́id́ma-v́eĺe,x,Idmanowo,Nishni-Nowgorod,x,myv:NW,Итманово,Гагинский район,Горьковская область,"55.145545, 44.744321"
+Mdf:Ins,район,x,x,x,Insar,x,mdf:X,x,x,x,M
+Myv:Is,село,x,x,Issalky,Buguruslan,Samara,myv:X,Исаклы,x,x,"54.130768, 51.536770"
+Myv:Ivanc,село,ivań-b́ijo,x,Iwanzewo,Lukojanow,Nishni-Nowgorod,myv:NW,Иванцево,x,x,"54.995085, 44.384303"
+Myv:Jeg,?деревня,x,x,Jegerowka,Samara,x,myv:X,Новоегорьевка,x,x,"53.492287, 53.838460"
+Mdf:Jožka,село,x,jožka,Joshka (Jeshowka),Krasnoslobodsk,Pensa,mdf:C,Ежовка,x,x,"54.084907, 43.712426"
+Mdf:Jurtk,село,x,x,Mordowskije Jurtkuli,Spassk,Kasan,mdf:Mixed,Базарно-Мордовксий Юрткуль,x,x,"54.779546, 49.442626"
+Myv:Kad,район,x,x,Kadom,?,?,myv:Mixed,Кадом,Теньгушевский район,x,?
+Mdf:Kalinovka,село,x,x,x,x,x,mdf:X,Калиновка,Сорокинский район,Тюменсая область,"56.841000, 69.420833"
+Myv:Kal,деревня,koĺaj-v́eĺe,x,Kaljajewo,Temnikow,Tambow,myv:Mixed,Коляево,x,x,"54.610094, 42.636631"
+Mdf:Kanguž,село,x,kańf-ḱužə,Kangush,Krasnoslobodsk,Pensa,mdf:C,Каньгуши,x,x,"54.533728, 43.792825"
+Myv:Karaguž,?село,x,x,Karagush,Chwalynsk,x,myv:X,Мордовская Карагужа,x,x,"52.826695, 48.172121"
+Mdf:Kard,село,x,Кардаф ляй,Kardaflej,Gorodischtsche,Pensa,mdf:Mixed,Кардафлей,x,x,"53.331139, 46.021087"
+Myv:Kard,село,x,x,Kardaflej,Gorodischtsche,Pensa,myv:Mixed,Кардафлей,x,x,"53.331139, 46.021087"
+Mdf:Kars,село,x,kaʀca·jka,Karsajewka,Tschembar,Pensa,mdf:Trans,Корсаевка,x,x,"52.990231, 43.220338"
+Myv:Kas,губерня,x,x,x,x,Kasan,myv:X,x,x,x,E
+Mdf:Katm,село,x,kat́ḿi·s,Katmis,Gorodischtsche,Pensa,mdf:Mixed,Нижний Катмис,x,x,"53.251493, 46.007568"
+Myv:Kažl,село,kažli͔tka,x,Kashlodka,Spassk,Tambow,myv:Mixed,Кажлодка,Торбеевский район,Мордовская АССР,"54.007194, 43.168146"
+Mdf:Kašt,село,x,śiŕə kašta·ŋka,Kaschtanowka,Tschembar,Pensa,mdf:Trans,Старая Каштановка,x,x,"52.994719, 43.267679"
+Mdf:Ker,деревня,x,ḱerata,Kerata,Krasnoslobodsk,Pensa,mdf:C,Керетино,x,x,"54.179856, 43.748996"
+Myv:Kirdž,село,Верьгизума,x,Kirdshamany,Petrowsk,Saratow,myv:Mixed,Каржимант,x,x,"52.780229, 45.532341"
+Mdf:Kiš,?село,x,x,Kischaly,Temnikow,Tambow,mdf:C,Кишалы,x,x,"54.375135, 43.200782"
+Myv:Kl,село,x,x,Kljawlina,Bugulma,Samara,myv:X,Клявлино,Шенталинский район,Куйбышевский область,"54.298232, 52.006167"
+Mdf:Klopinka,деревня,x,x,x,x,Pensa,mdf:C,Клопинка,Атюрьевский район,x,"54.436333, 43.276677"
+Myv:Kob,село,Кобале,x,Kobajewo,x,x,myv:SE,Кабаево,Дубёнский,Мордовия,"54.525698, 46.474162"
+Mdf:Korino,село,x,Мокшень Кара веле,Korino,Krasnoslobodsk,Pensa,mdf:C,Мордовское Корино,x,x,"54.682414, 43.649894"
+Myv:Korino,село,koŕina,x,Korino,x,x,myv:NW,Корино,x,x,"55.148879, 44.056220"
+Myv:Korov,село,x,x,Korowino,Buguruslan,Samara,myv:X,Коровино,Бугурусланский район,Оренбургский область,"53.826386, 53.048464"
+Myv:Kos,село,gosagᴉ͐r,x,Kossogory,x,x,myv:SE,Косогоры,x,x,"54.212040, 45.779665"
+Myv:Kozl,село,x,x,Koslowka,Bugulma,Samara,myv:X,Козловка,Шенталинский район,Куйбышевский область,"53.742016, 51.350989"
+Myv:Kočk,село,kočkur-v́eĺe,x,Kotschkurowo,Saransk,Pensa,myv:W,Кочкурово,x,x,"54.037297, 45.433868"
+Mdf:Kr,район,x,x,x,Krasnoslobodsk,x,mdf:X,x,x,x,
+Mdf:Kuld,село,x,kuldi͔·m,Kuldym,Insar,Pensa,mdf:C,Кулдым,x,x,"54.418217, 44.601920"
+Myv:Kulik,?село,x,x,Kulikowka,Samara,x,myv:X,Куликовка,x,x,?
+Mdf:Kul,село,x,od v́eĺə,Kulikowka,Insar,Pensa,mdf:SE,Куликовка,x,x,"54.064763, 44.552953"
+Myv:Kur,село,kuraj-v́eĺe,x,Kurajewo,x,x,myv:Mixed,Кураево,x,x,"54.711125, 42.634978"
+Myv:Kut,село,x,x,Kutuschi,Tschistopol,x,myv:X,Старые Кутуши,x,x,"54.695918, 51.116044"
+Myv:Kuz,село,kuzajḱina,x,Kusaikino,x,x,myv:Trans,Кузайкино,x,x,"54.605902, 52.240429"
+Mdf:Leb,село,x,x,Lebeshaika,x,x,mdf:Mixed,Нижняя Лебежайка,Хвалынский район,Саратовский обл.,"52.708115, 48.092315"
+Myv:Leb,село,x,x,Lebeshaika,x,x,myv:Mixed,?Малая Лебежайка:Старая Лебежайка,Хвалынский район,Саратовский обл.,"?52.684708, 47.867386"
+Mdf:Lemd,село,x,ĺəmd́e·j,Lemdjai,Insar,Pensa,mdf:C,Лемдяй,x,x,"54.342623, 44.713544"
+Mdf:Levši,село,x,ĺevža,Lewsha,Saransk,Pensa,mdf:C,Левжа,x,x,"54.084532, 45.009530"
+Mdf:Lopatino,село,x,x,x,x,x,mdf:X,Лопатино,Торбеевский район,Мордовская АССР,"54.001333, 43.109833"
+Myv:MKka,?село,x,x,Malaja Karmalka,Bugulma,Samara,myv:X,Мордовская Кармалка,Шенталинский район,Куйбышевский область,"54.620480, 51.834813"
+Myv:MKly,село,Цярмунь,x,Malyje Karmaly,Buinsk,x,myv:X,Малые Кармалы,x,x,"55.159846, 47.213313"
+Myv:MR_Ardatova,село,Орданьбуе,x,x,x,x,myv:X,Ардатова,Дубёнский район,Мордовская Республика,"54.404722, 46.321111"
+Myv:MR_Atâševo_Alovo,село,Аловеле,x,x,x,x,myv:X,Алово,Атяшевский район,Мордовская Р,"54.625999,46.357667"
+Myv:MR_Čindânovo,село,Кенде,x,x,x,x,myv:X,Чиндяново,Дубёнский район,Мордовская Республика,"54.463889, 46.393333"
+Mdf:MR_Junki,село,Ювня,x,x,x,x,mdf:X,Юнки,Торбеевский район,Мордовская Республика,"54.146111, 43.460278"
+Myv:MR_Kečuševo,село,Кеченьбие,x,x,x,x,myv:X,Кечушево,x,Мордовская Республика,"54.750000,46.116667"
+Mdf:MR_Kolenovo,село,Коленова,x,x,x,x,mdf:X,Коленово,Атюрьевский район,Мордовская Республика,"54.333333,43.416667"
+Mdf:MR_Krasnyj,село,Краснай,x,x,x,x,mdf:X,Красный,Старошайговский район,Мордовская Республика,"54.418056,44.47"
+Myv:MR_Kulâsovo,село,Кулязбуе,x,x,x,x,myv:X,Кулясово,Атяшевский район,Мордовская Республика,"54.563611,46.066944"
+Myv:MR_Morga,село,Морго,x,x,x,x,myv:X,Морга,Дубёнский район,Мордовская Республика,"54.403333, 46.443333"
+Myv:MR_NTurdaki,село,Од Мурза,x,x,x,x,myv:X,Новые Турдаки,x,Мордовская Республика,"53.901833,45.353000"
+Myv:MR_Petrovka,село,Петровка,x,x,x,x,myv:X,Петровка,x,Мордовская Республика,"54.973333,45.484167"
+Myv:MR_Piksâsi,село,Пиксясь,x,x,x,x,myv:X,Пиксяси,x,Мордовская Республика,"54.653000,46.304167"
+Myv:MR_Pilesevo,село,Пилезеле,x,x,x,x,myv:X,Пилесево,Атяшевский район,Мордовская Республика,"54.712778,45.946111"
+Myv:MR_Povodimovo,село,Поваделе,x,x,x,x,myv:X,Поводимово,Дубёнский район,Мордовская Республика,"54.466667,46.316667"
+Myv:MR_Sabaevo,село,Сурвеле,x,x,x,x,myv:X,Сабаево,x,Мордовская Республика,"53.989666,45.718999"
+Myv:MR_Sabančeevo,село,Сабанцеле,x,x,x,x,myv:X,Сабанчеево,Атяшевский район,Мордовская Республика,"54.585,46.28"
+Mdf:J_Moksha,x.,Мокша,x,x,x,x,mdf:X,Мокша,x,Журнал,"54.183333,45.183333"
+Myv:J_Sjatko,x.,Сятко,x,x,x,x,myv:X,Сятко,x,Журнал,"54.183333,45.183333"
+Myv:MR_Semilej,село,Симилей,x,x,x,x,myv:X,Семилей,x,Мордовская Республика,"53.939866,45.335499"
+Myv:MR_Šug,село,Чугурвеле,x,Schugurowo,x,x,myv:X,Шугурово,Большеберезниковский район,Мордовская Республика,"54.266111,46.093333"
+Myv:MR_StNajmany,село,Ташто Найман,x,x,x,x,myv:X,Старые Найманы,Большеберезниковский район,Мордовская Республика,"54.266667,45.933333"
+Myv:MR_StTurdaki,село,Ташто Мурза,x,x,x,x,myv:X,Старые Турдаки,x,Мордовская Республика,"53.916667,45.466667"
+Mdf:Mamangino,село,x,x,x,x,x,mdf:X,Мамангино,Ковылкинский район,x,"54.187333, 43.653500"
+Mdf:Mam,село,x,malav,Mamalajewo,Krasnoslobodsk,Pensa,mdf:C,Мамолаево,Ковылкинский район,x,"54.297639, 43.962688"
+Mdf:Mann,?район,x,x,Mannila,Tschembar,x,mdf:Trans,x,Белинский район,x,?
+Myv:Mar,село,Вишка веле,x,Maressewo,Ardatow,x,myv:C,Малое Маресево,Чамзинский район,x,"54.310940, 45.594989"
+Mdf:Maskino,село,x,x,x,x,x,mdf:X,Мордовско-Маскинские Выселки,Ельниковский район,x,"54.506667, 43.958333"
+Myv:MdBugur,?село,Эрзянь Бруслан,x,Mordowski Buguruslan,Buguruslan,Samara,myv:X,Мордовский Бугуруслан,x,x,"53.793332, 52.518018"
+Mdf:MdJurtk,село,x,x,Mordowskije Jurtkuli,x,x,mdf:Mixed,Подлесно-Мордовский Юрткуль,x,x,"54.748421, 49.475487"
+Myv:Melc,село,ḿeĺćid-v́eĺe,x,Melsetjewo,x,x,myv:Mixed,Мельсетьево,x,x,"54.754932, 42.427790"
+Myv:Mečk,село,mačka·s,x,Matschkassy,x,x,myv:Mixed,Мачкасы,x,x,"52.769067, 45.575864"
+Myv:Myv,село,nuval,x,Mywal,x,x,myv:Mixed,Нижний Мывал,x,x,"53.419379, 46.167998"
+Myv:NBajt,село,Од Байтерьмиш,x,Nowy Baitermisch,Buguruslan,Samara,myv:X,x,x,x,"54.136666,51.738999"
+Myv:NDemk,село,x,x,Nowoje Djomkino,Petrowsk,x,myv:X,x,x,x,E
+Myv:NIvanc,село,Од веле,x,Nowoje Iwanzewo,x,x,myv:SW,Новое Иванцево,x,x,"55.203493, 44.572383"
+Myv:NPyrma,село,Од Пурня,x,Nowoja Pyrma,Saransk,Pensa,myv:W,Новая Пырма,x,x,"54.012665, 45.455580"
+Myv:NSurk,село,Од Суркина,x,Nowoje Surkino,Bugulma,Samara,myv:X,x,Шенталинский район,Куйбышевский область,"54.298889,51.565833"
+Myv:Najman,деревня,x,x,Naiman,Chwalynsk,x,myv:X,Найман,x,x,"52.865283, 47.215532"
+Mdf:Nal,село,x,x,Naletkino,Spassk,x,mdf:X,Налеткино,x,x,?
+Myv:Napolʹnoe,село,Алвеле,x,x,x,x,myv:X,Напольное,x,Чувашия,"55.125833,46.353056"
+Mdf:Nar,село(г.),x,x,Narowtschat,x,x,mdf:SE|Trans,Наровчат,x,x,"53.883431, 43.695771"
+Myv:Nask,село,naska·ftə̑m,x,Naskaftym,x,x,myv:Mixed,Наскафтым,x,x,"52.950371, 45.631515"
+Myv:Naumk,село,x,x,Naumkino,Petrowsk,x,myv:X,Наумкино,Шемышейский район,Пензенская область,"52.876215, 45.297638"
+Myv:Naz,село,x,x,Nasimkino,Petrowsk,x,myv:X,Назимкино,x,x,E
+Myv:Nikit,село,x,x,Nikitino,x,x,myv:X,x,x,x,E
+Myv:Nor,село,norad-v́eĺe,x,Norowatowo,x,x,myv:Mixed,Нароватово,x,x,"54.728280, 42.692748"
+Myv:Nujk,село,Нуявеле,x,Nuikino,Buguruslan,Samara,myv:X,Нойкино,Бугурусланский район,Оренбургский область,"53.788666,52.719999"
+Myv:NŠant,село,Од Шантала,x,Nowaja Schantala,Bugulma,Bugulma|Buguruslan,myv:Mixed,Новая Шентала,x,x,"54.338298, 51.521211"
+Myv:Ork,село,x,x,Orkino,x,x,myv:Mixed,Оркино,x,x,"52.049484, 45.572972"
+Myv:Oz,село,oźorka,x,Osjorkino,x,x,myv:Mixed,Озёркино,x,x,"53.488248, 46.461971"
+Myv:P_Piksankino,село,x,x,x,x,x,myv:X,Пиксанкино,Шемышейский район,Пензенская область,"52.884500,45.684666"
+Mdf:Pal,село,x,Цифтамаз:Полай веле,Palajewka,Insar,Pensa,mdf:SE,Палаевка,x,x,"53.937043, 44.738464"
+Mdf:Pa,село,x,Пой веле,Pajowa,Insar,Pensa,mdf:SE,Паёва,x,x,"54.016667, 44.216667"
+Mdf:Patra,деревня,x,Патра веле,Patra,Krasnoslobodsk,Pensa,mdf:SE,Патра,x,x,"54.292132, 44.257802"
+Mdf:Patroka,деревня,x,x,Patroka,Gorodischtsche,x,mdf:X,x,x,x,E
+Myv:Pavl,село,x,x,Pawluschkino,Buguruslan,Samara,myv:X,x,x,x,E
+Myv:Penza,область(город и область.),x,x,x,x,Pensa,myv:X,x,x,x,E
+Mdf:Perchl,село,x,piŕʿt́ĺäj,Perchljai,Insar,Pensa,mdf:C,Перхляй,x,x,"54.186221, 44.909683"
+Myv:Petr,район,x,x,x,Petrowsk,x,myv:X,x,x,x,E
+Mdf:Pimb,село,x,mokšəń ṕimbur,Mordowskij Pimbur,x,x,mdf:W,Мордовский Пимбур,x,x,"53.855622, 43.144089"
+Mdf:Pishlja,село,x,x,x,x,x,mdf:X,Татарскя Пишля,Рузаевский район,Мордовская АССР,"54.506500, 44.918667"
+Myv:Pičel,село,x,x,Pitschelejka,x,x,myv:Mixed,Пичилейка,x,x,"53.366535, 46.069363"
+Mdf:Pičep,деревня,x,pič-pulńä·,Pitschepolonka,x,x,mdf:C,Пичеполонга,x,x,"54.411704, 43.222503"
+Myv:Pičeury,?село,x,x,x,Pitscheury,x,myv:X,x,x,x,E
+Mdf:Pläj,село,x,x,Perchljaj,Insar,x,mdf:X,x,x,x,E
+Mdf:P,губерня,x,x,x,x,Pensa,mdf:X,Пенза,x,x,E
+Mdf:Poljana,село,x,poljana,x,x,x,mdf:W,x,Зубово-Полянский район,Мордовская АССР,"53.954166, 42.825999"
+Mdf:Prol,населённый пункт,x,x,Prolejka,Samara,x,mdf:X,x,x,x,E
+Mdf:Promzino,село,x,paranza,x,x,x,mdf:W,x,Зубово-Полянский район,Мордовская АССР,"54.253000, 42.634333"
+Mdf:Pronk,село,x,x,Pronkino,Buguruslan,Samara,mdf:X,x,x,x,E
+Mdf:Pš,село,x,śiŕə pšeń,Staroje Pschenewo,x,x,mdf:SE,Старое Пшенёво,x,x,"54.105637, 44.216561"
+Myv:Rem,?село,Покш Эрьмезёнка:Вишка Эрьмезёнки,x,Remesjonki,x,x,myv:X,Большие ремезёнки:Малые Ремезёнки,Дубёнский район:Чамзинский район,x,"54.333056, 45.586389"
+Myv:MR_MRem,?село,Вишка Эрьмезёнки,x,Remesjonki,x,x,myv:X,Малые Ремезёнки,Чамзинский район,x,"54.333056, 45.586389"
+Myv:Sab,село,saban-v́äĺe,x,Sabanowo,x,x,myv:Mixed,Сабаново,x,x,"53.565653, 46.095360"
+Myv:Sak,село,sokav,x,Sakajewo,x,x,myv:Mixed,Сакаево,x,x,"54.755945, 42.597868"
+Mdf:Sal,село,x,salazǵäŕǵä,Salasgor,x,x,mdf:Trans,Салазгорь,x,x,"54.121872, 43.154446"
+Myv:Samara,губерня,x,x,x,x,Samara,myv:X,x,x,x,E
+Mdf:Sam,село,x,v́iŕ somaj,Samawka,x,x,mdf:C,Старая Самаевка,x,x,"54.220121, 43.679045"
+Myv:Sam,село,x,x,Samsinka,x,x,myv:X,Высокий Колок,Новомалыклинский район,x,E50.099587
+Myv:Samz,село,x,x,Samsinka,x,x,myv:X,Высокий Колок,Новомалыклинский район,x,E50.099587
+Mdf:Sandr,село,x,śiŕə v́eĺä,Staroje Sindrowo,x,x,mdf:C,Старое Синдрово,x,x,"54.417420, 44.113200"
+Myv:Sap,село,x,x,Saposhkino,Buguruslan,Samara,myv:X,x,x,x,E
+Mdf:Sarat,губерня,x,x,x,x,Saratow,mdf:X,x,x,x,E
+Myv:Sarat,губерня,x,x,x,x,Saratow,myv:X,x,x,x,E
+Mdf:Sarga,село,x,sarga,x,x,x,mdf:C,Старое Шайгово,x,x,"54.366667, 44.483333"
+Mdf:Sar,район,x,x,x,Saransk,x,mdf:X,x,x,x,E
+Myv:Sar,район,x,x,x,Saransk,x,myv:X,x,x,x,E
+Mdf:Saz,село,x,od sazan-v́eĺä,Sasonowka,x,x,mdf:C,Старая Сазоновка,x,x,"54.127154, 43.722766"
+Myv:Seledba,село,x,x,Seledba,Samara,x,myv:X,x,x,x,E
+Mdf:Seliksa,село,x,x,Seliksa,x,x,mdf:SE,Кижеватово,Пензенскогог района,Пензенский Облость,"53.214221, 45.294422"
+Mdf:Sel,село,x,v́iĺ-eźəm,Selischtsche,Spassk,Tambow,mdf:W,Покровские Селищи,Зубово-Полянский район,Мордовия,"53.999822, 43.000987"
+Mdf:Senk,село,x,x,Senkino,Bugulma,Samara,mdf:X,x,Шенталинский район,Куйбышевский область,E
+Myv:Serman,село,x,x,Serman,Gorodischtsche,x,myv:X,x,x,x,E
+Mdf:Simb,район:Губер.,x,x,x,Simbirsk,x,mdf:X,x,x,x,E
+Myv:Simb,район:Губер.,x,x,x,Simbirsk,x,myv:X,x,x,x,E
+Mdf:Sind,село,x,od v́eĺä,Sindrowo,x,x,mdf:C,Новое Синдрово,x,x,"54.343153, 44.087455"
+Myv:Sin,село,x,x,Sinenkije,x,x,myv:Mixed,Синенькие,x,x,"52.324124, 45.578155"
+Myv:Sir,село,x,x,Syressewo,Alatyr,x,myv:X,x,x,x,E
+Mdf:Sjarda,деревня,x,śarda,Sjarda,x,x,mdf:Trans,Сярда,x,x,"53.029697, 43.329303"
+Myv:Skaftym,?населённый пункт,x,x,Skaftym,(Kusnezk),(Saratow),myv:Mixed,x,Кузнецк,Пензенский область,?
+Mdf:Skolp,?село,x,kolapa,Skolpino,x,x,mdf:C,Колопино,x,x,"54.358749, 44.151289"
+Myv:Sl,?село,x,x,Mordowskoje Slawkino,Chwalynsk,x,myv:X,x,x,x,E
+Myv:Sob,?населённый пункт,x,x,Sobakino,Gorodischtsche,x,myv:X,x,x,x,E
+Mdf:Som,село,x,somazĺäj,Somasljai,x,x,mdf:C,Самозлейка,x,x,"54.310946, 43.893131"
+Mdf:Sp,район,x,x,x,Spassk,x,mdf:X,x,x,x,E
+Myv:StDemk,село,x,x,Staroje Djomkino,Petrowsk,x,myv:X,x,x,x,E
+Myv:StIvanc,село,Ташто веле,x,Staroje Iwanzewo,x,x,myv:NW,Старое Иванцево,x,x,"55.227145, 44.575806"
+Myv:StJeks,село,Ташто Яксярксь,x,Staraja Jaksarka,x,x,myv:Mixed,Старая Яксарка,x,x,"53.025202, 45.428145"
+Myv:StKut,село,x,x,Staryje Kutuschi:Kutuschewo,x,x,myv:X,x,Черемшанский район,x,E
+Myv:StLeb,село,x,x,Staraja Lebeshaika,x,x,myv:Mixed,Старая Лебежайка,x,x,"52.684708, 47.867386"
+Myv:StMokl,село,x,x,Stary Moklausch,Bugulma,Samara,myv:X,x,Шенталинский район,Куйбышевский область,E
+Mdf:StPichur,село,x,Сире Пяцёра,x,x,x,mdf:X,x,Торбеевский район,x,"54.003000, 43.471000"
+Myv:StSed,село,x,x,Staroje Sedelkino,x,x,myv:Mixed,Сиделькино,x,x,"54.537698, 51.113744"
+Myv:StSosni,село,Ташто Сосна,x,Staryje Sosni,Buguruslan,Samara,myv:X,x,x,x,E
+Myv:StZach,село,x,x,Staroje Sacharkino,Petrowsk,x,myv:X,x,x,x,"52.892833,45.242666"
+Myv:Standr,село,x,x,Standrowo,x,x,myv:Mixed,Стандрово,x,x,"54.642155, 42.659735"
+Myv:Stavr,район,x,x,x,Stawropol,x,myv:X,x,x,x,E
+Myv:Sterl,район,x,x,x,Sterlitamak,x,myv:X,x,x,x,E
+Myv:StŠant,село,Ташто Шентала,x,Staraja Schantala,x,x,myv:Mixed,Старая Шентала,x,x,"54.392433, 51.488315"
+Myv:StŠkud,село,škud́im,x,Staraja Schkudym,x,x,myv:Mixed,Шкудим,x,x,"53.373729, 46.443035"
+Myv:SuhKarb,село,Арчилово,x,Suhoi Karbulak,Saratow,x,myv:X,x,x,x,"52.006667″,46.852167"
+Myv:Sulli,село,x,x,Sulli,Belebej,Ufa,myv:X,x,x,x,"54.183333,53.566667"
+Myv:Surk,село,x,x,Surkino,Bugulma,Samara,myv:X,x,Шенталинский район,Куйбышевский область,"54.292666,51.559500"
+Mdf:Sučk,?село,x,koldajə̑s,Sutschkino,x,x,mdf:Mixed,Колдаис,x,x,"53.076500, 45.546157"
+Myv:SŠant,село,stepnoj šantala,x,Stepnaja Schantala,x,x,myv:Mixed,Степная Шентала,x,x,"54.311692, 50.328572"
+Myv:Ta,село,x,x,Tajaba,Tetjuschi,Kasan,myv:X,Большая Таяба:Малая Таяба:Таяба,x,x,"55.242417, 47.918733:55.217876, 47.962230:?54.571214, 51.318533"
+Mdf:Tamb,губерня,x,x,x,x,x,mdf:W/C/M,x,Беднодемьяновский район Пензенской области:Атюрьевский:Зубово-Полянский: Темниковский + Торбеевский районы Мордовской АССР,x,x,M
+Myv:Tamb,губерня,x,x,x,x,x,myv:Mixed,Теньгушевский и (частично) Торбеевский районы Мордовской АССР,x,x,E
+Myv:Tel,село,Вазвеле,x,Teljatnikowo,Chwalynsk,Saratowo,myv:X,Телятниково,x,x,"53.009167,47.257833"
+Myv:Temjaš,село,x,x,x,x,x,myv:mfd|C,Темяшево,x,x,"54.525938, 44.615925"
+Mdf:Temn,район,x,x,x,x,x,mdf:C,x,x,x,
+Myv:Temn,район,x,x,x,x,x,myv:Mixed,x,x,x,
+Mdf:Ter,село,x,Сире Терезморга,x,x,x,mdf:C,Старая Теризморга,x,x,"54.258617, 44.534025"
+Mdf:Tet,район,x,x,x,x,x,mdf:X,x,Тетюшский район,Татарская АССР,E
+Myv:Turch,село,x,x,Turchanka,östl. Buguruslan,Samara,myv:X,Турхановка:Григорьевка,x,x,"53.761657, 52.462026:53.719420, 53.054959"
+Myv:Ufa,губерня,x,x,x,x,x,myv:X,(частично) Башкирская АССР и Оренбургская область,x,x,E
+Mdf:Ur,село,x,x,Urjum,Tetjuschi,Kasan,mdf:Mixed,Урюм,Тетюшский район,Татарская АССР,"54.772593, 48.758191"
+Myv:Usa,?село,x,x,Usa,Saratow,Saratow,myv:Mixed,Усть-Уза,Усть-Узинский район,Пензенская область,"52.968581, 45.307753"
+Myv:VVr,село,ińeĺej,x,Weliki Wrag,Arsamas,Nishni-Nowgorod,myv:NW,Великий Враг,Шатковский район,Горьковская область,"55.255883, 44.520649"
+Myv:Vač,село,x,x,x,x,x,myv:Mixed,Вачелай,x,x,"53.375916, 46.186350"
+Mdf:Vel,село,x,Вада велезем веле,x,x,x,mdf:W,Вадовские Селищи,x,x,"54.276889, 42.640017"
+Mdf:Vert,село,x,x,x,x,x,mdf:C,Вертелим,x,x,"54.476615, 44.524683"
+Myv:Vez,деревня,x,x,Wjasowka,Bugulma,Samara,myv:X,Вязовка,Шенталинский район,Куйбышевский область,"54.323999,51.652667"
+Myv:Večk,село,Вечкань веле,x,Wetschkanowo,Buguruslan,Samara,myv:X,Старое Вечканово,x,x,"54.079646, 51.731695"
+Myv:Večkus,село,x,x,x,x,x,myv:NW,Вечкусово,x,x,"55.261700, 44.452952"
+Mdf:Vod,село,x,x,x,x,x,mdf:Mixed,Водолей,x,x,"53.278939, 45.997740"
+Myv:VrKatm,деревня,x,x,x,x,x,myv:Mixed,Верхний Катмис,Pensa,x,"53.396410, 46.078364"
+Mdf:Zajcevo,село,x,Зайця,x,x,x,mdf:X,Зайцево,Краснослободский район,Мордовская АССР,"54.271333, 43.671000"
+Mdf:Šad,село,x,x,Schadym,x,x,mdf:SE,Шадым,x,x,"53.900719, 44.044398"
+Mdf:Šajg,село,x,śiŕə šäjgav,Schaigowo,x,x,mdf:C,Старое Шайгово,x,x,"54.304085, 44.468358"
+Myv:Čamz,рабочий посёлок,Чаунза,x,Tschamsinka,Ardatow,Simbirsk,myv:C,Чамзинка,Чамзинский район,Мордовская АССР,"54.404336, 45.782055"
+Mdf:Čer,село,x,x,Festung Tscheremschan,Tscheremschan,x,mdf:X,x,x,x,"54.654699, 51.505616"
+Myv:Čer,село,x,x,Festung Tscheremschan,x,x,myv:C,Черемшан,Черемшанский район,Татарская АССР,"54.654699, 51.505616"
+Myv:Šest,село,Шестайвеле,x,Schestaikino,Buguruslan,Samara,myv:X,x,x,x,"53.769833,52.576833"
+Myv:Šir,село,širomaz,x,Schiromassowo,x,x,myv:Mixed,Широмасово,x,x,"54.708347, 42.533082"
+Myv:Škud,село,x,x,Schkudim,x,x,myv:Mixed,Шкудим,x,x,"53.373729, 46.443035"
+Myv:Šokša,село,šokš,x,Schokscha,x,x,myv:Mixed,Шокша,x,x,"54.769991, 42.520874"
+Myv:Šug,село,Чугорвеле,x,Schugurowo,Gorodischtsche,Pensa,myv:X,Шугурово,x,x,"53.410985, 46.474260"
+Myv:Ščuk,село,x,x,Schtschukino,x,x,myv:Mixed,Щукино,x,x,"53.446738, 46.381617"
