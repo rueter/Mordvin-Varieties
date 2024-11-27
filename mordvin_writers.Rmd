@@ -1,0 +1,60 @@
+---
+title: "Mordvin writers"
+output: html_document
+date: "2024-11-27"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r writers, echo=FALSE, warning=FALSE, message=FALSE}
+
+library(tidyverse)
+library(leaflet)
+
+mordva_dataframe <- read_csv("writer_locales20241127.csv") %>%
+mutate(language = "Mordva") %>%
+rename(dialect = lang) %>%
+mutate(geo = str_trim(geo)) %>%
+separate(geo, into = c("latitude", "longitude"), sep = ",") %>%
+mutate(latitude = as.numeric(latitude)) %>%
+mutate(longitude = as.numeric(longitude)) %>%
+filter(! is.na(latitude))
+
+my_colors <-
+c(
+"#1f77b4",
+"#ff7f0e",
+"#2ca02c",
+"#d62728",
+"#9467bd",
+"#8c564b",
+"#e377c2",
+"#7f7f7f",
+"#17becf",
+sample(grDevices::colors()[!grepl("ivory|azure|white|gray|grey|black|pink|1",
+grDevices::colors())])
+)
+
+pal <- colorFactor({my_colors[1:length(unique(mordva_dataframe$dialect))]},
+domain = mordva_dataframe$dialect)
+
+leaflet(data = mordva_dataframe, width = "100%") %>%
+addTiles() %>%
+addCircleMarkers(popup = ~author,
+color = ~pal(dialect),
+radius = 5,
+stroke = FALSE,
+fillOpacity = 1,
+lat = ~latitude,
+lng = ~longitude) %>%
+addLegend("bottomright", pal = pal, values = ~dialect,
+title = "Language codes",
+opacity = 1
+)
+
+```
+
