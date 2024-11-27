@@ -29,6 +29,7 @@ Myv:Bugulma,x,x,x,x,myv:X,Bugulma,Шенталинский район,Samara,К�
 Myv:Bugur,x,x,x,x,myv:X,Buguruslan,Бугурусланский район,Samara,Оренбургский область,р.,E
 Myv:Buinsk,x,x,x,x,myv:X,Bui,x,x,x,р.,E
 Myv:Buz,x,x,x,x,myv:X,Busuluk,x,x,x,р.,E
+Myv:CHR_Studenec,x,x,x,x,myv:X,Порецкий район,x,Чувашская Республика,x,с.,"55.125833, 46.353056"
 Mdf:Cjatn,x,Цятна веле,Zjatnowka,Сейтяновка,mdf:C,Krasnoslobodsk,x,Pensa,x,д.,"54.192443, 43.683276"
 Myv:Dav,x,x,Dawidowo,Давыдовка,myv:X,Korsun,Николаевский район,x,Ульяновский область,с.,"53.065355, 47.161184"
 Myv:Djurki,d́uŕḱina,x,Djurki,Дюрки,myv:C,Alatyr,Атяшевский район,Simbirsk,Мордовская АССР,с.,"54.649479, 46.368178"
@@ -57,11 +58,12 @@ Mdf:Kanguž,x,kańf-ḱužə,Kangush,Каньгуши,mdf:C,Krasnoslobodsk,x,Pe
 Myv:Karaguž,x,x,Karagush,Мордовская Карагужа,myv:X,Chwalynsk,x,x,x,?с.,"52.826695, 48.172121"
 Mdf:Kard,x,Кардаф ляй,Kardaflej,Кардафлей,mdf:Mixed,Gorodischtsche,x,Pensa,x,с.,"53.331139, 46.021087"
 Myv:Kard,x,x,Kardaflej,Кардафлей,myv:Mixed,Gorodischtsche,x,Pensa,x,с.,"53.331139, 46.021087"
-Mdf:Kars,x,kaʀca·jka,Karsajewka,Корсаевка,mdf:Trans,Tschembar,x,Pensa,x,с.,"52.990231, 43.220338"
+Mdf:PO_Kars,x,kaʀca·jka,Karsajewka,Корсаевка,mdf:Trans,Tschembar,x,Pensa,x,с.,"52.990231, 43.220338"
 Myv:Kas,x,x,x,x,myv:X,x,x,Kasan,x,Губер.,E
 Mdf:Katm,x,kat́ḿi·s,Katmis,Нижний Катмис,mdf:Mixed,Gorodischtsche,x,Pensa,x,с.,"53.251493, 46.007568"
 Myv:Kažl,kažli͔tka,x,Kashlodka,Кажлодка,myv:Mixed,Spassk,Торбеевский район,Tambow,Мордовская АССР,с.,"54.007194, 43.168146"
 Mdf:Kašt,x,śiŕə kašta·ŋka,Kaschtanowka,Старая Каштановка,mdf:Trans,Tschembar,x,Pensa,x,с.,"52.994719, 43.267679"
+Myv:Kende,Кенде,x,x,Чиндяново,myv:X,x,x,x,x,с.,"54.463889, 46.393611"
 Mdf:Ker,x,ḱerata,Kerata,Керетино,mdf:C,Krasnoslobodsk,x,Pensa,x,д.,"54.179856, 43.748996"
 Myv:Kirdž,Верьгизума,x,Kirdshamany,Каржимант,myv:Mixed,Petrowsk,x,Saratow,x,с.,"52.780229, 45.532341"
 Mdf:Kiš,x,x,Kischaly,Кишалы,mdf:C,Temnikow,x,Tambow,x,?с.,"54.375135, 43.200782"
@@ -78,6 +80,7 @@ Mdf:Kr,x,x,x,x,mdf:X,Krasnoslobodsk,x,x,x,р.,
 Mdf:Kuld,x,kuldi͔·m,Kuldym,Кулдым,mdf:C,Insar,x,Pensa,x,с.,"54.418217, 44.601920"
 Myv:Kulik,x,x,Kulikowka,Куликовка,myv:X,Samara,x,x,x,?с.,?
 Mdf:Kul,x,od v́eĺə,Kulikowka,Куликовка,mdf:SE,Insar,x,Pensa,x,с.,"54.064763, 44.552953"
+Mdf:MR_Kul,x,x,Kulikowka,Куликовка,mdf:X,Ruzaevka,x,Mordovia,x,с.,"54.068056,44.5525"
 Myv:Kur,kuraj-v́eĺe,x,Kurajewo,Кураево,myv:Mixed,x,x,x,x,с.,"54.711125, 42.634978"
 Myv:Kut,x,x,Kutuschi,Старые Кутуши,myv:X,Tschistopol,x,x,x,с.,"54.695918, 51.116044"
 Myv:Kuz,kuzajḱina,x,Kusaikino,Кузайкино,myv:Trans,x,x,x,x,с.,"54.605902, 52.240429"
@@ -187,7 +190,7 @@ Myv:Serman,x,x,Serman,x,myv:X,Gorodischtsche,x,x,x,с.,E
 Mdf:Simb,x,x,x,x,mdf:X,Simbirsk,x,x,x,р.:Губер.,E
 Myv:Simb,x,x,x,x,myv:X,Simbirsk,x,x,x,р.:Губер.,E
 Mdf:Sind,x,od v́eĺä,Sindrowo,Новое Синдрово,mdf:C,x,x,x,x,с.,"54.343153, 44.087455"
-Myv:Sin,x,x,Sinenkije,Синенькие,myv:Mixed,x,x,x,x,с.,"52.324124, 45.578155"
+Myv:SarO_Sin,x,x,Sinenkije,Синенькие,myv:Mixed,x,x,x,x,с.,"52.324124, 45.578155"
 Myv:Sir,x,x,Syressewo,x,myv:X,Alatyr,x,x,x,с.,E
 Mdf:Sjarda,x,śarda,Sjarda,Сярда,mdf:Trans,x,x,x,x,д.,"53.029697, 43.329303"
 Myv:Skaftym,x,x,Skaftym,x,myv:Mixed,x,x,x,x,?,?
