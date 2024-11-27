@@ -1,7 +1,6 @@
 ---
 title: "Mordvin writers"
 output: html_document
-date: "2024-11-27"
 editor_options: 
   chunk_output_type: console
 ---
@@ -11,6 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 Electronic Resources for Moksha and Erzya (ERME) authors.
+This database is being continuously updated.
 
 ```{r writers, echo=FALSE, warning=FALSE, message=FALSE}
 
