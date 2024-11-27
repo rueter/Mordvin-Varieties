@@ -53,8 +53,8 @@ color = ~pal(dialect),
 radius = 5,
 stroke = FALSE,
 fillOpacity = 1,
-lat = ~latitude,
-lng = ~longitude) %>%
+lat = ~jitter(latitude,20),
+lng = ~jitter(longitude,20)) %>%
 addLegend("bottomright", pal = pal, values = ~dialect,
 title = "Language names",
 opacity = 1
