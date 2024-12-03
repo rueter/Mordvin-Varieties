@@ -14,6 +14,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
 ```{r packages, echo=FALSE, warning=FALSE, message=FALSE}
 source("R/functions.R")
 ```
@@ -56,6 +57,24 @@ were collected for and by Heikki Paasonen 1891–1912.
 make_mordva_map("PMW_Moksha-locale_01.csv")
 ```
 
+| code | name  |
+|------|-------|
+|mdf:C|Moksha, Central Dialect|
+|mdf:Mixed| Moksha, Mixed Dialect|
+|mdf:SE| Moksha, Southeast Dialect|
+|mdf:Trans| Moksha, Transitional Dialect|
+|mdf:W| Moksha, Western Dialect|
+|mdf:X| Moksha, Undetermined Dialect|
+|myv:C| Eryza, Central Dialect|
+|myv:Mixed| Eryza, Mixed Dialect|
+|myv:NW| Eryza, Northwest Dialect|
+|myv:SE| Eryza, Southeast Dialect|
+|myv:SW| Eryza, Southwest Dialect|
+|myv:Trans| Eryza, Transitional Dialect|
+|myv:W| Eryza, Western Dialect|
+|myv:X| Eryza, Undetermined Dialect|
+
+
 ### Feoktistov & Saarinen, 2005 Moksha Dialects
 
 These are Moksha locales identified as dialect collection points in:
@@ -74,6 +93,27 @@ The data for this article is derived from the All-Russian census 2010.
 make_Bashk2014_map("Narody-Bashkortostana-enciklopedia-2014_Mordva-locales.tsv")
 ```
 
+| code | name  |
+|------|-------|
+|Bask-group| Mixed Dialects, Bashkortostan|
+|CD-Atj-group|Central Dialect, Atûrevo group|
+|CD-E-group|Central Dialect, East group|
+|CD-Jeln-group|Central Dialect, Jelʼnikov group|
+|CD-Krasn-group|Central Dialect, Krasnoslobodsk group|
+|CD-NE-group|Central Dialect, Northeast group|
+|CD-Ruz-group|Central Dialect, Ruzaevka group|
+|CD-Temn-group|Central Dialect, Temnikov group|
+|MixD-N-group|Mixed Dialect, North group|
+|MixD-S-group|Mixed Dialect, South group|
+|MixD-SE-group|Mixed Dialect, Southeast group|
+|SED|Southeast Dialect|
+|TrD-SW-group|Transitional Dialect, Southwest group|
+|TrD-wedge|Transitional Dialect, Wedge|
+|WD-N-group|Western Dialect, North group|
+|WD-S-group|Western Dialect, South group|
+|NA|No dialect assigned|
+
+
 ### Mordvin populus attested in from census registry (2002)
 
 The data is derived from the All-Russian census 2002 as provided in *Mokšamordvan murteet* (2005), this means that the settlements in Khazakhstan, Armenia and other places outside the Russian Federation are not shown.
@@ -83,4 +123,10 @@ The data is derived from the All-Russian census 2002 as provided in *Mokšamordv
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 make_census2002_map("2002-census-mordvin-pop.tsv")
 ```
+
+| code | name  |
+|------|-------|
+|E| Erzya|
+|M|Moksha|
+|x|Undocumented|
 
