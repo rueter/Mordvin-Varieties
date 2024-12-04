@@ -1,4 +1,5 @@
 ---
+title: "Erzya-Moksha data"
 output: 
   html_document:
     output_dir: docs
@@ -64,8 +65,8 @@ create_map <- function(data, feature_name){
 
           leaflet(data = current_selection) %>%
             addTiles() %>%
-            addCircleMarkers(lng = ~longitude,
-                             lat = ~latitude,
+            addCircleMarkers(lng = ~jitter(longitude,20),
+                             lat = ~jitter(latitude,20),
                              color = ~pal(value),
                              radius = 8,
                              stroke = FALSE, fillOpacity = 0.8,
