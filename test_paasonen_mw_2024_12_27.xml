@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Heikki Paasonens Mordwinisches Wörterbuch, I, II, III, IV test words 01-->
+<r iso_lang="myv">
+<e><p isa="parent" hid="1">
+<lg><lb iso_lang="myv"><l class="myv" has_segments="_" id="E:1:N+Sg+Nom+Indef:кедь"/>
+<l_var orig_var="ḱeď"><lit_ref edit="_" lit_ref="Chr" iso_lang="myv"/></l_var>
+<l_var orig_var="ḱeď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱeď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Hl" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱeď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Ba" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱeď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Večk" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱeď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:StŠant" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱeď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kažl" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱeď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Petr" geo_src="HP" geo_truth="_"/></l_var>
+</lb>
+<lb iso_lang="mdf"><l class="mdf" has_segments="_" id="M:1:N+Sg+Nom+Indef:кядь"/>
+<l_var orig_var="ḱɛď"><lit_ref edit="_" lit_ref="Chr" iso_lang="mdf"/></l_var>,
+<l_var orig_var="ḱäď"><geoU geo_edit="_" geo_equal="_" orig_geo="M:P" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱäď"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Sel" geo_src="HP" geo_truth="_"/></l_var>
+</lb></lg>
+<mg><sense><tg iso_lang="rus"><t pos="_">рука</t></tg>/
+<tg iso_lang="deu"><t pos="_">Hand, (<geoU geo_edit="_" geo_equal="_" orig_geo="M:P" geo_src="HP" geo_truth="_"/> auch:) Arm</t></tg>.</sense>
+<xg><xb><x><i>mon sonze͔ ḱeď alan</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/></xb><xt iso_lang="deu">Ich bin in seiner Macht, ihm untertan.</xt></xg>
+<xg><xb><x><i>vanca tuiďe bašḱir maro v́e ḱeď laŋks</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Večk" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":II:291:_:" iso_lang="_"/></xb><xt iso_lang="deu">Ich sehe, dass ihr mit den Baschkiren durch Handschlag übereingekommen seid.</xt></xg>
+<xg><xb><x><i>maksoź ḱeďenze͔ laŋks śiźǵeḿeń śiśem šajťan</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:StŠant" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":III:204:_:" iso_lang="_"/></xb><xt iso_lang="deu">In seine Gewalt sind siebenundsiebzig <i>šajťan</i> ‒‒‒ gegeben.</xt></xg>
+<xg><xb><x><i>[ťejťeŕťńe] kuńćiť ḱec di͔ ḱec</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Petr" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":VIII:92:_:" iso_lang="_"/></xb><xt iso_lang="deu">Die Mädchen fassen ‒‒‒ einander an der Hand.</xt></xg>
+<xg><xb><x><i>ḱäts tonadi͔</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="M:Sel" geo_src="HP" geo_truth="_"/></xb><xt iso_lang="deu">Wird zahm [“an die Hand gewöhnt”].</xt></xg>
+<xg><xb><x><i>ḱäts tonaftan</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="M:Sel" geo_src="HP" geo_truth="_"/></xb><xt iso_lang="deu">Ich zähme [“gewöhne an die Hand”].</xt></xg></mg></p></e>
+<e><p isa="parent" hid="2">
+<lg><lb iso_lang="myv"><l class="myv" has_segments="кедь+Hom2+N+Sg+Nom+Indef" hid="Hom2" id="E:2::кедь"/>
+<l_var orig_var="ḱeď"><lit_ref edit="_" lit_ref="Chr" iso_lang="myv"/></l_var>,
+<l_var orig_var="ḱäď"><lit_ref edit="_" lit_ref="Chr" iso_lang="myv"/></l_var>,
+<l_var orig_var="ḱeď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱeď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:VVr" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱeď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kad" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱeď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kal" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱeď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Večk" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ḱäď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Hl" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱäď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Ba" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱäď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kažl" geo_src="HP" geo_truth="_"/></l_var>
+</lb>
+<lb iso_lang="mdf"><l class="mdf" has_segments="кедь+N+Sg+Nom+Indef" id="M:1::кедь"/>
+<l_var orig_var="ḱeď"><lit_ref edit="_" lit_ref="Chr" iso_lang="mdf"/></l_var>
+<l_var orig_var="ḱeď"><geoU geo_edit="_" geo_equal="_" orig_geo="M:P" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱeď"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Sel" geo_src="HP" geo_truth="_"/></l_var>
+</lb></lg>
+<mg><sense><tg iso_lang="rus"><t pos="_">кожа</t></tg>/
+<tg iso_lang="deu"><t pos="N">Haut</t>,
+<t pos="N">Fell</t>,
+<t pos="N">Balg</t>,
+<t pos="N">Leder</t></tg></sense>;</mg>
+<mg><sense><tg iso_lang="rus"><t pos="_" src="MK">оболочка</t></tg>/
+<tg iso_lang="deu"><t pos="_">Schale (an Früchten)</t></tg><mg/>, (<geoU geo_edit="_" geo_equal="_" orig_geo="E:Kad" geo_src="HP" geo_truth="_"/> auch:) <tg iso_lang="rus"><t pos="_" src="MK">струп</t></tg>/
+<tg iso_lang="deu"><t pos="N">Schorf</t></tg><mg/>, (<geoU geo_edit="_" geo_equal="_" orig_geo="M:P" geo_src="HP" geo_truth="_"/> auch:) <tg iso_lang="rus"><t pos="_" src="MK" truth="MK.?Sugg">верхний слой древесной коры</t></tg>/
+<tg iso_lang="deu"><t pos="_">?</t></tg><mg/>die obere Rinde des Baumes; <br/><mg/><tg iso_lang="rus"><t pos="_" src="MK">отруби</t></tg>/
+<tg iso_lang="deu"><t pos="N">Kleie</t></tg>.</sense>
+<xg><xb><x><i>ḱeďenze͔ kajiź da [pajḿeń] trokska</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":1:30:_:" iso_lang="_"/></xb><xt iso_lang="deu">Sein Fell warfen sie quer über den Dachbalken des Schuppens.</xt></xg>
+<xg><xb><x><i>ḱeďenze͔ kańťĺiť, si͔v́eĺenze͔ kajśiť, uďeḿenze͔ se͔vsi͔ź. – [kańśťiś]</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":2:35:_:" iso_lang="_"/></xb><xt iso_lang="deu">Die Haut trägt man, das Fleisch wirft man weg, das Gehirn isst man. – Der Hanf.</xt></xg>
+<xg><xb><x><i>moń ranať naŋga ḱeď a tarǵä</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kad" geo_src="HP" geo_truth="_"/></xb><xt iso_lang="deu">Meine Wunde verharscht.</xt></xg></mg></p></e>
+
+<e><p isa="parent">
+<lg><lb iso_lang="myv"><l class="myv" has_segments="нимиляв+N+Sg+Nom+Indef" id="E:1::нимиляв"/>
+<l_var orig_var="ńeḿiĺav"><mini_paradigm><analysis msd="Pl.Nom"><wordform>ńeḿiĺaft</wordform></analysis></mini_paradigm><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ńiḿiĺav" truth="MK:?"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ńeḿiĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Jeg" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ńiḿiĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Gor" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ńiḿiĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Večk" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ńiḿiĺau̯"><geoU geo_edit="_" geo_equal="_" orig_geo="E:" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ńiḿi·ĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Ba" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ńumᴉĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kažl" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ńumᴉĺa·v"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kažl" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ńumᴉ͐ĺa·u̯"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kažl" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="numuĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kad" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ḿemuĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Atr" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ḿiḿiĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Is" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="imbuĺa·v"><geoU geo_edit="_" geo_equal="_" orig_geo="E:VVr" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ḿila·v"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Nask" geo_src="HP" geo_truth="_"/></l_var>
+</lb>
+<lb iso_lang="mdf"><l class="mdf" has_segments="мелав+N+Sg+Nom+Indef" id="M:1::мелав+N+Sg+Nom+Indef"/>
+<l_var orig_var="ḿelav" src="Bars."><geoU geo_edit="_" geo_equal="_" orig_geo="M:P" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḿelu" src="Bars."><geoU geo_edit="_" geo_equal="_" orig_geo="M:P" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḿilav" src="Bars."><geoU geo_edit="_" geo_equal="_" orig_geo="M:P" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḿelav"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Pš" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ḿilav"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Kr" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ḿelu"><geoU geo_edit="_" geo_equal="_" orig_geo="M:An" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḿelu"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Sel" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="nə̑mə̑ĺa·v"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Sučk" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ḿiməĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Prol" geo_src="HP" geo_truth="_"/></l_var>
+</lb></lg>
+<mg><sense><tg iso_lang="rus"><t pos="N">бабочка</t></tg>/
+<tg iso_lang="deu"><t pos="N">Schmetterling</t></tg></sense></mg>;
+<mg><sense>(<geoU geo_edit="_" geo_equal="_" orig_geo="E:Ba" geo_src="HP" geo_truth="_"/>:)
+<tg iso_lang="rus"><t pos="N">садовая улитка</t></tg>/
+<tg iso_lang="deu"><t pos="N">Gartenschnecke</t></tg>
+<tg iso_lang="lat"><t pos="N">Helix hortensis</t></tg></sense></mg>;
+<mg><sense>(<geoU geo_edit="_" geo_equal="_" orig_geo="M:Sučk" geo_src="HP" geo_truth="_"/>:)
+<tg iso_lang="rus"><t pos="N" src="MK">вышивка</t></tg>/
+<tg iso_lang="deu"><t pos="N">eine Stickerei.</t></tg></sense></mg></p>|</e>
+<e>
+<p isa="child">
+<lg><lb iso_lang="myv"><l class="myv" has_segments="кедь+Hom2+N+Sg+Nom+Indef|нимиляв+N+Sg+Nom+Indef" hid="Hom1" id="E:1::кедьнимиляв"/>
+<l_var orig_var="ḱeď-ńeḿiĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱeď-ńeḿiĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Jeg" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ḱeď-ḿemuĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Atr" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ḱäď-ńiḿiĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Gor" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ḱäď-ńi·ḿiĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Ba" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ḱeď-ńiḿiĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Večk" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ḱeď-ḿiḿiĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Is" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ḱeď-ḿiĺav"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Nask" geo_src="HP" geo_truth="_"/></l_var>
+</lb>
+<lb iso_lang="mdf"><l class="mdf" has_segments="_" id="M:1::кедь-миляв ~ кедь-мəляв"/>
+<l_var orig_var="ḱeď-ḿiĺa·v"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Sučk" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="ḱeď-məĺa·v"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Sučk" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="ḱeď-ḿiĺa·u̯"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Ur" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="kəĺ-məĺa·v"><geoU geo_edit="_" geo_equal="_" orig_geo="M:MdJurtk" geo_src="HP" geo_truth="_"/></l_var>
+</lb></lg>
+<mg><sense>
+<tg iso_lang="rus"><t pos="N" src="MK">летучая мышь</t></tg>/
+<tg iso_lang="deu"><t pos="N">Fledermaus</t></tg></sense></mg>;
+<mg><sense>(<geoU geo_edit="_" geo_equal="_" orig_geo="M:MdJurtk" geo_src="HP" geo_truth="_"/>:)
+<tg iso_lang="rus"><t pos="_" src="MK">бабочка</t></tg> /
+<tg iso_lang="deu"><t pos="N">Schmetterling</t></tg>
+(<sg>= <i>ḿelu</i><geoU geo_edit="_" geo_equal="_" orig_geo="M:An" geo_src="HP" geo_truth="_"/></sg>).</sense></mg></p></e>
+
+<e><p isa="parent" hid="1">
+<lg><lb iso_lang="myv"><l class="myv" has_segments="_" hid="Hom1" id="E:1::ведь"/>
+<l_var orig_var="v́eď"><lit_ref edit="_" lit_ref="Chr" iso_lang="myv"/></l_var>,
+<l_var orig_var="v́äď"><lit_ref edit="_" lit_ref="Chr" iso_lang="myv"/></l_var>,
+<l_var orig_var="v́eď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="v́eď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="v́eď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kal" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="v́eď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Večk" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="v́eď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Jeg" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="v́äď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Hl" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="v́äď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Ba" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="v́äď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kažl" geo_src="HP" geo_truth="_"/></l_var>
+</lb>
+<lb iso_lang="mdf"><l class="mdf" has_segments="_" id="M:1::ведь"/>
+<l_var orig_var="v́eď"><lit_ref edit="_" lit_ref="Chr" iso_lang="mdf"/></l_var>
+<l_var orig_var="v́eď"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Čemb" geo_src="HP" geo_truth="_"/></l_var>
+</lb></lg>
+<mg><sense><tg iso_lang="rus"><t pos="_" src="MK">вода</t></tg>/
+<tg iso_lang="deu"><t pos="N">Wasser</t></tg><mg/>, (<geoU geo_edit="_" geo_equal="_" orig_geo="M:Čemb" geo_src="HP" geo_truth="_"/> auch:) <tg iso_lang="rus"><t pos="_" src="MK">река</t></tg> / Fluss (<i>ĺäj</i> = Flussbett ohne Wasser).</sense>
+<xg><xb><x><i>vaj, v́edras varštak – v́eď araś</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":1:124:_:" iso_lang="_"/></xb><xt iso_lang="deu">Blicke in den Wassereimer hinein – es gibt kein Wasser.</xt></xg>
+<xg><xb><x><i>alo ṕese͔nze͔ poĺanań v́eď čuďi</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":1:38:_:" iso_lang="_"/></xb><xt iso_lang="deu">Am unteren Ende der Waldwiese rinnt ein Wasser [Bach, Fluss].</xt></xg>
+<xg><xb><x><i>urgaťinze͔ v́eďga</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kal" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":2:135:_:" iso_lang="_"/></xb><xt iso_lang="deu">Er liess dieselben längs dem Strome treiben.</xt></xg>
+<xg><xb><x><i>son kuruksta kajinze͔ oŕʿčatni͔ń v́eťťes i gološkom uś [v́eťťes]</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kal" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":2:135:_:" iso_lang="_"/></xb><xt iso_lang="deu">Er warf rasch seine Kleider im Wasser ab und schwamm nackt ans Ufer [eig.: im Wasser].</xt></xg>
+<xg><xb><x><i>kodak karḿiḿe se͔ťť naŋga pokš v́eťť truks arduma</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kal" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":2:135:_:" iso_lang="_"/></xb><xt iso_lang="deu">Bei der Überfahrt über die Brücke, die über den grossen Fluss führt.</xt></xg>
+<xg><xb><x><i>v́äďga jaḱi koṕita, ińazuruń ťäv́ ťäji. – maćijiń tolgaś</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Hl" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":2:67:_:" iso_lang="_"/></xb><xt iso_lang="deu">Das Wasser entlang bewegt sich ein Huf [dem Sinn nach doch besser: Ein sich auf dem Wasser bewegendes “As”], verrichtet kaiserliche Arbeit. – Die Gänsefeder (beim Schreiben).</xt></xg>
+<xg><xb><x><i>v́äĺᴉst truks aš́ardä͔ śäŕi v́äďᴉst</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kažl" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":1:84:_:" iso_lang="_"/></xb><xt iso_lang="deu">Durch ihr Dorf fliesst ihr (der Dorfbewohner) tiefes Wasser.</xt></xg></mg></p>|
+</e>
+
+<e><p isa="parent" hid="2">
+<lg><lb iso_lang="myv"><l class="myv" has_segments="_" hid="Hom2" id="E:2::ведь"/>
+<l_var orig_var="v́eď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="v́eť"><geoU geo_edit="_" geo_equal="_" orig_geo="E:VVr" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="v́iď"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kal" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="v́iť"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Šokša" geo_src="HP" geo_truth="_"/></l_var>
+</lb>
+<lb iso_lang="mdf"><l class="mdf" has_segments="_" id="M:1::ведь"/>
+<l_var orig_var="v́eď"><geoU geo_edit="_" geo_equal="_" orig_geo="M:P" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="v́eď"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Mam" geo_src="MK" geo_truth="_"/></l_var>
+<l_var orig_var="v́eť"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Mam" geo_src="MK" geo_truth="_"/></l_var>,
+<l_var orig_var="və̑ď"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Sel" geo_src="HP" geo_truth="_"/></l_var>
+</lb></lg>
+<mg><sense><tg iso_lang="rus"><t pos="_">ведь</t></tg>/
+<tg iso_lang="deu"><t pos="_">ja</t>,
+<t pos="_">doch</t></tg></sense>;</mg>
+<mg><sense><tg iso_lang="rus"><t pos="_" src="MK">а именно</t></tg>/
+<tg iso_lang="deu"><t pos="_">nämlich</t></tg>.</sense>
+<xg><xb><x><i>ḿiń v́eď paŕśťe v́eŕǵezi͔ńť kavańińeḱ</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":2:117:_:" iso_lang="_"/></xb><xt iso_lang="deu">Wir haben ja den Wolf gut verpflegt.</xt></xg>
+<xg><xb><x><i>v́eď, aťa, barani͔śak orgoďi</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":2:115:_:" iso_lang="_"/></xb><xt iso_lang="deu">Auch der Hammel wird wohl entfliehen, Alter!</xt></xg>
+<xg><xb><x><i>ḿeźe ťejima ńej, ḱiskaťńe v́eď a orgoďev́iť</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":2:121:_:" iso_lang="_"/></xb><xt iso_lang="deu">Was ist jetzt zu machen, die Hunde werden doch nicht entfliehen können!</xt></xg>
+<xg><xb><x><i>solotne͔ v́iď ḿińiḱ araśť</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kal" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":2:128:_:" iso_lang="_"/></xb><xt iso_lang="deu">Wir haben ja kein Malz.</xt></xg>
+<xg><xb><x><i>ejďińǵim, [ḿeśť] ťeńe mon martut ťijan, v́iť moń [araśť] ḱeťńe</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Šokša" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":VII:466:_:" iso_lang="_"/></xb><xt iso_lang="deu">Mein Kindchen, was werde ich nun mit dir machen, ich habe ja keine Hände.</xt></xg>
+<xg><xb><x><i>[v́eť ṕervaj] moŋga af [ṕäk ävəďəń], kosta [ĺäťśekšńemajť]</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="M:Mam" geo_src="MK" geo_truth="_"/><lit_ref edit="_" lit_ref=":IV:876:_:" iso_lang="_"/></xb><xt iso_lang="deu">Ich nämlich erschrak auch nicht so sehr zum ersten Mal, als du mich erschiessen wolltest.</xt></xg>
+<xg><xb><x><i>vona, [ḿäŕkś], tśoraťśä və̑ď saj</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="M:Sel" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":IV:813:_:" iso_lang="_"/></xb><xt iso_lang="deu">“Siehe”, sagte er, “(da) kommt ja dein Sohn”.</xt></xg></mg></p>
+<p isa="etym">— Russ. <cyr>ведь</cyr>.</p></e>
+
+<e><p isa="parent">
+<lg><lb iso_lang="myv"><l class="myv" has_segments="_" id="E:1:N+Sg+Nom+Indef:сэпе"/>
+<l_var orig_var="se͔ṕ̀e"><lit_ref edit="_" lit_ref="Chr" iso_lang="myv"/></l_var>,
+<l_var orig_var="se͔ṕ̀e ~ se͔ṕ̀ä̆"><lit_ref edit="_" lit_ref=":FS:22:_:" iso_lang="_"/>(<geoU geo_edit="_" geo_equal="_" orig_geo="E:" geo_src="HP" geo_truth="_"/>)</l_var>,
+<l_var orig_var="se͔ṕe"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/></l_var>
+
+<l_var orig_var="se͔ṕe"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kal" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="se͔ṕe"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Jeg" geo_src="HP" geo_truth="_"/></l_var> <mini_paradigm><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/><analysis msd="SP.Gen"><wordform>‑ń</wordform></analysis></mini_paradigm>,
+<l_var orig_var="se͔ṕä·"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Ba" geo_src="HP" geo_truth="_"/></l_var> <mini_paradigm><analysis msd="Pl.Nom"><wordform>se͔ṕe·ť</wordform></analysis></mini_paradigm>,
+<l_var orig_var="śeṕä"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Kažl" geo_src="HP" geo_truth="_"/></l_var>
+</lb>
+<lb iso_lang="mdf"><l class="mdf" has_segments="_" id="M:1:N+Sg+Nom+Indef:сяпе"/>
+<l_var orig_var="śɛṕ̀ɛ̆"><lit_ref edit="_" lit_ref="Chr" iso_lang="mdf"/></l_var>,
+<l_var orig_var="śäṕ̀ä̆"><lit_ref edit="_" lit_ref=":FS:22:_:" iso_lang="_"/>(<geoU geo_edit="_" geo_equal="_" orig_geo="M:" geo_src="HP" geo_truth="_"/>)</l_var>,
+<l_var orig_var="säpä"><geoU geo_edit="_" geo_equal="_" orig_geo="M:P" geo_src="HP" geo_truth="_"/></l_var> <mini_paradigm><analysis msd="SP.Gen"><wordform>säṕen</wordform></analysis><analysis msd="Pl.Nom"><wordform>säpt</wordform></analysis></mini_paradigm>,
+<l_var orig_var="sä͔pə"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Prol" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="sä͔pə"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Sučk" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="sä͔ṕä"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Ur" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="se͔ṕä·"><geoU geo_edit="_" geo_equal="_" orig_geo="M:MdJurtk" geo_src="HP" geo_truth="_"/></l_var> <mini_paradigm><analysis msd="Pl.Nom"><wordform>se͔pə·t</wordform></analysis></mini_paradigm>
+</lb></lg>
+<mg><sense><tg iso_lang="rus"><t pos="_" src="MK">жёлчь</t></tg>/
+<tg iso_lang="deu"><t pos="N">Galle</t></tg><mg/>, (<geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/> auch:) <tg iso_lang="rus"><t pos="_" src="MK">горечь</t></tg>/
+<tg iso_lang="deu"><t pos="N">Bitterkeit</t></tg>.</sense>
+<xg><xb><x><i>naŕťimks v́eďiń se͔ṕese͔</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":1:132:_:" iso_lang="_"/></xb><xt iso_lang="deu">In bittrem Wermutwasser.</xt></xg></mg></p></e>
+
+<e><p isa="parent">
+<lg><lb iso_lang="myv"><l class="myv" has_segments="_" id="E:1:V+Inf:паломс"/>
+<l_var orig_var="paloms"><lit_ref edit="_" lit_ref="Chr" iso_lang="myv"/></l_var>
+<l_var orig_var="paloms"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="paloms"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Atr" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="paloms"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Hl" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="paloms"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Večk" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="paloms"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Is" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="paloms"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Jeg" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="palmoks"><geoU geo_edit="_" geo_equal="_" orig_geo="E:VVr" geo_src="HP" geo_truth="_"/></l_var>,
+<l_var orig_var="palu·ms"><geoU geo_edit="_" geo_equal="_" orig_geo="E:Ba" geo_src="HP" geo_truth="_"/></l_var>
+</lb>
+<lb iso_lang="mdf"><l class="mdf" has_segments="_" id="M:1:V+Inf:паломс"/>
+<l_var orig_var="palə̑ms"><geoU geo_edit="_" geo_equal="_" orig_geo="M:P" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="palu·ms"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Sel" geo_src="HP" geo_truth="_"/></l_var>
+<l_var orig_var="palu·ms"><geoU geo_edit="_" geo_equal="_" orig_geo="M:Katm" geo_src="HP" geo_truth="_"/></l_var>
+</lb></lg>
+<mg><sense><tg iso_lang="rus"><t pos="V" src="MK">гореть</t>,
+<t pos="V" src="MK">выгорать</t>,
+<t pos="V" src="MK">сгорать</t></tg>/
+<tg iso_lang="deu"><t pos="_">brennen (intr.), ausbrennen, verbrennen</t></tg></sense>;</mg>
+<mg><sense><tg iso_lang="rus"><t pos="V" src="MK">мёрзнуть</t>,
+<t pos="V" src="MK">замерзать</t></tg> / frieren, erfrieren (<lit_ref edit="_" lit_ref="Chr" iso_lang="myv"/><geoU geo_edit="_" geo_equal="_" orig_geo="M:" geo_src="HP" geo_truth="_"/>: brennen (intr.), ausbrennen), (<geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/> auch:) <tg iso_lang="rus"><t pos="V">преть</t></tg>/
+<tg iso_lang="deu"><t pos="_">faulen, verbrennen (vom Dünger)</t></tg>.</sense>
+<xg><xb><x><i>ṕeŋkńe palśť</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/></xb><xt iso_lang="deu">Das Holz ist ausgebrannt.</xt></xg>
+<xg><xb><x><i>v́eŕe ṕese͔nze͔ poĺanań tol pali͔</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":1:38:_:" iso_lang="_"/></xb><xt iso_lang="deu">Am oberen Ende der Waldwiese brennt ein Feuer.</xt></xg>
+<xg><xb><x><i>ťeťäń[‑]avań baslavkaś v́ecak a vaji, tolcak a pali͔</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":2:78:_:" iso_lang="_"/></xb><xt iso_lang="deu">Der Segen der Eltern ertrinkt nicht im Wasser, verbrennt nicht im Feuer.</xt></xg>
+<xg><xb><x><i>navus pali͔</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/></xb><xt iso_lang="deu">Der Dünger verbrennt.</xt></xg>
+<xg><xb><x><i>ṕiĺǵem palśť</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/></xb><xt iso_lang="deu">Meine Füsse froren, sind erfroren.</xt></xg>
+<xg><xb><x><i>vaj, bab́ińem, ṕiĺǵem palśť!</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Mar" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":1:232:_:" iso_lang="_"/></xb><xt iso_lang="deu">O, liebe Alte, meine Füsse sind erfroren!</xt></xg>
+<xg><xb><x><i>pali͔ zoŕivaks si͔ńst palśť paćast</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Hl" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":1:162:_:" iso_lang="_"/></xb><xt iso_lang="deu">Dem Abglanz der brennenden Morgenröte gleich brannten [glühten] ihre Tücher.</xt></xg>
+<xg><xb><x><i>tolc kajasi͔ńeḱ, tolckak a pali͔</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Večk" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":I:244:_:" iso_lang="_"/></xb><xt iso_lang="deu">Wenn wir ihn ins Feuer werfen, brennt er nicht im Feuer.</xt></xg>
+<xg><xb><x><i>ḱeďenᴣe͔ pali͔ť, ḱeť kaiť</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Večk" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":II:265:_:" iso_lang="_"/></xb><xt iso_lang="deu">Seine Hände erfrieren, die Haut geht ab.</xt></xg>
+<xg><xb><x><i>poĺanańť ejse͔ pali͔ tol pali͔</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="E:Jeg" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":1:94:_:" iso_lang="_"/></xb><xt iso_lang="deu">Auf der Wiese brennt ein brennendes Feuer.</xt></xg>
+<xg><xb><x><i>ḿiń moĺəḿä, masla·vś palə̑ĺ (palś)</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="M:" geo_src="HP" geo_truth="_"/></xb><xt iso_lang="deu">Als wir ankamen, brannte Maslav (eben) (war Maslav niedergebrannt).</xt></xg>
+<xg><xb><x><i>tolťi kutćä pali͔, koźkadat</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="M:P" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":IV:736:_:" iso_lang="_"/></xb><xt iso_lang="deu">Brennt [in deinem Traume] dein Haus im Feuer, wirst du reich.</xt></xg>
+<xg><xb><x><i>śiń palśť</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="M:P" geo_src="HP" geo_truth="_"/></xb><xt iso_lang="deu">Sie froren.</xt></xg>
+<xg><xb><x><i>kaŕə-pŕazn</i> (&lt;&#x2002;<i>kaŕä</i>) <i>palśť ṕiĺǵə-surńä·ńä</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="M:Sel" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":IV:224:_:" iso_lang="_"/></xb><xt iso_lang="deu">Meine Zehen sind in den Spitzen der Bastschuhe erfroren.</xt></xg>
+<xg><xb><x><i>tolńas kajasa, tolti͔ af pali͔</i></x><geoU geo_edit="_" geo_equal="_" orig_geo="M:Katm" geo_src="HP" geo_truth="_"/><lit_ref edit="_" lit_ref=":IV:113:_:" iso_lang="_"/></xb><xt iso_lang="deu">Wenn ich sie ins Feuer werfe, brennt sie nicht.</xt></xg></mg></p>|
+</e>
+
+</r>
