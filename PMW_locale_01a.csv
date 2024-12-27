@@ -30,6 +30,7 @@ Myv:Bugur,район,x,x,x,Buguruslan,Samara,myv:X,x,Бугуруслански�
 Myv:Buinsk,район,x,x,x,Bui,x,myv:X,x,Буинский район,Татарской АССР,E
 Myv:Buz,район,x,x,x,Busuluk,x,myv:X,x,Бузулукский район,Оренбургская область,E
 Mdf:Cjatn,деревня,x,Цятна веле,Zjatnowka,Krasnoslobodsk,Pensa,mdf:C,Сейтяновка,Ковылкинский район,Мордовская АССР,"54.192443, 43.683276"
+Mdf:Čemb,район,x,x,x,Tschembar,x,mdf:Trans,x,Белинский район,x,"52.966667, 43.416667"
 Myv:Dav,село,x,x,Dawidowo,Korsun,x,myv:X,Давыдовка,Николаевский район,Ульяновский область,"53.065355, 47.161184"
 Myv:Djurki,село,d́uŕḱina,x,Djurki,Alatyr,Simbirsk,myv:C,Дюрки,Атяшевский район,Мордовская АССР,"54.649479, 46.368178"
 Myv:Drak,село,Дракина,x,Drakino,Spassk,Tambow,myv:Mixed,Дракино,Торбеевский район,Мордовская АССР,"54.046830, 43.260178"
@@ -50,7 +51,7 @@ Myv:Ivanc,село,ivań-b́ijo,x,Iwanzewo,Lukojanow,Nishni-Nowgorod,myv:NW,И�
 Myv:Jeg,?деревня,x,x,Jegerowka,Samara,x,myv:X,Новоегорьевка,x,x,"53.492287, 53.838460"
 Mdf:Jožka,село,x,jožka,Joshka (Jeshowka),Krasnoslobodsk,Pensa,mdf:C,Ежовка,x,x,"54.084907, 43.712426"
 Mdf:Jurtk,село,x,x,Mordowskije Jurtkuli,Spassk,Kasan,mdf:Mixed,Базарно-Мордовксий Юрткуль,x,x,"54.779546, 49.442626"
-Myv:Kad,район,x,x,Kadom,?,?,myv:Mixed,Кадом,Теньгушевский район,x,?
+Myv:Kad,район,x,x,Kadom,?,?,myv:Mixed,Кадом,Теньгушевский район,x,"54.566667, 42.466667"
 Mdf:Kalinovka,село,x,x,x,x,x,mdf:X,Калиновка,Сорокинский район,Тюменсая область,"56.841000, 69.420833"
 Myv:Kal,деревня,koĺaj-v́eĺe,x,Kaljajewo,Temnikow,Tambow,myv:Mixed,Коляево,x,x,"54.610094, 42.636631"
 Mdf:Kanguž,село,x,kańf-ḱužə,Kangush,Krasnoslobodsk,Pensa,mdf:C,Каньгуши,x,x,"54.533728, 43.792825"
@@ -74,7 +75,7 @@ Myv:Korov,село,x,x,Korowino,Buguruslan,Samara,myv:X,Коровино,Буг�
 Myv:Kos,село,gosagᴉ͐r,x,Kossogory,x,x,myv:SE,Косогоры,x,x,"54.212040, 45.779665"
 Myv:Kozl,село,x,x,Koslowka,Bugulma,Samara,myv:X,Козловка,Шенталинский район,Куйбышевский область,"53.742016, 51.350989"
 Myv:Kočk,село,kočkur-v́eĺe,x,Kotschkurowo,Saransk,Pensa,myv:W,Кочкурово,x,x,"54.037297, 45.433868"
-Mdf:Kr,район,x,x,x,Krasnoslobodsk,x,mdf:X,x,x,x,
+Mdf:Kr,район,x,x,x,Krasnoslobodsk,x,mdf:X,x,x,x,"54.433333, 43.783333"
 Mdf:Kuld,село,x,kuldi͔·m,Kuldym,Insar,Pensa,mdf:C,Кулдым,x,x,"54.418217, 44.601920"
 Myv:Kulik,?село,x,x,Kulikowka,Samara,x,myv:X,Куликовка,x,x,?
 Mdf:Kul,село,x,od v́eĺə,Kulikowka,Insar,Pensa,mdf:SE,Куликовка,x,x,"54.064763, 44.552953"
@@ -146,16 +147,16 @@ Mdf:Patroka,деревня,x,x,Patroka,Gorodischtsche,x,mdf:X,x,x,x,E
 Myv:Pavl,село,x,x,Pawluschkino,Buguruslan,Samara,myv:X,x,x,x,E
 Myv:Penza,область(город и область.),x,x,x,x,Pensa,myv:X,x,x,x,E
 Mdf:Perchl,село,x,piŕʿt́ĺäj,Perchljai,Insar,Pensa,mdf:C,Перхляй,x,x,"54.186221, 44.909683"
-Myv:Petr,район,x,x,x,Petrowsk,x,myv:X,x,x,x,E
+Myv:Petr,район,x,x,x,Petrowsk,x,myv:X,x,x,x,"52.316667, 45.383333"
 Mdf:Pimb,село,x,mokšəń ṕimbur,Mordowskij Pimbur,x,x,mdf:W,Мордовский Пимбур,x,x,"53.855622, 43.144089"
 Mdf:Pishlja,село,x,x,x,x,x,mdf:X,Татарскя Пишля,Рузаевский район,Мордовская АССР,"54.506500, 44.918667"
 Myv:Pičel,село,x,x,Pitschelejka,x,x,myv:Mixed,Пичилейка,x,x,"53.366535, 46.069363"
 Mdf:Pičep,деревня,x,pič-pulńä·,Pitschepolonka,x,x,mdf:C,Пичеполонга,x,x,"54.411704, 43.222503"
 Myv:Pičeury,?село,x,x,x,Pitscheury,x,myv:X,x,x,x,E
 Mdf:Pläj,село,x,x,Perchljaj,Insar,x,mdf:X,x,x,x,E
-Mdf:P,губерня,x,x,x,x,Pensa,mdf:X,Пенза,x,x,E
+Mdf:P,губерня,x,x,x,x,Pensa,mdf:X,Пенза,x,x,"53.2, 45"
 Mdf:Poljana,село,x,poljana,x,x,x,mdf:W,x,Зубово-Полянский район,Мордовская АССР,"53.954166, 42.825999"
-Mdf:Prol,населённый пункт,x,x,Prolejka,Samara,x,mdf:X,x,x,x,E
+Mdf:Prol,населённый пункт,x,x,Prolejka,Samara,x,mdf:X,x,x,x,"53.9275, 50.246389"
 Mdf:Promzino,село,x,paranza,x,x,x,mdf:W,x,Зубово-Полянский район,Мордовская АССР,"54.253000, 42.634333"
 Mdf:Pronk,село,x,x,Pronkino,Buguruslan,Samara,mdf:X,x,x,x,E
 Mdf:Pš,село,x,śiŕə pšeń,Staroje Pschenewo,x,x,mdf:SE,Старое Пшенёво,x,x,"54.105637, 44.216561"
