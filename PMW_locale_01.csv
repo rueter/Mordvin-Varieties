@@ -14,6 +14,7 @@ Myv:Ating,at́iń-b́ijo,x,Atingejewo,Атингеево,myv:NW,x,Лукоян�
 Mdf:Atjur,x,at́əŕś,Atjurjewo,Атюрево,mdf:C,Krasnoslobodsk,x,Pensa,x,с.,"54.320567, 43.341170"
 Myv:Atr,atrać,x,Atrat,Атрать,myv:NW,Alatyr,Алатырский район,Simbirsk,Чувашская АССР,с.,"55.008351, 46.669114"
 Mdf:Avg,x,mokšəń aagaər,Awgur,Мордовская Авгура,mdf:SE,Insar,x,Pensa,x,д.,"54.162363, 44.213443"
+Myv:PO_Azrapino,Azrapkina,x,x,Азрапкино,myv:X,x,Шемышейский  район,x,Пензенская область,с.,"55.008351, 46.669114"
 Myv:Bag,x,x,Bagana,Багана,myv:X,Bugulma,Шенталинский район,Samara,Куйбышевский область,с.,"54.355511, 51.405616"
 Mdf:Bajm,x,Мокшень Баймак,Baimak,Мордовское Баймаково,mdf:SE,Insar,x,Pensa,x,д.,"54.031560, 44.734349"
 Myv:Ba,x,x,Bajewka,Баевка,myv:X,Chwalynsk,x,x,x,с.,"53.091310, 47.255660"
@@ -47,6 +48,7 @@ Myv:Gr,x,x,Gratschowka,Грачёвка,myv:X,Samara,"Кошкинский ра�
 Mdf:Gumny,x,šongarńä,Gumny,Гумны,mdf:C,Narowtschat,x,Pensa,x,с.,"54.021061, 43.734623"
 Myv:Hl,x,x,Chlystowka,Отрадное,myv:X,Ardatow,x,x,x,с.,"54.434554, 45.671750"
 Myv:Hol,x,x,Cholstowka,Холстовка,myv:X,Chwalynsk,x,x,x,с.,"52.848754, 47.222521"
+Myv:MR_Ichalki,icialo,Ицяло,x,Ичалки,myv:X,x,x,x,x,с.,"54.687222, 45.27"
 Myv:Idm,v́id́ma-v́eĺe,x,Idmanowo,Итманово,myv:NW,Nishni-Nowgorod,x,x,x,с.,"55.145545, 44.744321"
 Mdf:Ins,x,x,x,x,mdf:X,Insar,x,x,x,р.,E
 Myv:Is,x,x,Issalky,Исаклы,myv:X,Buguruslan,x,Samara,x,с.,"54.130768, 51.536770"
@@ -171,6 +173,7 @@ Myv:Platovka,x,x,x,Платовка,myv:X,x,Новосергиевский ра�
 Mdf:Pläj,x,x,Perchljaj,x,mdf:X,Insar,x,x,x,с.,E
 Mdf:P,x,x,x,Пенза,mdf:X,x,x,Pensa,x,Губер.,E
 Mdf:Poljana,x,poljana,x,x,mdf:W,x,Зубово-Полянский район,x,Мордовская АССР,с.,"53.954166, 42.825999"
+Mdf:MR_Poshaty,Сире Мокшень Пашат,pashat,x,Большие Мордовские Пошаты,mdf:X,x,Ельниковский район,x,Мордовская АССР,с.,"54.659661, 43.703171"
 Mdf:Prol,x,x,Prolejka,x,mdf:X,Samara,x,x,x,нп.,E
 Mdf:Promzino,x,paranza,x,x,mdf:W,x,Зубово-Полянский район,x,Мордовская АССР,с.,"54.253000, 42.634333"
 Mdf:Pronk,x,x,Pronkino,x,mdf:X,Buguruslan,x,Samara,x,с.,E
